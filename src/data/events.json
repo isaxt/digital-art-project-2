@@ -1,0 +1,97 @@
+[
+  {
+    "id": "EV-0001",
+    "entityId": "OCF-0001",
+    "eventType": "exhibition",
+    "title": "Kara Walker at the Met: After the Deluge",
+    "description": "Exhibition listed on the Met website, March 21 to August 6, 2006.",
+    "date": "2006-03-21",
+    "sourceRecordId": "SRC-0001",
+    "originalEventType": "exhibition listing"
+  },
+  {
+    "id": "EV-0002",
+    "entityId": "OCF-0001",
+    "eventType": "other",
+    "title": "Plaster object “Negress” has a Met collection page",
+    "description": "Existence of a collection page is recorded. It is not an acquisition record: no date or credit line was captured.",
+    "sourceRecordId": "SRC-0004",
+    "originalEventType": "collection object record"
+  },
+  {
+    "id": "EV-0003",
+    "entityId": "OCF-0001",
+    "eventType": "other",
+    "title": "2020 publication catalogued in the Watson Library",
+    "description": "Library catalogue entry for a 598-page publication.",
+    "date": "2020",
+    "sourceRecordId": "SRC-0002",
+    "originalEventType": "library catalogue record"
+  },
+  {
+    "id": "EV-0004",
+    "entityId": "OCF-0002",
+    "eventType": "other",
+    "title": "Founded",
+    "description": "Founding year as stated in the directory profile.",
+    "date": "2008",
+    "sourceRecordId": "SRC-0005",
+    "originalEventType": "founded (directory profile)"
+  },
+  {
+    "id": "EV-0005",
+    "entityId": "OCF-0002",
+    "eventType": "accelerator",
+    "title": "Listed in the Y Combinator company directory",
+    "description": "Batch and date are not shown on the page.",
+    "sourceRecordId": "SRC-0005",
+    "originalEventType": "directory listing"
+  },
+  {
+    "id": "EV-0006",
+    "entityId": "OCF-0003",
+    "eventType": "other",
+    "title": "Founded",
+    "description": "Founding year as stated in the directory profile.",
+    "date": "2008",
+    "sourceRecordId": "SRC-0006",
+    "originalEventType": "founded (directory profile)"
+  },
+  {
+    "id": "EV-0007",
+    "entityId": "OCF-0003",
+    "eventType": "accelerator",
+    "title": "Listed in the Y Combinator company directory",
+    "description": "Batch and date are not shown on the page.",
+    "sourceRecordId": "SRC-0006",
+    "originalEventType": "directory listing"
+  },
+  {
+    "id": "EV-0008",
+    "entityId": "OCF-0004",
+    "eventType": "other",
+    "title": "Founded",
+    "description": "Founding year as stated in the directory profile.",
+    "date": "2018",
+    "sourceRecordId": "SRC-0007",
+    "originalEventType": "founded (directory profile)"
+  },
+  {
+    "id": "EV-0009",
+    "entityId": "OCF-0004",
+    "eventType": "accelerator",
+    "title": "Listed in the Y Combinator company directory",
+    "description": "Batch and date are not shown on the page.",
+    "sourceRecordId": "SRC-0007",
+    "originalEventType": "directory listing"
+  },
+  {
+    "id": "EV-0010",
+    "entityId": "OCF-0005",
+    "eventType": "accelerator",
+    "title": "Described as a “Y Combinator-backed startup”",
+    "description": "TechCrunch, published 2012-03-21. The article states no funding amount or investors. The date of the accelerator participation itself is not stated.",
+    "sourceRecordId": "SRC-0008",
+    "originalEventType": "press description"
+  }
+]

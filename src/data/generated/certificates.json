@@ -1,0 +1,123 @@
+[
+  {
+    "id": "CERT-F34C0FF46D",
+    "entityId": "OCF-0001",
+    "entityName": "Kara Walker",
+    "entityType": "artist",
+    "translationRecordId": "TR-F846DF7BEC",
+    "direction": "Artist → Startup",
+    "classificationCode": "OCF-C2",
+    "classification": "Interpretable: partial rule mapping",
+    "rationale": [
+      "1 source fact(s) were readable by the Artist → Startup rules.",
+      "ART_EXHIBITION_TO_TRACTION: An exhibition is reframed as a public visibility milestone. Both events can signal recognition within a relevant network."
+    ],
+    "issuedAt": "2026-11-05T01:00:00Z",
+    "sourceSnapshotId": "SNAP-3CE348BDE0BA",
+    "ruleSetVersion": "1.0.0",
+    "appliedRuleIds": [
+      "ART_EXHIBITION_TO_TRACTION"
+    ],
+    "ledgerEventId": "EVT-000019",
+    "status": "local_simulation",
+    "disclaimer": "Classifications, translations and certificates issued by this Office are speculative interpretations produced by an artwork. They are not endorsements, valuations, investment assessments or measures of artistic merit."
+  },
+  {
+    "id": "CERT-5279C676E7",
+    "entityId": "OCF-0002",
+    "entityName": "Airbnb",
+    "entityType": "startup",
+    "translationRecordId": "TR-F097E300FE",
+    "direction": "Startup → Art World",
+    "classificationCode": "OCF-C2",
+    "classification": "Interpretable: partial rule mapping",
+    "rationale": [
+      "2 source fact(s) were readable by the Startup → Art World rules.",
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice.",
+      "STARTUP_PITCH_TO_PROPOSITION: A company's public description of what it does or will do is reframed as a curatorial proposition. Both are short public statements that ask an audience to imagine a future."
+    ],
+    "issuedAt": "2026-11-05T01:01:00Z",
+    "sourceSnapshotId": "SNAP-385DC11F6C7B",
+    "ruleSetVersion": "1.0.0",
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK",
+      "STARTUP_PITCH_TO_PROPOSITION"
+    ],
+    "ledgerEventId": "EVT-000021",
+    "status": "local_simulation",
+    "disclaimer": "Classifications, translations and certificates issued by this Office are speculative interpretations produced by an artwork. They are not endorsements, valuations, investment assessments or measures of artistic merit."
+  },
+  {
+    "id": "CERT-87F785451C",
+    "entityId": "OCF-0003",
+    "entityName": "Dropbox",
+    "entityType": "startup",
+    "translationRecordId": "TR-76A7294F1A",
+    "direction": "Startup → Art World",
+    "classificationCode": "OCF-C2",
+    "classification": "Interpretable: partial rule mapping",
+    "rationale": [
+      "2 source fact(s) were readable by the Startup → Art World rules.",
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice.",
+      "STARTUP_PITCH_TO_PROPOSITION: A company's public description of what it does or will do is reframed as a curatorial proposition. Both are short public statements that ask an audience to imagine a future."
+    ],
+    "issuedAt": "2026-11-05T01:02:00Z",
+    "sourceSnapshotId": "SNAP-B742AED73202",
+    "ruleSetVersion": "1.0.0",
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK",
+      "STARTUP_PITCH_TO_PROPOSITION"
+    ],
+    "ledgerEventId": "EVT-000023",
+    "status": "local_simulation",
+    "disclaimer": "Classifications, translations and certificates issued by this Office are speculative interpretations produced by an artwork. They are not endorsements, valuations, investment assessments or measures of artistic merit."
+  },
+  {
+    "id": "CERT-E4CAC3E5BD",
+    "entityId": "OCF-0004",
+    "entityName": "Aesthetic",
+    "entityType": "startup",
+    "translationRecordId": "TR-685AE2C158",
+    "direction": "Startup → Art World",
+    "classificationCode": "OCF-C2",
+    "classification": "Interpretable: partial rule mapping",
+    "rationale": [
+      "2 source fact(s) were readable by the Startup → Art World rules.",
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice.",
+      "STARTUP_PITCH_TO_PROPOSITION: A company's public description of what it does or will do is reframed as a curatorial proposition. Both are short public statements that ask an audience to imagine a future."
+    ],
+    "issuedAt": "2026-11-05T01:03:00Z",
+    "sourceSnapshotId": "SNAP-7C9F3BFD5144",
+    "ruleSetVersion": "1.0.0",
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK",
+      "STARTUP_PITCH_TO_PROPOSITION"
+    ],
+    "ledgerEventId": "EVT-000025",
+    "status": "local_simulation",
+    "disclaimer": "Classifications, translations and certificates issued by this Office are speculative interpretations produced by an artwork. They are not endorsements, valuations, investment assessments or measures of artistic merit."
+  },
+  {
+    "id": "CERT-548E34B309",
+    "entityId": "OCF-0005",
+    "entityName": "EveryArt",
+    "entityType": "startup",
+    "translationRecordId": "TR-0299C236A1",
+    "direction": "Startup → Art World",
+    "classificationCode": "OCF-C2",
+    "classification": "Interpretable: partial rule mapping",
+    "rationale": [
+      "1 source fact(s) were readable by the Startup → Art World rules.",
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice."
+    ],
+    "issuedAt": "2026-11-05T01:04:00Z",
+    "sourceSnapshotId": "SNAP-A95BD02AA8AB",
+    "ruleSetVersion": "1.0.0",
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK"
+    ],
+    "ledgerEventId": "EVT-000027",
+    "status": "local_simulation",
+    "disclaimer": "Classifications, translations and certificates issued by this Office are speculative interpretations produced by an artwork. They are not endorsements, valuations, investment assessments or measures of artistic merit."
+  }
+]

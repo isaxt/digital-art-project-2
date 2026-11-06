@@ -1,0 +1,29 @@
+/* Design tokens from the visual brief. Change values here; components only reference variables. */
+:root {
+  --blue: #102eab;
+  --blue-deep: #071b69;
+  --blue-electric: #315deb;
+  --yellow: #f7ef35;
+  --paper: #f4f4f0;
+  --gray: #d5d9de;
+  --gray-mid: #858d99;
+  --ink: #17191d;
+  --green: #32a878;
+  --red: #d94b45;
+  --orange: #e6a13b;
+  --blue-pale: #dce7f8;
+  --term-green: #a5d58b;
+
+  --font-ui: Arial, Helvetica, "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", "DM Mono", "Courier New", ui-monospace, monospace;
+  --font-serif: Georgia, "Times New Roman", "Libre Baskerville", serif;
+
+  --fs-xs: 10.5px;
+  --fs-sm: 12px;
+  --fs-md: 13px;
+  --fs-lg: 15px;
+  --fs-xl: 22px;
+
+  --rail-w: 188px;
+  --aside-w: 248px;
+}

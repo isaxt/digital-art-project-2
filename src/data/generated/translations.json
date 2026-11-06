@@ -1,0 +1,472 @@
+[
+  {
+    "id": "TR-F846DF7BEC",
+    "entityId": "OCF-0001",
+    "direction": "artist_to_startup",
+    "sourceRecordIds": [
+      "SRC-0001"
+    ],
+    "appliedRuleIds": [
+      "ART_EXHIBITION_TO_TRACTION"
+    ],
+    "sourceSnapshotId": "SNAP-3CE348BDE0BA",
+    "ruleSetVersion": "1.0.0",
+    "originalContent": {
+      "outputs": [
+        {
+          "ruleId": "ART_EXHIBITION_TO_TRACTION",
+          "sourceLabel": "exhibition listing: Kara Walker at the Met: After the Deluge",
+          "sourceValue": {
+            "title": "Kara Walker at the Met: After the Deluge",
+            "date": "2006-03-21",
+            "originalEventType": "exhibition listing",
+            "description": "Exhibition listed on the Met website, March 21 to August 6, 2006."
+          }
+        },
+        {
+          "ruleId": "ART_GALLERY_TO_BACKING",
+          "sourceLabel": "events.gallery_representation",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "ART_ACQUISITION_TO_ADOPTION",
+          "sourceLabel": "events.acquisition",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "ART_RESIDENCY_TO_INCUBATION",
+          "sourceLabel": "events.residency",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "ART_STATEMENT_TO_THESIS",
+          "sourceLabel": "sources.normalizedFields.statement",
+          "sourceValue": null
+        }
+      ],
+      "unmapped": [
+        {
+          "label": "collection object record",
+          "value": "Plaster object “Negress” has a Met collection page",
+          "sourceRecordId": "SRC-0004",
+          "note": "Normalized as “other”. No Artist → Startup rule reads this event type, so the Office offers no translation."
+        },
+        {
+          "label": "library catalogue record",
+          "value": "2020 publication catalogued in the Watson Library (2020)",
+          "sourceRecordId": "SRC-0002",
+          "note": "Normalized as “other”. No Artist → Startup rule reads this event type, so the Office offers no translation."
+        }
+      ]
+    },
+    "translatedContent": {
+      "outputs": [
+        {
+          "ruleId": "ART_EXHIBITION_TO_TRACTION",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Cultural traction event",
+          "translatedValue": "Public visibility milestone: Kara Walker at the Met: After the Deluge (2006-03-21)",
+          "confidenceLabel": "interpretive_mapping"
+        },
+        {
+          "ruleId": "ART_GALLERY_TO_BACKING",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Institutional backing",
+          "translatedValue": "Gallery representation not recorded in selected sources.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "ART_ACQUISITION_TO_ADOPTION",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Institutional adoption event",
+          "translatedValue": "No acquisition records included in this dataset.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "ART_RESIDENCY_TO_INCUBATION",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Incubation period",
+          "translatedValue": "No residency records included in this dataset.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "ART_STATEMENT_TO_THESIS",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Product / market thesis",
+          "translatedValue": "No artist statement in selected sources. Collection records rarely include one.",
+          "confidenceLabel": "insufficient_data"
+        }
+      ]
+    },
+    "rationale": [
+      "ART_EXHIBITION_TO_TRACTION: An exhibition is reframed as a public visibility milestone. Both events can signal recognition within a relevant network."
+    ],
+    "limitations": [
+      "ART_EXHIBITION_TO_TRACTION: An exhibition does not demonstrate market demand or commercial traction."
+    ],
+    "generatedAt": "2026-11-05T01:00:00Z",
+    "generationMethod": "deterministic"
+  },
+  {
+    "id": "TR-F097E300FE",
+    "entityId": "OCF-0002",
+    "direction": "startup_to_art_world",
+    "sourceRecordIds": [
+      "SRC-0005"
+    ],
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK",
+      "STARTUP_PITCH_TO_PROPOSITION"
+    ],
+    "sourceSnapshotId": "SNAP-385DC11F6C7B",
+    "ruleSetVersion": "1.0.0",
+    "originalContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "sourceLabel": "events.funding_round",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "sourceLabel": "directory listing: Listed in the Y Combinator company directory",
+          "sourceValue": {
+            "title": "Listed in the Y Combinator company directory",
+            "date": null,
+            "originalEventType": "directory listing",
+            "description": "Batch and date are not shown on the page."
+          }
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "sourceLabel": "events.product_launch",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "sourceLabel": "Y Combinator company directory · pitch",
+          "sourceValue": "Book accommodations around the world."
+        }
+      ],
+      "unmapped": [
+        {
+          "label": "founded (directory profile)",
+          "value": "Founded (2008)",
+          "sourceRecordId": "SRC-0005",
+          "note": "Normalized as “other”. No Startup → Art World rule reads this event type, so the Office offers no translation."
+        }
+      ]
+    },
+    "translatedContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Financial patronage event",
+          "translatedValue": "Funding history not available in selected sources.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Network validation",
+          "translatedValue": "Network validation: Listed in the Y Combinator company directory",
+          "confidenceLabel": "interpretive_mapping"
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Public premiere",
+          "translatedValue": "No product launch records included in this dataset.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Curatorial proposition",
+          "translatedValue": "Curatorial proposition, as stated in source: “Book accommodations around the world.”",
+          "confidenceLabel": "interpretive_mapping"
+        }
+      ]
+    },
+    "rationale": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice.",
+      "STARTUP_PITCH_TO_PROPOSITION: A company's public description of what it does or will do is reframed as a curatorial proposition. Both are short public statements that ask an audience to imagine a future."
+    ],
+    "limitations": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Accelerator selection criteria and obligations differ from curatorial ones, and listing in a directory is weaker evidence than being selected in a named year.",
+      "STARTUP_PITCH_TO_PROPOSITION: Marketing language is not a curatorial argument. The Office quotes the source text and does not infer funding, revenue or traction from it."
+    ],
+    "generatedAt": "2026-11-05T01:01:00Z",
+    "generationMethod": "deterministic"
+  },
+  {
+    "id": "TR-76A7294F1A",
+    "entityId": "OCF-0003",
+    "direction": "startup_to_art_world",
+    "sourceRecordIds": [
+      "SRC-0006"
+    ],
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK",
+      "STARTUP_PITCH_TO_PROPOSITION"
+    ],
+    "sourceSnapshotId": "SNAP-B742AED73202",
+    "ruleSetVersion": "1.0.0",
+    "originalContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "sourceLabel": "events.funding_round",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "sourceLabel": "directory listing: Listed in the Y Combinator company directory",
+          "sourceValue": {
+            "title": "Listed in the Y Combinator company directory",
+            "date": null,
+            "originalEventType": "directory listing",
+            "description": "Batch and date are not shown on the page."
+          }
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "sourceLabel": "events.product_launch",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "sourceLabel": "Y Combinator company directory · pitch",
+          "sourceValue": "Backup and share files in the cloud."
+        }
+      ],
+      "unmapped": [
+        {
+          "label": "founded (directory profile)",
+          "value": "Founded (2008)",
+          "sourceRecordId": "SRC-0006",
+          "note": "Normalized as “other”. No Startup → Art World rule reads this event type, so the Office offers no translation."
+        }
+      ]
+    },
+    "translatedContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Financial patronage event",
+          "translatedValue": "Funding history not available in selected sources.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Network validation",
+          "translatedValue": "Network validation: Listed in the Y Combinator company directory",
+          "confidenceLabel": "interpretive_mapping"
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Public premiere",
+          "translatedValue": "No product launch records included in this dataset.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Curatorial proposition",
+          "translatedValue": "Curatorial proposition, as stated in source: “Backup and share files in the cloud.”",
+          "confidenceLabel": "interpretive_mapping"
+        }
+      ]
+    },
+    "rationale": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice.",
+      "STARTUP_PITCH_TO_PROPOSITION: A company's public description of what it does or will do is reframed as a curatorial proposition. Both are short public statements that ask an audience to imagine a future."
+    ],
+    "limitations": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Accelerator selection criteria and obligations differ from curatorial ones, and listing in a directory is weaker evidence than being selected in a named year.",
+      "STARTUP_PITCH_TO_PROPOSITION: Marketing language is not a curatorial argument. The Office quotes the source text and does not infer funding, revenue or traction from it."
+    ],
+    "generatedAt": "2026-11-05T01:02:00Z",
+    "generationMethod": "deterministic"
+  },
+  {
+    "id": "TR-685AE2C158",
+    "entityId": "OCF-0004",
+    "direction": "startup_to_art_world",
+    "sourceRecordIds": [
+      "SRC-0007"
+    ],
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK",
+      "STARTUP_PITCH_TO_PROPOSITION"
+    ],
+    "sourceSnapshotId": "SNAP-7C9F3BFD5144",
+    "ruleSetVersion": "1.0.0",
+    "originalContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "sourceLabel": "events.funding_round",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "sourceLabel": "directory listing: Listed in the Y Combinator company directory",
+          "sourceValue": {
+            "title": "Listed in the Y Combinator company directory",
+            "date": null,
+            "originalEventType": "directory listing",
+            "description": "Batch and date are not shown on the page."
+          }
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "sourceLabel": "events.product_launch",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "sourceLabel": "Y Combinator company directory · pitch",
+          "sourceValue": "Your AI-powered creative apprentice 🪄"
+        }
+      ],
+      "unmapped": [
+        {
+          "label": "founded (directory profile)",
+          "value": "Founded (2018)",
+          "sourceRecordId": "SRC-0007",
+          "note": "Normalized as “other”. No Startup → Art World rule reads this event type, so the Office offers no translation."
+        }
+      ]
+    },
+    "translatedContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Financial patronage event",
+          "translatedValue": "Funding history not available in selected sources.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Network validation",
+          "translatedValue": "Network validation: Listed in the Y Combinator company directory",
+          "confidenceLabel": "interpretive_mapping"
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Public premiere",
+          "translatedValue": "No product launch records included in this dataset.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Curatorial proposition",
+          "translatedValue": "Curatorial proposition, as stated in source: “Your AI-powered creative apprentice 🪄”",
+          "confidenceLabel": "interpretive_mapping"
+        }
+      ]
+    },
+    "rationale": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice.",
+      "STARTUP_PITCH_TO_PROPOSITION: A company's public description of what it does or will do is reframed as a curatorial proposition. Both are short public statements that ask an audience to imagine a future."
+    ],
+    "limitations": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Accelerator selection criteria and obligations differ from curatorial ones, and listing in a directory is weaker evidence than being selected in a named year.",
+      "STARTUP_PITCH_TO_PROPOSITION: Marketing language is not a curatorial argument. The Office quotes the source text and does not infer funding, revenue or traction from it."
+    ],
+    "generatedAt": "2026-11-05T01:03:00Z",
+    "generationMethod": "deterministic"
+  },
+  {
+    "id": "TR-0299C236A1",
+    "entityId": "OCF-0005",
+    "direction": "startup_to_art_world",
+    "sourceRecordIds": [
+      "SRC-0008"
+    ],
+    "appliedRuleIds": [
+      "STARTUP_ACCELERATOR_TO_NETWORK"
+    ],
+    "sourceSnapshotId": "SNAP-A95BD02AA8AB",
+    "ruleSetVersion": "1.0.0",
+    "originalContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "sourceLabel": "events.funding_round",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "sourceLabel": "press description: Described as a “Y Combinator-backed startup”",
+          "sourceValue": {
+            "title": "Described as a “Y Combinator-backed startup”",
+            "date": null,
+            "originalEventType": "press description",
+            "description": "TechCrunch, published 2012-03-21. The article states no funding amount or investors. The date of the accelerator participation itself is not stated."
+          }
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "sourceLabel": "events.product_launch",
+          "sourceValue": null
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "sourceLabel": "sources.normalizedFields.pitch",
+          "sourceValue": null
+        }
+      ],
+      "unmapped": []
+    },
+    "translatedContent": {
+      "outputs": [
+        {
+          "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Financial patronage event",
+          "translatedValue": "Funding history not available in selected sources.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Network validation",
+          "translatedValue": "Network validation: Described as a “Y Combinator-backed startup”",
+          "confidenceLabel": "interpretive_mapping"
+        },
+        {
+          "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Public premiere",
+          "translatedValue": "No product launch records included in this dataset.",
+          "confidenceLabel": "insufficient_data"
+        },
+        {
+          "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+          "ruleVersion": "1.0",
+          "translatedLabel": "Curatorial proposition",
+          "translatedValue": "No source description available.",
+          "confidenceLabel": "insufficient_data"
+        }
+      ]
+    },
+    "rationale": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show. Both are selection events in which an institution's name attaches to an emerging practice."
+    ],
+    "limitations": [
+      "STARTUP_ACCELERATOR_TO_NETWORK: Accelerator selection criteria and obligations differ from curatorial ones, and listing in a directory is weaker evidence than being selected in a named year."
+    ],
+    "generatedAt": "2026-11-05T01:04:00Z",
+    "generationMethod": "deterministic"
+  }
+]

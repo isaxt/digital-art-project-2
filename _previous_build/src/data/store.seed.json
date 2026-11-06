@@ -1,0 +1,1611 @@
+{
+  "snapshots": {
+    "OCF-S-B58852D7ED69": {
+      "id": "OCF-S-B58852D7ED69",
+      "entityId": "OCF-E-0001",
+      "capturedAt": "2026-11-05T13:01:00.000Z",
+      "payloadVersion": "1",
+      "entity": {
+        "id": "OCF-E-0001",
+        "entityType": "artist",
+        "displayName": "Kerry James Marshall",
+        "description": "American painter, born 1955 in Birmingham, Alabama; based in Chicago.",
+        "sourceRecordIds": [
+          "OCF-SRC-001"
+        ],
+        "affiliationIds": [
+          "OCF-E-0008"
+        ],
+        "eventIds": [
+          "OCF-EV-0001",
+          "OCF-EV-0002"
+        ],
+        "createdAt": "2026-11-05T12:01:00.000Z",
+        "updatedAt": "2026-11-05T12:01:00.000Z",
+        "verificationStatus": "needs_review",
+        "tags": [
+          "painting",
+          "museum-recognized"
+        ],
+        "selectionNote": "Long museum exhibition record plus gallery representation: rich input for the exhibition and backing rules."
+      },
+      "affiliations": [
+        {
+          "id": "OCF-E-0008",
+          "displayName": "David Zwirner"
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "OCF-SRC-001",
+          "entityId": "OCF-E-0001",
+          "provider": "Wikipedia (provisional pointer)",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kerry_James_Marshall",
+          "sourceTitle": "Kerry James Marshall",
+          "normalizedFields": {
+            "summary": "Painter, b. 1955 Birmingham, Alabama; Chicago."
+          },
+          "acquisition": "seeded_unretrieved",
+          "verificationStatus": "needs_review",
+          "retrievedAt": "2026-11-05",
+          "reuseNotes": "Seeded from the builder's recollection of public record, NOT machine-retrieved. Facts and dates must be verified against sourceUrl before publication. No third-party text or images are reproduced."
+        }
+      ],
+      "events": [
+        {
+          "id": "OCF-EV-0001",
+          "entityId": "OCF-E-0001",
+          "eventType": "exhibition",
+          "title": "Mastry (survey exhibition), Museum of Contemporary Art Chicago",
+          "date": "2016",
+          "sourceRecordId": "OCF-SRC-001",
+          "originalEventType": "retrospective exhibition"
+        },
+        {
+          "id": "OCF-EV-0002",
+          "entityId": "OCF-E-0001",
+          "eventType": "gallery_representation",
+          "title": "Represented by David Zwirner",
+          "sourceRecordId": "OCF-SRC-001",
+          "originalEventType": "gallery representation"
+        }
+      ]
+    },
+    "OCF-S-7C70232BF5C0": {
+      "id": "OCF-S-7C70232BF5C0",
+      "entityId": "OCF-E-0005",
+      "capturedAt": "2026-11-05T13:02:00.000Z",
+      "payloadVersion": "1",
+      "entity": {
+        "id": "OCF-E-0005",
+        "entityType": "startup",
+        "displayName": "Airbnb",
+        "description": "Online marketplace for short-term lodging and experiences. Participated in Y Combinator's Winter 2009 batch.",
+        "sourceRecordIds": [
+          "OCF-SRC-005"
+        ],
+        "affiliationIds": [
+          "OCF-E-0012"
+        ],
+        "eventIds": [
+          "OCF-EV-0010",
+          "OCF-EV-0011",
+          "OCF-EV-0012"
+        ],
+        "createdAt": "2026-11-05T12:05:00.000Z",
+        "updatedAt": "2026-11-05T12:05:00.000Z",
+        "verificationStatus": "needs_review",
+        "tags": [
+          "marketplace",
+          "yc",
+          "public-company"
+        ],
+        "selectionNote": "Startup with an accelerator, a reported funding round and a later public listing: the fullest startup record in the seed set."
+      },
+      "affiliations": [
+        {
+          "id": "OCF-E-0012",
+          "displayName": "Y Combinator"
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "OCF-SRC-005",
+          "entityId": "OCF-E-0005",
+          "provider": "Y Combinator company directory (provisional pointer)",
+          "sourceUrl": "https://www.ycombinator.com/companies/airbnb",
+          "sourceTitle": "Airbnb at Y Combinator",
+          "normalizedFields": {
+            "summary": "Lodging marketplace; YC W09."
+          },
+          "acquisition": "seeded_unretrieved",
+          "verificationStatus": "needs_review",
+          "retrievedAt": "2026-11-05",
+          "reuseNotes": "Seeded from the builder's recollection of public record, NOT machine-retrieved. Facts and dates must be verified against sourceUrl before publication. No third-party text or images are reproduced."
+        }
+      ],
+      "events": [
+        {
+          "id": "OCF-EV-0010",
+          "entityId": "OCF-E-0005",
+          "eventType": "accelerator",
+          "title": "Y Combinator, Winter 2009 batch",
+          "date": "2009",
+          "sourceRecordId": "OCF-SRC-005",
+          "originalEventType": "accelerator batch"
+        },
+        {
+          "id": "OCF-EV-0011",
+          "entityId": "OCF-E-0005",
+          "eventType": "funding_round",
+          "title": "Series A (reported lead: Sequoia Capital; amount not recorded here)",
+          "date": "2009",
+          "sourceRecordId": "OCF-SRC-005",
+          "originalEventType": "venture round (reported)"
+        },
+        {
+          "id": "OCF-EV-0012",
+          "entityId": "OCF-E-0005",
+          "eventType": "public_announcement",
+          "title": "Initial public offering",
+          "date": "2020-12",
+          "sourceRecordId": "OCF-SRC-005",
+          "originalEventType": "public listing"
+        }
+      ]
+    },
+    "OCF-S-58DDFDECDFC6": {
+      "id": "OCF-S-58DDFDECDFC6",
+      "entityId": "OCF-E-0007",
+      "capturedAt": "2026-11-05T13:03:00.000Z",
+      "payloadVersion": "1",
+      "entity": {
+        "id": "OCF-E-0007",
+        "entityType": "startup",
+        "displayName": "Reddit",
+        "description": "Online discussion platform founded in 2005. Participated in Y Combinator's Summer 2005 batch.",
+        "sourceRecordIds": [
+          "OCF-SRC-007"
+        ],
+        "affiliationIds": [
+          "OCF-E-0012"
+        ],
+        "eventIds": [
+          "OCF-EV-0015",
+          "OCF-EV-0016",
+          "OCF-EV-0017"
+        ],
+        "createdAt": "2026-11-05T12:07:00.000Z",
+        "updatedAt": "2026-11-05T12:07:00.000Z",
+        "verificationStatus": "needs_review",
+        "tags": [
+          "platform",
+          "yc"
+        ],
+        "selectionNote": "Early accelerator-era company whose recorded events are an acquisition and a later listing, neither of which is a funding round."
+      },
+      "affiliations": [
+        {
+          "id": "OCF-E-0012",
+          "displayName": "Y Combinator"
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "OCF-SRC-007",
+          "entityId": "OCF-E-0007",
+          "provider": "Y Combinator company directory (provisional pointer)",
+          "sourceUrl": "https://www.ycombinator.com/companies/reddit",
+          "sourceTitle": "Reddit at Y Combinator",
+          "normalizedFields": {
+            "summary": "Discussion platform; YC S05."
+          },
+          "acquisition": "seeded_unretrieved",
+          "verificationStatus": "needs_review",
+          "retrievedAt": "2026-11-05",
+          "reuseNotes": "Seeded from the builder's recollection of public record, NOT machine-retrieved. Facts and dates must be verified against sourceUrl before publication. No third-party text or images are reproduced."
+        }
+      ],
+      "events": [
+        {
+          "id": "OCF-EV-0015",
+          "entityId": "OCF-E-0007",
+          "eventType": "accelerator",
+          "title": "Y Combinator, Summer 2005 batch",
+          "date": "2005",
+          "sourceRecordId": "OCF-SRC-007",
+          "originalEventType": "accelerator batch"
+        },
+        {
+          "id": "OCF-EV-0016",
+          "entityId": "OCF-E-0007",
+          "eventType": "public_announcement",
+          "title": "Acquired by Condé Nast",
+          "date": "2006-10",
+          "sourceRecordId": "OCF-SRC-007",
+          "originalEventType": "acquisition announcement"
+        },
+        {
+          "id": "OCF-EV-0017",
+          "entityId": "OCF-E-0007",
+          "eventType": "public_announcement",
+          "title": "Initial public offering",
+          "date": "2024-03",
+          "sourceRecordId": "OCF-SRC-007",
+          "originalEventType": "public listing"
+        }
+      ]
+    },
+    "OCF-S-3A8D7BA37C86": {
+      "id": "OCF-S-3A8D7BA37C86",
+      "entityId": "OCF-E-0013",
+      "capturedAt": "2026-11-05T13:04:00.000Z",
+      "payloadVersion": "1",
+      "entity": {
+        "id": "OCF-E-0013",
+        "entityType": "artist",
+        "displayName": "Untitled Practice (Fixture A)",
+        "description": "FICTIONAL TEST FIXTURE. An invented artist record with almost no public information.",
+        "sourceRecordIds": [
+          "OCF-SRC-013"
+        ],
+        "affiliationIds": [],
+        "eventIds": [],
+        "createdAt": "2026-11-05T12:13:00.000Z",
+        "updatedAt": "2026-11-05T12:13:00.000Z",
+        "verificationStatus": "needs_review",
+        "tags": [
+          "fixture",
+          "sparse"
+        ],
+        "isFixture": true,
+        "selectionNote": "Fictional. Tests sparse records: only a statement exists, so most rules report insufficient data."
+      },
+      "affiliations": [],
+      "sourceRecords": [
+        {
+          "id": "OCF-SRC-013",
+          "entityId": "OCF-E-0013",
+          "provider": "Office fixture (fictional)",
+          "sourceUrl": "https://example.invalid/fixture-a",
+          "sourceTitle": "Fixture A statement",
+          "normalizedFields": {
+            "statement": "My practice is a long-term inquiry into how small gestures accumulate into shared memory."
+          },
+          "acquisition": "fixture",
+          "verificationStatus": "needs_review",
+          "retrievedAt": "2026-11-05",
+          "reuseNotes": "Invented by the Office for testing. Not a real person."
+        }
+      ],
+      "events": []
+    }
+  },
+  "translations": [
+    {
+      "id": "OCF-T-B57BE94040",
+      "entityId": "OCF-E-0001",
+      "direction": "artist_to_startup",
+      "snapshotId": "OCF-S-B58852D7ED69",
+      "sourceRecordIds": [
+        "OCF-SRC-001"
+      ],
+      "appliedRuleIds": [
+        "ART_EXHIBITION_TO_TRACTION",
+        "ART_GALLERY_TO_BACKING"
+      ],
+      "ruleSetVersion": "OCF-RS-1.0",
+      "originalContent": {
+        "description": "American painter, born 1955 in Birmingham, Alabama; based in Chicago.",
+        "events": [
+          {
+            "id": "OCF-EV-0001",
+            "title": "Mastry (survey exhibition), Museum of Contemporary Art Chicago",
+            "date": "2016",
+            "originalEventType": "retrospective exhibition"
+          },
+          {
+            "id": "OCF-EV-0002",
+            "title": "Represented by David Zwirner",
+            "date": null,
+            "originalEventType": "gallery representation"
+          }
+        ]
+      },
+      "translatedContent": {
+        "outputs": [
+          {
+            "sourceLabel": "retrospective exhibition: Mastry (survey exhibition), Museum of Contemporary Art Chicago",
+            "translatedLabel": "Institutional traction event",
+            "sourceValue": {
+              "title": "Mastry (survey exhibition), Museum of Contemporary Art Chicago",
+              "date": "2016",
+              "originalEventType": "retrospective exhibition"
+            },
+            "translatedValue": "Traction event: “Mastry (survey exhibition), Museum of Contemporary Art Chicago” (2016). Public visibility milestone within an institutional network.",
+            "ruleId": "ART_EXHIBITION_TO_TRACTION",
+            "ruleVersion": "1.0",
+            "explanation": "An exhibition is reframed as a public visibility milestone.",
+            "limitation": "An exhibition does not demonstrate market demand or commercial traction.",
+            "confidenceLabel": "interpretive_mapping",
+            "sourceRefs": [
+              "OCF-EV-0001",
+              "OCF-SRC-001"
+            ]
+          },
+          {
+            "sourceLabel": "gallery representation: Represented by David Zwirner",
+            "translatedLabel": "Institutional backing",
+            "sourceValue": {
+              "title": "Represented by David Zwirner",
+              "date": null,
+              "originalEventType": "gallery representation"
+            },
+            "translatedValue": "Institutional backing: Represented by David Zwirner.",
+            "ruleId": "ART_GALLERY_TO_BACKING",
+            "ruleVersion": "1.0",
+            "explanation": "Gallery representation is reframed as institutional backing.",
+            "limitation": "Representation is a commercial relationship, not an equity investment; terms are usually private.",
+            "confidenceLabel": "direct_mapping",
+            "sourceRefs": [
+              "OCF-EV-0002",
+              "OCF-SRC-001"
+            ]
+          },
+          {
+            "sourceLabel": "events.acquisition",
+            "translatedLabel": "Institutional adoption event",
+            "sourceValue": null,
+            "translatedValue": "No acquisition records included in this dataset.",
+            "ruleId": "ART_ACQUISITION_TO_ADOPTION",
+            "ruleVersion": "1.0",
+            "explanation": "A collection acquisition is reframed as an adoption by a major institutional customer.",
+            "limitation": "A museum acquisition is stewardship, not procurement, and carries no revenue meaning.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "events.residency",
+            "translatedLabel": "Incubation period",
+            "sourceValue": null,
+            "translatedValue": "No residency records included in this dataset.",
+            "ruleId": "ART_RESIDENCY_TO_INCUBATION",
+            "ruleVersion": "1.0",
+            "explanation": "A residency is reframed as an incubation period.",
+            "limitation": "Residencies rarely have the equity, milestone or cohort-exit logic of incubators.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "source.statement",
+            "translatedLabel": "Product / market thesis",
+            "sourceValue": null,
+            "translatedValue": "No source statement available.",
+            "ruleId": "ART_STATEMENT_TO_THESIS",
+            "ruleVersion": "1.0",
+            "explanation": "An artist statement describing a long-term inquiry is reframed as a product or market thesis.",
+            "limitation": "An inquiry is not a market; the source text is quoted unchanged and only its framing is translated.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          }
+        ]
+      },
+      "rationale": [
+        "ART_EXHIBITION_TO_TRACTION: Both events can signal recognition within a relevant network.",
+        "ART_GALLERY_TO_BACKING: In both cases an established organization formally associates itself with the entity's future work."
+      ],
+      "limitations": [
+        "ART_EXHIBITION_TO_TRACTION: An exhibition does not demonstrate market demand or commercial traction.",
+        "ART_GALLERY_TO_BACKING: Representation is a commercial relationship, not an equity investment; terms are usually private."
+      ],
+      "generatedAt": "2026-11-05T13:01:00.000Z",
+      "generationMethod": "deterministic"
+    },
+    {
+      "id": "OCF-T-A5B5068C40",
+      "entityId": "OCF-E-0005",
+      "direction": "startup_to_art_world",
+      "snapshotId": "OCF-S-7C70232BF5C0",
+      "sourceRecordIds": [
+        "OCF-SRC-005"
+      ],
+      "appliedRuleIds": [
+        "STARTUP_FUNDING_TO_PATRONAGE",
+        "STARTUP_ACCELERATOR_TO_NETWORK",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN"
+      ],
+      "ruleSetVersion": "OCF-RS-1.0",
+      "originalContent": {
+        "description": "Online marketplace for short-term lodging and experiences. Participated in Y Combinator's Winter 2009 batch.",
+        "events": [
+          {
+            "id": "OCF-EV-0010",
+            "title": "Y Combinator, Winter 2009 batch",
+            "date": "2009",
+            "originalEventType": "accelerator batch"
+          },
+          {
+            "id": "OCF-EV-0011",
+            "title": "Series A (reported lead: Sequoia Capital; amount not recorded here)",
+            "date": "2009",
+            "originalEventType": "venture round (reported)"
+          },
+          {
+            "id": "OCF-EV-0012",
+            "title": "Initial public offering",
+            "date": "2020-12",
+            "originalEventType": "public listing"
+          }
+        ]
+      },
+      "translatedContent": {
+        "outputs": [
+          {
+            "sourceLabel": "venture round (reported): Series A (reported lead: Sequoia Capital; amount not recorded here)",
+            "translatedLabel": "Financial patronage event",
+            "sourceValue": {
+              "title": "Series A (reported lead: Sequoia Capital; amount not recorded here)",
+              "date": "2009",
+              "originalEventType": "venture round (reported)"
+            },
+            "translatedValue": "Patronage event: Series A (reported lead: Sequoia Capital; amount not recorded here) (2009).",
+            "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+            "ruleVersion": "1.0",
+            "explanation": "A funding round is reframed through the language of patronage.",
+            "limitation": "Venture investment is not equivalent to artistic patronage.",
+            "confidenceLabel": "interpretive_mapping",
+            "sourceRefs": [
+              "OCF-EV-0011",
+              "OCF-SRC-005"
+            ]
+          },
+          {
+            "sourceLabel": "accelerator batch: Y Combinator, Winter 2009 batch",
+            "translatedLabel": "Network validation",
+            "sourceValue": {
+              "title": "Y Combinator, Winter 2009 batch",
+              "date": "2009",
+              "originalEventType": "accelerator batch"
+            },
+            "translatedValue": "Network validation: Y Combinator, Winter 2009 batch (2009).",
+            "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+            "ruleVersion": "1.0",
+            "explanation": "Joining an accelerator is reframed as network validation, comparable to a residency or a selected group exhibition.",
+            "limitation": "Accelerators take equity and expect growth; art residencies generally do neither.",
+            "confidenceLabel": "direct_mapping",
+            "sourceRefs": [
+              "OCF-EV-0010",
+              "OCF-SRC-005"
+            ]
+          },
+          {
+            "sourceLabel": "events.product_launch",
+            "translatedLabel": "Public premiere",
+            "sourceValue": null,
+            "translatedValue": "No product launch records included in this dataset.",
+            "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+            "ruleVersion": "1.0",
+            "explanation": "A product launch is reframed as a premiere.",
+            "limitation": "A launch is repeatable and iterative; a premiere is a singular event.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "events.partnership",
+            "translatedLabel": "Institutional collaboration",
+            "sourceValue": null,
+            "translatedValue": "No partnership records included in this dataset.",
+            "ruleId": "STARTUP_PARTNERSHIP_TO_COLLABORATION",
+            "ruleVersion": "1.0",
+            "explanation": "A partnership is reframed as an institutional collaboration.",
+            "limitation": "Commercial partnerships often carry exclusivity and revenue terms with no curatorial analogue.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "public listing: Initial public offering",
+            "translatedLabel": "Institutional bulletin",
+            "sourceValue": {
+              "title": "Initial public offering",
+              "date": "2020-12",
+              "originalEventType": "public listing"
+            },
+            "translatedValue": "Bulletin: Initial public offering (2020-12).",
+            "ruleId": "STARTUP_ANNOUNCEMENT_TO_BULLETIN",
+            "ruleVersion": "1.0",
+            "explanation": "A public announcement (listing, acquisition, press release) is reframed as an institutional bulletin.",
+            "limitation": "Listings and acquisitions are financing and ownership events, not forms of recognition.",
+            "confidenceLabel": "interpretive_mapping",
+            "sourceRefs": [
+              "OCF-EV-0012",
+              "OCF-SRC-005"
+            ]
+          },
+          {
+            "sourceLabel": "source.pitch",
+            "translatedLabel": "Curatorial proposition",
+            "sourceValue": null,
+            "translatedValue": "No source pitch available.",
+            "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+            "ruleVersion": "1.0",
+            "explanation": "A pitch describing a future product vision is reframed as a curatorial proposition.",
+            "limitation": "Pitch language is promotional; it is not evidence of funding, revenue or traction and none is inferred.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          }
+        ]
+      },
+      "rationale": [
+        "STARTUP_FUNDING_TO_PATRONAGE: Both involve external financial support for a proposed future.",
+        "STARTUP_ACCELERATOR_TO_NETWORK: Both are selective cohort memberships conferring peers, mentors and visibility.",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN: Both are formal statements that change how an entity is publicly described."
+      ],
+      "limitations": [
+        "STARTUP_FUNDING_TO_PATRONAGE: Venture investment is not equivalent to artistic patronage.",
+        "STARTUP_ACCELERATOR_TO_NETWORK: Accelerators take equity and expect growth; art residencies generally do neither.",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN: Listings and acquisitions are financing and ownership events, not forms of recognition."
+      ],
+      "generatedAt": "2026-11-05T13:02:00.000Z",
+      "generationMethod": "deterministic"
+    },
+    {
+      "id": "OCF-T-23261435CD",
+      "entityId": "OCF-E-0007",
+      "direction": "startup_to_art_world",
+      "snapshotId": "OCF-S-58DDFDECDFC6",
+      "sourceRecordIds": [
+        "OCF-SRC-007"
+      ],
+      "appliedRuleIds": [
+        "STARTUP_ACCELERATOR_TO_NETWORK",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN"
+      ],
+      "ruleSetVersion": "OCF-RS-1.0",
+      "originalContent": {
+        "description": "Online discussion platform founded in 2005. Participated in Y Combinator's Summer 2005 batch.",
+        "events": [
+          {
+            "id": "OCF-EV-0015",
+            "title": "Y Combinator, Summer 2005 batch",
+            "date": "2005",
+            "originalEventType": "accelerator batch"
+          },
+          {
+            "id": "OCF-EV-0016",
+            "title": "Acquired by Condé Nast",
+            "date": "2006-10",
+            "originalEventType": "acquisition announcement"
+          },
+          {
+            "id": "OCF-EV-0017",
+            "title": "Initial public offering",
+            "date": "2024-03",
+            "originalEventType": "public listing"
+          }
+        ]
+      },
+      "translatedContent": {
+        "outputs": [
+          {
+            "sourceLabel": "events.funding_round",
+            "translatedLabel": "Financial patronage event",
+            "sourceValue": null,
+            "translatedValue": "Funding history not available in selected sources.",
+            "ruleId": "STARTUP_FUNDING_TO_PATRONAGE",
+            "ruleVersion": "1.0",
+            "explanation": "A funding round is reframed through the language of patronage.",
+            "limitation": "Venture investment is not equivalent to artistic patronage.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "accelerator batch: Y Combinator, Summer 2005 batch",
+            "translatedLabel": "Network validation",
+            "sourceValue": {
+              "title": "Y Combinator, Summer 2005 batch",
+              "date": "2005",
+              "originalEventType": "accelerator batch"
+            },
+            "translatedValue": "Network validation: Y Combinator, Summer 2005 batch (2005).",
+            "ruleId": "STARTUP_ACCELERATOR_TO_NETWORK",
+            "ruleVersion": "1.0",
+            "explanation": "Joining an accelerator is reframed as network validation, comparable to a residency or a selected group exhibition.",
+            "limitation": "Accelerators take equity and expect growth; art residencies generally do neither.",
+            "confidenceLabel": "direct_mapping",
+            "sourceRefs": [
+              "OCF-EV-0015",
+              "OCF-SRC-007"
+            ]
+          },
+          {
+            "sourceLabel": "events.product_launch",
+            "translatedLabel": "Public premiere",
+            "sourceValue": null,
+            "translatedValue": "No product launch records included in this dataset.",
+            "ruleId": "STARTUP_LAUNCH_TO_PREMIERE",
+            "ruleVersion": "1.0",
+            "explanation": "A product launch is reframed as a premiere.",
+            "limitation": "A launch is repeatable and iterative; a premiere is a singular event.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "events.partnership",
+            "translatedLabel": "Institutional collaboration",
+            "sourceValue": null,
+            "translatedValue": "No partnership records included in this dataset.",
+            "ruleId": "STARTUP_PARTNERSHIP_TO_COLLABORATION",
+            "ruleVersion": "1.0",
+            "explanation": "A partnership is reframed as an institutional collaboration.",
+            "limitation": "Commercial partnerships often carry exclusivity and revenue terms with no curatorial analogue.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "acquisition announcement: Acquired by Condé Nast",
+            "translatedLabel": "Institutional bulletin",
+            "sourceValue": {
+              "title": "Acquired by Condé Nast",
+              "date": "2006-10",
+              "originalEventType": "acquisition announcement"
+            },
+            "translatedValue": "Bulletin: Acquired by Condé Nast (2006-10).",
+            "ruleId": "STARTUP_ANNOUNCEMENT_TO_BULLETIN",
+            "ruleVersion": "1.0",
+            "explanation": "A public announcement (listing, acquisition, press release) is reframed as an institutional bulletin.",
+            "limitation": "Listings and acquisitions are financing and ownership events, not forms of recognition.",
+            "confidenceLabel": "interpretive_mapping",
+            "sourceRefs": [
+              "OCF-EV-0016",
+              "OCF-SRC-007"
+            ]
+          },
+          {
+            "sourceLabel": "public listing: Initial public offering",
+            "translatedLabel": "Institutional bulletin",
+            "sourceValue": {
+              "title": "Initial public offering",
+              "date": "2024-03",
+              "originalEventType": "public listing"
+            },
+            "translatedValue": "Bulletin: Initial public offering (2024-03).",
+            "ruleId": "STARTUP_ANNOUNCEMENT_TO_BULLETIN",
+            "ruleVersion": "1.0",
+            "explanation": "A public announcement (listing, acquisition, press release) is reframed as an institutional bulletin.",
+            "limitation": "Listings and acquisitions are financing and ownership events, not forms of recognition.",
+            "confidenceLabel": "interpretive_mapping",
+            "sourceRefs": [
+              "OCF-EV-0017",
+              "OCF-SRC-007"
+            ]
+          },
+          {
+            "sourceLabel": "source.pitch",
+            "translatedLabel": "Curatorial proposition",
+            "sourceValue": null,
+            "translatedValue": "No source pitch available.",
+            "ruleId": "STARTUP_PITCH_TO_PROPOSITION",
+            "ruleVersion": "1.0",
+            "explanation": "A pitch describing a future product vision is reframed as a curatorial proposition.",
+            "limitation": "Pitch language is promotional; it is not evidence of funding, revenue or traction and none is inferred.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          }
+        ]
+      },
+      "rationale": [
+        "STARTUP_ACCELERATOR_TO_NETWORK: Both are selective cohort memberships conferring peers, mentors and visibility.",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN: Both are formal statements that change how an entity is publicly described."
+      ],
+      "limitations": [
+        "STARTUP_ACCELERATOR_TO_NETWORK: Accelerators take equity and expect growth; art residencies generally do neither.",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN: Listings and acquisitions are financing and ownership events, not forms of recognition."
+      ],
+      "generatedAt": "2026-11-05T13:03:00.000Z",
+      "generationMethod": "deterministic"
+    },
+    {
+      "id": "OCF-T-AB0BDBCE60",
+      "entityId": "OCF-E-0013",
+      "direction": "artist_to_startup",
+      "snapshotId": "OCF-S-3A8D7BA37C86",
+      "sourceRecordIds": [
+        "OCF-SRC-013"
+      ],
+      "appliedRuleIds": [
+        "ART_STATEMENT_TO_THESIS"
+      ],
+      "ruleSetVersion": "OCF-RS-1.0",
+      "originalContent": {
+        "description": "FICTIONAL TEST FIXTURE. An invented artist record with almost no public information.",
+        "events": []
+      },
+      "translatedContent": {
+        "outputs": [
+          {
+            "sourceLabel": "events.exhibition",
+            "translatedLabel": "Institutional traction event",
+            "sourceValue": null,
+            "translatedValue": "No exhibition records included in this dataset.",
+            "ruleId": "ART_EXHIBITION_TO_TRACTION",
+            "ruleVersion": "1.0",
+            "explanation": "An exhibition is reframed as a public visibility milestone.",
+            "limitation": "An exhibition does not demonstrate market demand or commercial traction.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "events.gallery_representation",
+            "translatedLabel": "Institutional backing",
+            "sourceValue": null,
+            "translatedValue": "Gallery representation not recorded in selected sources.",
+            "ruleId": "ART_GALLERY_TO_BACKING",
+            "ruleVersion": "1.0",
+            "explanation": "Gallery representation is reframed as institutional backing.",
+            "limitation": "Representation is a commercial relationship, not an equity investment; terms are usually private.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "events.acquisition",
+            "translatedLabel": "Institutional adoption event",
+            "sourceValue": null,
+            "translatedValue": "No acquisition records included in this dataset.",
+            "ruleId": "ART_ACQUISITION_TO_ADOPTION",
+            "ruleVersion": "1.0",
+            "explanation": "A collection acquisition is reframed as an adoption by a major institutional customer.",
+            "limitation": "A museum acquisition is stewardship, not procurement, and carries no revenue meaning.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "events.residency",
+            "translatedLabel": "Incubation period",
+            "sourceValue": null,
+            "translatedValue": "No residency records included in this dataset.",
+            "ruleId": "ART_RESIDENCY_TO_INCUBATION",
+            "ruleVersion": "1.0",
+            "explanation": "A residency is reframed as an incubation period.",
+            "limitation": "Residencies rarely have the equity, milestone or cohort-exit logic of incubators.",
+            "confidenceLabel": "insufficient_data",
+            "sourceRefs": []
+          },
+          {
+            "sourceLabel": "Source field “statement”",
+            "translatedLabel": "Product / market thesis",
+            "sourceValue": "My practice is a long-term inquiry into how small gestures accumulate into shared memory.",
+            "translatedValue": "Thesis candidate (source text quoted verbatim): “My practice is a long-term inquiry into how small gestures accumulate into shared memory.”",
+            "ruleId": "ART_STATEMENT_TO_THESIS",
+            "ruleVersion": "1.0",
+            "explanation": "An artist statement describing a long-term inquiry is reframed as a product or market thesis.",
+            "limitation": "An inquiry is not a market; the source text is quoted unchanged and only its framing is translated.",
+            "confidenceLabel": "interpretive_mapping",
+            "sourceRefs": [
+              "OCF-SRC-013"
+            ]
+          }
+        ]
+      },
+      "rationale": [
+        "ART_STATEMENT_TO_THESIS: Both articulate a durable question that organizes future work."
+      ],
+      "limitations": [
+        "ART_STATEMENT_TO_THESIS: An inquiry is not a market; the source text is quoted unchanged and only its framing is translated."
+      ],
+      "generatedAt": "2026-11-05T13:04:00.000Z",
+      "generationMethod": "deterministic"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "OCF-C-E0208C081C",
+      "entityId": "OCF-E-0001",
+      "entityName": "Kerry James Marshall",
+      "entityType": "artist",
+      "translationRecordId": "OCF-T-B57BE94040",
+      "direction": "artist_to_startup",
+      "appliedRuleIds": [
+        "ART_EXHIBITION_TO_TRACTION",
+        "ART_GALLERY_TO_BACKING"
+      ],
+      "classification": "Provisional Registrant: Venture-Legible Practice",
+      "rationale": [
+        "2 source fact(s) were translated (Artist → Startup) by ART_EXHIBITION_TO_TRACTION, ART_GALLERY_TO_BACKING.",
+        "This classification is an authored interpretation. It is unscored, unranked and not comparable between entities.",
+        "Source snapshot OCF-S-B58852D7ED69 and rule set OCF-RS-1.0 are preserved with this certificate."
+      ],
+      "issuedAt": "2026-11-05T13:01:00.000Z",
+      "sourceSnapshotId": "OCF-S-B58852D7ED69",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "status": "local_simulation",
+      "disclaimer": "This certificate is an artwork-generated interpretation produced by a fictional institution. It is not an endorsement, valuation, ranking or investment assessment of any person or company, and the ledger entry beside it records only that the Office produced this text, not that it is true or deserved.",
+      "ledgerEventId": "OCF-L-00030"
+    },
+    {
+      "id": "OCF-C-71A9A5CCCF",
+      "entityId": "OCF-E-0005",
+      "entityName": "Airbnb",
+      "entityType": "startup",
+      "translationRecordId": "OCF-T-A5B5068C40",
+      "direction": "startup_to_art_world",
+      "appliedRuleIds": [
+        "STARTUP_FUNDING_TO_PATRONAGE",
+        "STARTUP_ACCELERATOR_TO_NETWORK",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN"
+      ],
+      "classification": "Provisional Registrant: Curator-Legible Venture",
+      "rationale": [
+        "3 source fact(s) were translated (Startup → Art World) by STARTUP_FUNDING_TO_PATRONAGE, STARTUP_ACCELERATOR_TO_NETWORK, STARTUP_ANNOUNCEMENT_TO_BULLETIN.",
+        "This classification is an authored interpretation. It is unscored, unranked and not comparable between entities.",
+        "Source snapshot OCF-S-7C70232BF5C0 and rule set OCF-RS-1.0 are preserved with this certificate."
+      ],
+      "issuedAt": "2026-11-05T13:02:00.000Z",
+      "sourceSnapshotId": "OCF-S-7C70232BF5C0",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "status": "local_simulation",
+      "disclaimer": "This certificate is an artwork-generated interpretation produced by a fictional institution. It is not an endorsement, valuation, ranking or investment assessment of any person or company, and the ledger entry beside it records only that the Office produced this text, not that it is true or deserved.",
+      "ledgerEventId": "OCF-L-00032"
+    },
+    {
+      "id": "OCF-C-58E8F52BF1",
+      "entityId": "OCF-E-0007",
+      "entityName": "Reddit",
+      "entityType": "startup",
+      "translationRecordId": "OCF-T-23261435CD",
+      "direction": "startup_to_art_world",
+      "appliedRuleIds": [
+        "STARTUP_ACCELERATOR_TO_NETWORK",
+        "STARTUP_ANNOUNCEMENT_TO_BULLETIN"
+      ],
+      "classification": "Provisional Registrant: Curator-Legible Venture",
+      "rationale": [
+        "3 source fact(s) were translated (Startup → Art World) by STARTUP_ACCELERATOR_TO_NETWORK, STARTUP_ANNOUNCEMENT_TO_BULLETIN.",
+        "This classification is an authored interpretation. It is unscored, unranked and not comparable between entities.",
+        "Source snapshot OCF-S-58DDFDECDFC6 and rule set OCF-RS-1.0 are preserved with this certificate."
+      ],
+      "issuedAt": "2026-11-05T13:03:00.000Z",
+      "sourceSnapshotId": "OCF-S-58DDFDECDFC6",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "status": "local_simulation",
+      "disclaimer": "This certificate is an artwork-generated interpretation produced by a fictional institution. It is not an endorsement, valuation, ranking or investment assessment of any person or company, and the ledger entry beside it records only that the Office produced this text, not that it is true or deserved.",
+      "ledgerEventId": "OCF-L-00034"
+    },
+    {
+      "id": "OCF-C-6EDD99F245",
+      "entityId": "OCF-E-0013",
+      "entityName": "Untitled Practice (Fixture A)",
+      "entityType": "artist",
+      "translationRecordId": "OCF-T-AB0BDBCE60",
+      "direction": "artist_to_startup",
+      "appliedRuleIds": [
+        "ART_STATEMENT_TO_THESIS"
+      ],
+      "classification": "Provisional Registrant: Venture-Legible Practice",
+      "rationale": [
+        "1 source fact(s) were translated (Artist → Startup) by ART_STATEMENT_TO_THESIS.",
+        "This classification is an authored interpretation. It is unscored, unranked and not comparable between entities.",
+        "Source snapshot OCF-S-3A8D7BA37C86 and rule set OCF-RS-1.0 are preserved with this certificate."
+      ],
+      "issuedAt": "2026-11-05T13:04:00.000Z",
+      "sourceSnapshotId": "OCF-S-3A8D7BA37C86",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "status": "local_simulation",
+      "disclaimer": "This certificate is an artwork-generated interpretation produced by a fictional institution. It is not an endorsement, valuation, ranking or investment assessment of any person or company, and the ledger entry beside it records only that the Office produced this text, not that it is true or deserved.",
+      "ledgerEventId": "OCF-L-00036"
+    }
+  ],
+  "ledger": [
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0001",
+      "timestamp": "2026-11-05T12:00:30.000Z",
+      "payload": {
+        "displayName": "Kerry James Marshall",
+        "entityType": "artist",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00001",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": null,
+      "eventHash": "a4441b3fe54e910082de2be2466496dd1520ebad24c32c19e9375f8c80ee6aa2"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0001",
+      "sourceRecordIds": [
+        "OCF-SRC-001"
+      ],
+      "timestamp": "2026-11-05T12:01:00.000Z",
+      "payload": {
+        "provider": "Wikipedia (provisional pointer)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kerry_James_Marshall",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00002",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "a4441b3fe54e910082de2be2466496dd1520ebad24c32c19e9375f8c80ee6aa2",
+      "eventHash": "332f2d6d30e9ffc304a1a247599372aa678382c3c8d8705631adea9da96e57a4"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0002",
+      "timestamp": "2026-11-05T12:01:30.000Z",
+      "payload": {
+        "displayName": "Kara Walker",
+        "entityType": "artist",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00003",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "332f2d6d30e9ffc304a1a247599372aa678382c3c8d8705631adea9da96e57a4",
+      "eventHash": "a328f0e1e762f6b30f5dd40c60c52a061ebeb66509410355f9c353ba95a1c2b5"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0002",
+      "sourceRecordIds": [
+        "OCF-SRC-002"
+      ],
+      "timestamp": "2026-11-05T12:02:00.000Z",
+      "payload": {
+        "provider": "Wikipedia (provisional pointer)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kara_Walker",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00004",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "a328f0e1e762f6b30f5dd40c60c52a061ebeb66509410355f9c353ba95a1c2b5",
+      "eventHash": "0328135f251682209b94ec1fbe7803c620a43f318ffd24a5ba8abd3c93ade65e"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0003",
+      "timestamp": "2026-11-05T12:02:30.000Z",
+      "payload": {
+        "displayName": "Julie Mehretu",
+        "entityType": "artist",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00005",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "0328135f251682209b94ec1fbe7803c620a43f318ffd24a5ba8abd3c93ade65e",
+      "eventHash": "5bd61bfcf0dcbb75188b8838b01fc92e364f91fc6a87d153a8fd681b08d8afcc"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0003",
+      "sourceRecordIds": [
+        "OCF-SRC-003"
+      ],
+      "timestamp": "2026-11-05T12:03:00.000Z",
+      "payload": {
+        "provider": "Wikipedia (provisional pointer)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Julie_Mehretu",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00006",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "5bd61bfcf0dcbb75188b8838b01fc92e364f91fc6a87d153a8fd681b08d8afcc",
+      "eventHash": "b6f6c401ac1e6d9a625056fb3df38d316068cbce849aba6cebab774e31d2cec6"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0004",
+      "timestamp": "2026-11-05T12:03:30.000Z",
+      "payload": {
+        "displayName": "Mark Bradford",
+        "entityType": "artist",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00007",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "b6f6c401ac1e6d9a625056fb3df38d316068cbce849aba6cebab774e31d2cec6",
+      "eventHash": "fb783e4ae884d911da4581501d27cd1392710e6253f5c1452afa211f4dfaf5e2"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0004",
+      "sourceRecordIds": [
+        "OCF-SRC-004"
+      ],
+      "timestamp": "2026-11-05T12:04:00.000Z",
+      "payload": {
+        "provider": "Wikipedia (provisional pointer)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mark_Bradford_(artist)",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00008",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "fb783e4ae884d911da4581501d27cd1392710e6253f5c1452afa211f4dfaf5e2",
+      "eventHash": "8bd5fc1de2057b75d2546d871c3eaa2934b6b306cede6228731bbac14d40f671"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0005",
+      "timestamp": "2026-11-05T12:04:30.000Z",
+      "payload": {
+        "displayName": "Airbnb",
+        "entityType": "startup",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00009",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "8bd5fc1de2057b75d2546d871c3eaa2934b6b306cede6228731bbac14d40f671",
+      "eventHash": "2c4f0eba1feb8ed10781e721b3bd645de3735f7808a399aa042889558bb33d91"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0005",
+      "sourceRecordIds": [
+        "OCF-SRC-005"
+      ],
+      "timestamp": "2026-11-05T12:05:00.000Z",
+      "payload": {
+        "provider": "Y Combinator company directory (provisional pointer)",
+        "sourceUrl": "https://www.ycombinator.com/companies/airbnb",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00010",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "2c4f0eba1feb8ed10781e721b3bd645de3735f7808a399aa042889558bb33d91",
+      "eventHash": "ea84a7530d1316cce2cf284e4f636d75a737106cbb50d5ebc8854374de4e3daa"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0006",
+      "timestamp": "2026-11-05T12:05:30.000Z",
+      "payload": {
+        "displayName": "Dropbox",
+        "entityType": "startup",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00011",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "ea84a7530d1316cce2cf284e4f636d75a737106cbb50d5ebc8854374de4e3daa",
+      "eventHash": "8d559ee64b1b6a20fa15a63eb030cd6bf1ab6a0edd75d4fdefae29b5c47d26f8"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0006",
+      "sourceRecordIds": [
+        "OCF-SRC-006"
+      ],
+      "timestamp": "2026-11-05T12:06:00.000Z",
+      "payload": {
+        "provider": "Y Combinator company directory (provisional pointer)",
+        "sourceUrl": "https://www.ycombinator.com/companies/dropbox",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00012",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "8d559ee64b1b6a20fa15a63eb030cd6bf1ab6a0edd75d4fdefae29b5c47d26f8",
+      "eventHash": "29f79a3be69e99844807adc0539d4f8db424a1dfda654efca37bafe7186767fd"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0007",
+      "timestamp": "2026-11-05T12:06:30.000Z",
+      "payload": {
+        "displayName": "Reddit",
+        "entityType": "startup",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00013",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "29f79a3be69e99844807adc0539d4f8db424a1dfda654efca37bafe7186767fd",
+      "eventHash": "27553503c8bd8a8db635dc154d30882ef56dd8d8f528cd897c9b16287fc4fd90"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0007",
+      "sourceRecordIds": [
+        "OCF-SRC-007"
+      ],
+      "timestamp": "2026-11-05T12:07:00.000Z",
+      "payload": {
+        "provider": "Y Combinator company directory (provisional pointer)",
+        "sourceUrl": "https://www.ycombinator.com/companies/reddit",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00014",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "27553503c8bd8a8db635dc154d30882ef56dd8d8f528cd897c9b16287fc4fd90",
+      "eventHash": "f20265c4964feb8fd17f1f1e7dcb1c7e4b6e98ef55081f10e73f302f9cb6014b"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0008",
+      "timestamp": "2026-11-05T12:07:30.000Z",
+      "payload": {
+        "displayName": "David Zwirner",
+        "entityType": "institution",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00015",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "f20265c4964feb8fd17f1f1e7dcb1c7e4b6e98ef55081f10e73f302f9cb6014b",
+      "eventHash": "b71872fefa7bf81336100bff4f5476cabdc963011b5a17a58349a9aa4c1296e1"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0008",
+      "sourceRecordIds": [
+        "OCF-SRC-008"
+      ],
+      "timestamp": "2026-11-05T12:08:00.000Z",
+      "payload": {
+        "provider": "Institution website",
+        "sourceUrl": "https://www.davidzwirner.com",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00016",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "b71872fefa7bf81336100bff4f5476cabdc963011b5a17a58349a9aa4c1296e1",
+      "eventHash": "be4bde69ff9b781230feb460b5c038342df9e5d84ae1fb3bfb33982e75e27b94"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0009",
+      "timestamp": "2026-11-05T12:08:30.000Z",
+      "payload": {
+        "displayName": "Hauser & Wirth",
+        "entityType": "institution",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00017",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "be4bde69ff9b781230feb460b5c038342df9e5d84ae1fb3bfb33982e75e27b94",
+      "eventHash": "75e37577e3af8d7fc175b724f4bdf953af1dcbde04aa3a68f73882e7c4cd7996"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0009",
+      "sourceRecordIds": [
+        "OCF-SRC-009"
+      ],
+      "timestamp": "2026-11-05T12:09:00.000Z",
+      "payload": {
+        "provider": "Institution website",
+        "sourceUrl": "https://www.hauserwirth.com",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00018",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "75e37577e3af8d7fc175b724f4bdf953af1dcbde04aa3a68f73882e7c4cd7996",
+      "eventHash": "339827f39b8854c030d4a55c77d6cf6af9885b9ba92a59d0fea0fdc55b023d51"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0010",
+      "timestamp": "2026-11-05T12:09:30.000Z",
+      "payload": {
+        "displayName": "Marian Goodman Gallery",
+        "entityType": "institution",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00019",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "339827f39b8854c030d4a55c77d6cf6af9885b9ba92a59d0fea0fdc55b023d51",
+      "eventHash": "ff6fde5ce697e3d26d73b128984f06946146c8140c5a1791f27ae5354dd45de9"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0010",
+      "sourceRecordIds": [
+        "OCF-SRC-010"
+      ],
+      "timestamp": "2026-11-05T12:10:00.000Z",
+      "payload": {
+        "provider": "Institution website",
+        "sourceUrl": "https://www.mariangoodman.com",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00020",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "ff6fde5ce697e3d26d73b128984f06946146c8140c5a1791f27ae5354dd45de9",
+      "eventHash": "40fb7f3d689609e991a5625f59ca6f7ab29519a2a0164f831129caf6e055f956"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0011",
+      "timestamp": "2026-11-05T12:10:30.000Z",
+      "payload": {
+        "displayName": "Art Institute of Chicago",
+        "entityType": "institution",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00021",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "40fb7f3d689609e991a5625f59ca6f7ab29519a2a0164f831129caf6e055f956",
+      "eventHash": "3542493e262d111052c4fa92a67f6b099d03790ef7b7438d9fced0da1ab7645c"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0011",
+      "sourceRecordIds": [
+        "OCF-SRC-011"
+      ],
+      "timestamp": "2026-11-05T12:11:00.000Z",
+      "payload": {
+        "provider": "Art Institute of Chicago API documentation",
+        "sourceUrl": "https://api.artic.edu/docs/",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00022",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "3542493e262d111052c4fa92a67f6b099d03790ef7b7438d9fced0da1ab7645c",
+      "eventHash": "1baea8ead8c41db184719f01b9306c4c87baa3f255e7edf77811ed52fbb7d478"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0012",
+      "timestamp": "2026-11-05T12:11:30.000Z",
+      "payload": {
+        "displayName": "Y Combinator",
+        "entityType": "institution",
+        "verificationStatus": "needs_review",
+        "isFixture": false
+      },
+      "id": "OCF-L-00023",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "1baea8ead8c41db184719f01b9306c4c87baa3f255e7edf77811ed52fbb7d478",
+      "eventHash": "b82aef18ed14f27f83ca67dacb828bba69ebeb41204363c8623f6875cdf3b638"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0012",
+      "sourceRecordIds": [
+        "OCF-SRC-012"
+      ],
+      "timestamp": "2026-11-05T12:12:00.000Z",
+      "payload": {
+        "provider": "Institution website",
+        "sourceUrl": "https://www.ycombinator.com",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "seeded_unretrieved",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00024",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "b82aef18ed14f27f83ca67dacb828bba69ebeb41204363c8623f6875cdf3b638",
+      "eventHash": "f5ff428edd4d994a63b3b2992e9f50d7c3ae7658f86b1e96d9dc08312e1bdce7"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0013",
+      "timestamp": "2026-11-05T12:12:30.000Z",
+      "payload": {
+        "displayName": "Untitled Practice (Fixture A)",
+        "entityType": "artist",
+        "verificationStatus": "needs_review",
+        "isFixture": true
+      },
+      "id": "OCF-L-00025",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "f5ff428edd4d994a63b3b2992e9f50d7c3ae7658f86b1e96d9dc08312e1bdce7",
+      "eventHash": "e352dbc0ddfdb4df4ffe4f086380c1d7ac1db1e951f623c9ee7efcba9fa61ed1"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0013",
+      "sourceRecordIds": [
+        "OCF-SRC-013"
+      ],
+      "timestamp": "2026-11-05T12:13:00.000Z",
+      "payload": {
+        "provider": "Office fixture (fictional)",
+        "sourceUrl": "https://example.invalid/fixture-a",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "fixture",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00026",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "e352dbc0ddfdb4df4ffe4f086380c1d7ac1db1e951f623c9ee7efcba9fa61ed1",
+      "eventHash": "7e2ab0eb9205c4f64205e1752ec3a702fac2d14352c21cab379ca5ebd3b01c48"
+    },
+    {
+      "eventType": "entity_registered",
+      "entityId": "OCF-E-0014",
+      "timestamp": "2026-11-05T12:13:30.000Z",
+      "payload": {
+        "displayName": "Pitchdeck Labs (Fixture B)",
+        "entityType": "startup",
+        "verificationStatus": "needs_review",
+        "isFixture": true
+      },
+      "id": "OCF-L-00027",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "7e2ab0eb9205c4f64205e1752ec3a702fac2d14352c21cab379ca5ebd3b01c48",
+      "eventHash": "facdc2e0bd5fec21b4d7483a875ec3ac2d5e16806106e3b7a0fdb276af73e8ad"
+    },
+    {
+      "eventType": "source_attached",
+      "entityId": "OCF-E-0014",
+      "sourceRecordIds": [
+        "OCF-SRC-014"
+      ],
+      "timestamp": "2026-11-05T12:14:00.000Z",
+      "payload": {
+        "provider": "Office fixture (fictional)",
+        "sourceUrl": "https://example.invalid/fixture-b",
+        "retrievedAt": "2026-11-05",
+        "acquisition": "fixture",
+        "verificationStatus": "needs_review"
+      },
+      "id": "OCF-L-00028",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "facdc2e0bd5fec21b4d7483a875ec3ac2d5e16806106e3b7a0fdb276af73e8ad",
+      "eventHash": "b66ba94121bee8acd7a4baa9ddd3e8e1d3fe68719fd8cb43b6cac2b54f0bf1cd"
+    },
+    {
+      "eventType": "translation_created",
+      "entityId": "OCF-E-0001",
+      "sourceRecordIds": [
+        "OCF-SRC-001"
+      ],
+      "translationRecordId": "OCF-T-B57BE94040",
+      "snapshotId": "OCF-S-B58852D7ED69",
+      "timestamp": "2026-11-05T13:01:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "direction": "artist_to_startup",
+        "appliedRuleIds": [
+          "ART_EXHIBITION_TO_TRACTION",
+          "ART_GALLERY_TO_BACKING"
+        ],
+        "outputsDigest": "b141e253cd5ce823f10dfb59c9160e3d26309e56b6dffcc3d037ffb27bdf64f1"
+      },
+      "id": "OCF-L-00029",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "b66ba94121bee8acd7a4baa9ddd3e8e1d3fe68719fd8cb43b6cac2b54f0bf1cd",
+      "eventHash": "229e6cbead050532eb7885904dd4f8e4392cf49c89a0842d6b101828c7f7df0e"
+    },
+    {
+      "eventType": "certificate_issued",
+      "entityId": "OCF-E-0001",
+      "translationRecordId": "OCF-T-B57BE94040",
+      "certificateId": "OCF-C-E0208C081C",
+      "snapshotId": "OCF-S-B58852D7ED69",
+      "timestamp": "2026-11-05T13:01:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "classification": "Provisional Registrant: Venture-Legible Practice",
+        "certificateDigest": "3066f4033089b9cf56133950083d34b5bd7c73a08f59f0020e67c2bb04424710",
+        "status": "local_simulation"
+      },
+      "id": "OCF-L-00030",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "229e6cbead050532eb7885904dd4f8e4392cf49c89a0842d6b101828c7f7df0e",
+      "eventHash": "4a72190a46f39829db14a79b46218a4cf47cd98c0877bff7d29b347c7fd33d79"
+    },
+    {
+      "eventType": "translation_created",
+      "entityId": "OCF-E-0005",
+      "sourceRecordIds": [
+        "OCF-SRC-005"
+      ],
+      "translationRecordId": "OCF-T-A5B5068C40",
+      "snapshotId": "OCF-S-7C70232BF5C0",
+      "timestamp": "2026-11-05T13:02:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "direction": "startup_to_art_world",
+        "appliedRuleIds": [
+          "STARTUP_FUNDING_TO_PATRONAGE",
+          "STARTUP_ACCELERATOR_TO_NETWORK",
+          "STARTUP_ANNOUNCEMENT_TO_BULLETIN"
+        ],
+        "outputsDigest": "82aa0103a4303a915f7e7e9ce84ff00ceaf173eedeb52ac22c4c44597777f159"
+      },
+      "id": "OCF-L-00031",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "4a72190a46f39829db14a79b46218a4cf47cd98c0877bff7d29b347c7fd33d79",
+      "eventHash": "1c195663078560316a7a7691a09dae550610fa887f5bd8ed4522e45467f73777"
+    },
+    {
+      "eventType": "certificate_issued",
+      "entityId": "OCF-E-0005",
+      "translationRecordId": "OCF-T-A5B5068C40",
+      "certificateId": "OCF-C-71A9A5CCCF",
+      "snapshotId": "OCF-S-7C70232BF5C0",
+      "timestamp": "2026-11-05T13:02:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "classification": "Provisional Registrant: Curator-Legible Venture",
+        "certificateDigest": "e6e197e4466f896c55f4eef1103b643c359bd374fe3fa59dd4b891d5eadc07ea",
+        "status": "local_simulation"
+      },
+      "id": "OCF-L-00032",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "1c195663078560316a7a7691a09dae550610fa887f5bd8ed4522e45467f73777",
+      "eventHash": "ee81b6079e798d91772f302acd9370eb2df5ad1c9f9ed1f3859c8983e3f276a5"
+    },
+    {
+      "eventType": "translation_created",
+      "entityId": "OCF-E-0007",
+      "sourceRecordIds": [
+        "OCF-SRC-007"
+      ],
+      "translationRecordId": "OCF-T-23261435CD",
+      "snapshotId": "OCF-S-58DDFDECDFC6",
+      "timestamp": "2026-11-05T13:03:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "direction": "startup_to_art_world",
+        "appliedRuleIds": [
+          "STARTUP_ACCELERATOR_TO_NETWORK",
+          "STARTUP_ANNOUNCEMENT_TO_BULLETIN"
+        ],
+        "outputsDigest": "fcdbb47c9d3da612574c3a020641edd244bbd22be058f458a9d31f6ad724cfc6"
+      },
+      "id": "OCF-L-00033",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "ee81b6079e798d91772f302acd9370eb2df5ad1c9f9ed1f3859c8983e3f276a5",
+      "eventHash": "e6143f0472f38e896ed01a202dc537a4dbd1c1cd9ec9a244d13ac0954cc6aeac"
+    },
+    {
+      "eventType": "certificate_issued",
+      "entityId": "OCF-E-0007",
+      "translationRecordId": "OCF-T-23261435CD",
+      "certificateId": "OCF-C-58E8F52BF1",
+      "snapshotId": "OCF-S-58DDFDECDFC6",
+      "timestamp": "2026-11-05T13:03:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "classification": "Provisional Registrant: Curator-Legible Venture",
+        "certificateDigest": "c9d70161e288bad9dab8f1b2f3549a845240b8a234d284a91cae81a9a781be07",
+        "status": "local_simulation"
+      },
+      "id": "OCF-L-00034",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "e6143f0472f38e896ed01a202dc537a4dbd1c1cd9ec9a244d13ac0954cc6aeac",
+      "eventHash": "00f5945857f179362e7587f1f4e7caa15c48fee384e7e92c43f69fbd66352bfa"
+    },
+    {
+      "eventType": "translation_created",
+      "entityId": "OCF-E-0013",
+      "sourceRecordIds": [
+        "OCF-SRC-013"
+      ],
+      "translationRecordId": "OCF-T-AB0BDBCE60",
+      "snapshotId": "OCF-S-3A8D7BA37C86",
+      "timestamp": "2026-11-05T13:04:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "direction": "artist_to_startup",
+        "appliedRuleIds": [
+          "ART_STATEMENT_TO_THESIS"
+        ],
+        "outputsDigest": "64ede242626161396278c7895ed46a6c2e85b3231fc00c24f3cf28e59887daaa"
+      },
+      "id": "OCF-L-00035",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "00f5945857f179362e7587f1f4e7caa15c48fee384e7e92c43f69fbd66352bfa",
+      "eventHash": "8f219fc720fff1b83cc60c1de43a1db26ecd2753f63bcda50860b6f1561131c5"
+    },
+    {
+      "eventType": "certificate_issued",
+      "entityId": "OCF-E-0013",
+      "translationRecordId": "OCF-T-AB0BDBCE60",
+      "certificateId": "OCF-C-6EDD99F245",
+      "snapshotId": "OCF-S-3A8D7BA37C86",
+      "timestamp": "2026-11-05T13:04:00.000Z",
+      "ruleSetVersion": "OCF-RS-1.0",
+      "payload": {
+        "classification": "Provisional Registrant: Venture-Legible Practice",
+        "certificateDigest": "8abc1cc252534a7ab2e90b3e9ad2e3bfb1135767fd2851a91fcef97438dd153a",
+        "status": "local_simulation"
+      },
+      "id": "OCF-L-00036",
+      "hashAlgorithm": "SHA-256",
+      "payloadVersion": "1",
+      "ledgerType": "local_append_only",
+      "previousEventHash": "8f219fc720fff1b83cc60c1de43a1db26ecd2753f63bcda50860b6f1561131c5",
+      "eventHash": "0b8b06220f04e9ffff1b1141289b34974fcbafc811f8c906fb2100c1d6d55be1"
+    }
+  ]
+}
