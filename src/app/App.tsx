@@ -1,3 +1,6 @@
+import { useCallback, useEffect, useState } from "react";
+import { OnboardingWindow } from "../components/archive/OnboardingWindow";
+import { hasSeenIntro, markIntroSeen, onOpenIntro, openIntro } from "../components/archive/intro";
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import { CONFIG } from "../config";
 import { InstitutionHeader } from "../components/navigation/InstitutionHeader";
@@ -57,6 +60,9 @@ function Rail() {
 }
 
 export default function App() {
+  const [intro, setIntro] = useState(false);
+  useEffect(() => { if (!hasSeenIntro()) setIntro(true); return onOpenIntro(() => setIntro(true)); }, []);
+  const closeIntro = useCallback(() => { markIntroSeen(); setIntro(false); }, []);
   return (
     <div className="app">
       <a className="skip" href="#content">Skip to content</a>
@@ -69,8 +75,10 @@ export default function App() {
       </div>
       <footer className="foot">
         {CONFIG.institutionName} · A critical digital artwork · {CONFIG.ledgerLabel} · Rule set v{CONFIG.ruleSetVersion} ·{" "}
-        <Link to="/methods">Methods / Terms</Link>
+        <Link to="/methods">Methods / Terms</Link> ·{" "}
+        <a href="#!" onClick={(e) => { e.preventDefault(); openIntro(); }}>Orientation</a>
       </footer>
+      {intro && <OnboardingWindow onClose={closeIntro} />}
       <ScrollRestoration />
     </div>
   );

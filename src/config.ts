@@ -17,4 +17,5 @@ export const CONFIG = {
   /** Where visitors should send factual corrections. Fill in before exhibiting. */
   correctionsContact: "[corrections contact to be supplied by the project owner]",
   localStorageKey: "ocf.local-records.v1",
+  introKey: "ocf.intro-seen.v1",
 } as const;

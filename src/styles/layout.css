@@ -7,7 +7,8 @@
 .hdr__name a { color: #fff; text-decoration: none; }
 .hdr__name a:hover { background: none; text-decoration: underline; }
 .hdr__tag { font-family: var(--font-mono); font-size: var(--fs-xs); opacity: .85; margin-top: 3px; }
-.hdr__search { margin-left: auto; display: flex; gap: 4px; align-items: end; }
+.hdr__intro { margin-left: auto; align-self: center; }
+.hdr__search { margin-left: 0; display: flex; gap: 4px; align-items: end; }
 .hdr__search label { color: #fff; }
 .hdr__search input { width: 150px; }
 

@@ -65,3 +65,7 @@ None are needed to run the site. `.env.example` lists optional keys for ingestio
 - Have a person verify every source record, then update statuses.
 - Replace the placeholder emblem (`Emblem` in `src/components/shared/index.tsx`) with the final mark.
 - Check each source's terms for any reuse beyond the short factual fields stored.
+
+## Orientation and Archive
+
+On first visit a two-step orientation window explains the concept, then shows the original Substack post (scrollable). It can be reopened from the header, footer or Archive. The Archive keeps the post as a reference. The article text lives in `src/data/articles/parallels.txt` (set `complete: true` and `url` in `articles.json` once the full text and link are added).

@@ -1,6 +1,5 @@
 import meta from "../data/articles.json";
 import parallels from "../data/articles/parallels.txt?raw";
-import cigarettes from "../data/articles/cigarettes.txt?raw";
 
 export interface ArticleMeta {
   slug: string;
@@ -13,11 +12,11 @@ export interface ArticleMeta {
   date: string;
   likes: number;
   url: string;
-  style: "reader" | "editorial";
+  style: "reader";
   complete: boolean;
 }
 
-const TEXT: Record<string, string> = { parallels, cigarettes };
+const TEXT: Record<string, string> = { parallels };
 
 export const articles = meta as ArticleMeta[];
 export const getArticle = (slug?: string | null) => articles.find((a) => a.slug === slug);

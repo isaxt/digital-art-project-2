@@ -1,5 +1,6 @@
 # Articles shown in the Archive window
 
+The Archive and the onboarding window show a single article (the Substack post that started the project).
 Each article = one entry in `../articles.json` + one plain-text file here named by its `file` field.
 
 **To add the full text:** paste it into the `.txt` file, then set `"complete": true` in `articles.json`

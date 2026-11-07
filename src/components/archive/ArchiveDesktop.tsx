@@ -25,7 +25,7 @@ export function ArchiveDesktop({ onOpen }: { onOpen: (a: ArticleMeta) => void })
           <li key={a.slug}>
             <button className="desk__icon" onClick={() => onOpen(a)} aria-label={`Open Substack article: ${a.title}`}>
               <SubstackIcon />
-              <span className="desk__label">Substack<small>{a.publication === "ISA" ? "ISA" : a.publication}</small></span>
+              <span className="desk__label">Substack<small>{a.publication}</small></span>
             </button>
           </li>
         ))}

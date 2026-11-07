@@ -1,3 +1,77 @@
 Snippet from my notes app:
 
 > “ive been home for about 2 months now and my Instagram reels are filled with art+ design content (ok very on brand for me) but is also flooded with AI start up content— people dropping out here, hacker house there and i was laying in bed (doomscrolling as usual) and for some reason it hit me in some weird way.”
+
+---
+
+# Initial “start” of this idea
+
+I was back in the bay for the summer, and I was involved with a handful of friends who were in the start-up space. I got the chance to hear what goes on their mind– their schedules and products, and truly see how they live.
+
+I haven’t really been able to *watch* movies during the school year– I get a bit too consumed with school, work, and the attempt of personal projects. The YouTube algorithm recommended a movie to me about artists in NYC (specifically around the time of Basquiat and Warhol) and it mirrored many things that I noticed from my friends and the media that I was being fed relating to founders and startups. Already being at an art/design school, I had the knowledge/exposure of the fine art world– but being home for the summer and *really* being able to sit with my thoughts and digest the movies’ contents made me really think about the reality of the artist.
+
+I expressed to my friend (who is working at a start-up in SF) my thoughts between the start-up world and the fine art world. In reality, I think he thought I was going insane (he is too nice to say anything mean)– but he said he could see where I was coming from.
+
+The desire to “make a name” for oneself, trying to convince others to “invest” in you (whether that's funding or giving you a gallery space/ exhibition), the *weird* parties, the abuse of substances, people getting so consumed with their world,
+
+I expressed my thoughts to my coworker, and she said the reason that no one really wants to talk about this parallel is that the people in the startup world don’t want to be associated with the “starving artist” trope.
+
+---
+
+Since being in New York City for the past 2 years and growing up in the Bay Area, I have noticed that the lines between the art world and the startup world blur more often than you'd think. Walk into a Brooklyn studio and you'll find an artist prepping a solo show with the same fervor as a founder pitching to VCs in SoHo. They're chasing different dreams—but are using the same tools, strategies, and structures to get there.
+
+Both the contemporary artist and the early-stage founder operate in economies of vision, scarcity, and belief. They pitch futures or experiences. They build from nothing. They survive by cultivating attention and assembling a network that believes in what they do—often before there's any tangible payoff.
+
+Risk is the shared currency. Artists sink time, money, and emotion into work that may never sell or be seen. Founders pour energy into ideas that might fail quietly or spectacularly. Both are betting on a long game where visibility, timing, and narrative can shift everything.
+
+And narrative is everything. The "artist statement" and the "pitch deck" perform similar functions: they translate private vision into public belief. The artist must become legible to curators, collectors, and critics. The founder must become legible to funders, press, and users. In both cases, identity, aesthetics, and authenticity are all part of the package.
+
+Gatekeepers still matter—but new platforms have emerged. Just as artists use Instagram to bypass galleries, founders turn to platforms like Kickstarter or Product Hunt to build traction before they have institutional backing. The infrastructure of visibility has been democratized—but it's also intensified the demand to constantly perform and produce.
+
+There’s a deeper convergence happening too: artists are thinking like entrepreneurs, creating collectives, ventures, and “art products.” Meanwhile, founders are borrowing from the art world—curating aesthetics, embedding cultural narratives in their brands, and treating code as a form of creative authorship. The studio, the startup, and the lab are blending.
+
+But this parallel isn't just poetic—it's systemic. Both artists and founders are navigating what theorist McKenzie Wark calls “the vectoralist class”: a system where visibility, virality, and value creation are controlled through networks. The artist and the founder are not opposites—they are, in many ways, co-survivors in the same landscape.
+
+So what does it mean when our most creative pursuits all begin to look like startups? When every gesture must be strategic, every risk marketable, every identity monetized…
+
+---
+
+# The general brain dump of parallels I have noticed
+
+**High risk, high reward**
+
+Artists→ invest years developing a practice with no guaranteed income– hoping for gallery representation or institutional validation
+
+Startup founders→ typically they start out self-funding or bootstrap until they can secure venture capital– hoping for product-market fit or acquisition
+
+**Self-branding + narrative**
+
+Both must craft compelling personal narratives to attract attention– whether from collectors, curators, investors, or users
+
+“Founder-market fit” in the startup space mirrors the idea of an artist being positioned to make the work they make
+
+**Networking as survival**
+
+Gallery openings = Demo days. Both rely on being seen, being heard, being remembered…
+
+Social capital plays a massive role in both ecosystems. Who you know can affect who gives you money, shows your work, or invites you to the next event.
+
+**Hustle Culture + Mythologies of Genius**
+
+Both worlds idolize “the grind”, romanticize precarity + create a mythology around “genius” or “vision” (even if it’s just good branding or presentation)
+
+A blurred line between “authentic creative labor” and “strategic self-marketing”
+
+**Gatekeepers vs direct audiences**
+
+Both scenes have traditional “gatekeepers” – people or institutions who tend to protect the space (galleries, VCs), but nowadays there are “contemporary”/ more accessible paths to circumvent them via platforms (Instagram, Substack, Pinterest, indie VCs, etc.)
+
+**Studio = startup = lab**
+
+The artist studio + the startup garage/WeWork are both spaces of iterative, often speculative making
+
+Both are “labs” for R&D that may or not lead to a viable “product”.
+
+**Art as product vs product as art**
+
+NYC breeds hybrid practitioners who may not see a strict line between art + entrepreneurship (think of venture-backed creative studios, NFTs, social practice artists who treat systems as their medium, etc.).
