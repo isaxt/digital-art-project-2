@@ -16,6 +16,9 @@ export function SiteNavigation() {
           {p.label}
         </NavLink>
       ))}
+      <NavLink to="/archive" className={({ isActive }) => `secondary push ${isActive ? "active" : ""}`}>
+        Archive
+      </NavLink>
       <NavLink to="/methods" className={({ isActive }) => `secondary ${isActive ? "active" : ""}`}>
         Methods / Terms
       </NavLink>

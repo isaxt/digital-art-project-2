@@ -25,6 +25,7 @@ npm run preview
 | Missing data shown as unavailable, never negative; unmapped facts and mismatched directions reported, not forced | Built, unit-tested |
 | Certificates: deterministic IDs, frozen snapshot + rule-set version, refresh never re-issues | Built, unit-tested |
 | Ledger: canonical JSON, SHA-256, previous-hash link, verify-on-load, corrections/disputes append events, tamper demo | Built, unit-tested |
+| Archive page: desktop mock with Substack icons; click opens a scrollable replica window of each post (text in `src/data/articles/`) | Built; **only the opening passages are in so far, full text needed** |
 | Ingestion adapters (Art Institute of Chicago, Met) + candidate review script | Written, **untested against the live APIs** (no network where it was built) |
 | Wikidata, SEC EDGAR, Companies House adapters | Not built |
 | Dataset of 20–40 entities | **Not met: 7 records** (see below) |

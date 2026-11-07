@@ -15,7 +15,8 @@
 .nav a { color: #fff; text-decoration: none; padding: 6px 14px; font-weight: 700; font-size: var(--fs-sm); border-right: 1px solid var(--blue); }
 .nav a:hover { background: var(--blue-electric); color: #fff; }
 .nav a.active { background: var(--yellow); color: var(--ink); }
-.nav a.secondary { margin-left: auto; font-weight: 400; border-left: 1px solid var(--blue); border-right: 0; }
+.nav a.push { margin-left: auto; }
+.nav a.secondary { margin-left: 0; font-weight: 400; border-left: 1px solid var(--blue); border-right: 0; }
 
 /* Ticker / status strip */
 .ticker { background: var(--ink); color: var(--term-green); font-family: var(--font-mono); font-size: var(--fs-xs); padding: 3px 14px; display: flex; gap: 18px; flex-wrap: wrap; border-bottom: 1px solid #000; }

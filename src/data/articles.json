@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "parallels",
+    "file": "parallels",
+    "publication": "ISA",
+    "section": "ISA",
+    "title": "parallels between the start up world and the fine art world",
+    "subtitle": "this thought has been itching at me over the course of 2 months and i finally got around to \"properly\" writing it out :)",
+    "author": "ISA",
+    "date": "AUG 23, 2025",
+    "likes": 1,
+    "url": "",
+    "style": "reader",
+    "complete": false
+  },
+  {
+    "slug": "cigarettes",
+    "file": "cigarettes",
+    "publication": "Ether + Matter",
+    "section": "digital residue",
+    "title": "Cigarettes in the Age of Digital Capital",
+    "subtitle": "When Smoke Becomes the Only Currency of Pause",
+    "author": "ISA TEDESCO",
+    "date": "October 21, 2025",
+    "likes": 0,
+    "url": "",
+    "style": "editorial",
+    "complete": false
+  }
+]

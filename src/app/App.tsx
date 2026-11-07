@@ -44,6 +44,7 @@ function Rail() {
         <li><NavLink to="/translate">Translation Engine</NavLink></li>
         <li><NavLink to="/certificates">Certificates</NavLink></li>
         <li><NavLink to="/ledger">Public Ledger</NavLink></li>
+        <li><NavLink to="/archive">Archive</NavLink></li>
         <li><NavLink to="/methods">Methods / Terms</NavLink></li>
       </ul>
       <div className="notice">

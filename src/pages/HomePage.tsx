@@ -38,6 +38,13 @@ export default function HomePage() {
           <span className="small muted">or follow the featured example below from record to certificate to ledger.</span>
         </p>
 
+        <Panel title="From the archive: where this began">
+          <p className="small">
+            The Office started as a post. Read the original text of the Substack piece that prompted it.{" "}
+            <Link to="/archive?open=parallels"><b>Open “parallels between the start up world and the fine art world” →</b></Link>
+          </p>
+        </Panel>
+
         <Panel title="Featured record" controls>
           <div className="grid2">
             <div>
