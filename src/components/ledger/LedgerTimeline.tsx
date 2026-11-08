@@ -20,7 +20,7 @@ export function LedgerTimeline({ events, verification, limit }: { events: Ledger
         <tbody>
           {rows.map((e) => (
             <tr key={e.id} className={bad.get(e.id) ? "bad" : ""}>
-              <td><Link to={`/ledger/${e.id}`}>{e.id}</Link></td>
+              <td><Link to={`/tx/${e.id}`}>{e.id}</Link></td>
               <td>{e.eventType}</td>
               <td>{e.entityId ? <Link to={`/registry/${e.entityId}`}>{e.entityId}</Link> : "—"}</td>
               <td>{e.certificateId ? <Link to={`/certificates/${e.certificateId}`}>{e.certificateId}</Link> : "—"}</td>

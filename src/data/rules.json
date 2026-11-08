@@ -1,149 +1,194 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "rules": [
     {
       "id": "ART_EXHIBITION_TO_TRACTION",
       "version": "1.0",
       "sourceEntityType": "artist",
       "targetVocabulary": "startup",
-      "inputFields": ["events.exhibition"],
+      "inputFields": [
+        "events.exhibition"
+      ],
       "outputLabel": "Cultural traction event",
       "description": "An exhibition is reframed as a public visibility milestone.",
       "rationale": "Both events can signal recognition within a relevant network.",
       "limitation": "An exhibition does not demonstrate market demand or commercial traction.",
       "enabled": true,
-      "match": { "kind": "event", "eventType": "exhibition" },
+      "match": {
+        "kind": "event",
+        "eventType": "exhibition"
+      },
       "template": "Public visibility milestone: {title}{dateSuffix}",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "No exhibition records included in this dataset."
+      "missingMessage": "No exhibition listing in the supplied dataset names this artist."
     },
     {
       "id": "ART_GALLERY_TO_BACKING",
       "version": "1.0",
       "sourceEntityType": "artist",
       "targetVocabulary": "startup",
-      "inputFields": ["events.gallery_representation"],
+      "inputFields": [
+        "events.gallery_representation"
+      ],
       "outputLabel": "Institutional backing",
       "description": "Gallery representation is reframed as an institutional backer relationship.",
       "rationale": "Both describe an established organization committing its reputation and infrastructure to a practice.",
       "limitation": "A gallery's commission and obligations differ from an investor's, and representation terms are rarely public.",
       "enabled": true,
-      "match": { "kind": "event", "eventType": "gallery_representation" },
+      "match": {
+        "kind": "event",
+        "eventType": "gallery_representation"
+      },
       "template": "Institutional backing relationship: {title}{dateSuffix}",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "Gallery representation not recorded in selected sources."
+      "missingMessage": "No parsed roster in the supplied dataset names this artist. (A roster that is not yet parsed is unknown, not empty.)"
     },
     {
       "id": "ART_ACQUISITION_TO_ADOPTION",
       "version": "1.0",
       "sourceEntityType": "artist",
       "targetVocabulary": "startup",
-      "inputFields": ["events.acquisition"],
+      "inputFields": [
+        "events.acquisition"
+      ],
       "outputLabel": "Institutional adoption event",
       "description": "A museum acquisition is reframed as an anchor-customer style adoption.",
       "rationale": "Both record a large, durable institution choosing to take on what a practice produces.",
       "limitation": "An acquisition is a cultural-memory decision, not recurring revenue, and the price is often not disclosed.",
       "enabled": true,
-      "match": { "kind": "event", "eventType": "acquisition" },
+      "match": {
+        "kind": "event",
+        "eventType": "acquisition"
+      },
       "template": "Institutional adoption event: {title}{dateSuffix}",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "No acquisition records included in this dataset."
+      "missingMessage": "No acquisition records in the supplied dataset."
     },
     {
       "id": "ART_RESIDENCY_TO_INCUBATION",
       "version": "1.0",
       "sourceEntityType": "artist",
       "targetVocabulary": "startup",
-      "inputFields": ["events.residency"],
+      "inputFields": [
+        "events.residency"
+      ],
       "outputLabel": "Incubation period",
       "description": "A residency is reframed as an incubation or acceleration period.",
       "rationale": "Both give time, space and a network to a project before it is expected to stand alone.",
       "limitation": "Residencies rarely ask for equity or a growth outcome.",
       "enabled": true,
-      "match": { "kind": "event", "eventType": "residency" },
+      "match": {
+        "kind": "event",
+        "eventType": "residency"
+      },
       "template": "Incubation period: {title}{dateSuffix}",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "No residency records included in this dataset."
+      "missingMessage": "No residency records in the supplied dataset."
     },
     {
       "id": "ART_STATEMENT_TO_THESIS",
       "version": "1.0",
       "sourceEntityType": "artist",
       "targetVocabulary": "startup",
-      "inputFields": ["sources.normalizedFields.statement"],
+      "inputFields": [
+        "sources.normalizedFields.statement"
+      ],
       "outputLabel": "Product / market thesis",
       "description": "An artist statement describing a long-term inquiry is reframed as a market thesis.",
       "rationale": "Both state a durable problem space that the work keeps returning to.",
       "limitation": "An inquiry is not a market; it may be deliberately unsellable. The Office quotes the statement and does not summarize it.",
       "enabled": true,
-      "match": { "kind": "sourceField", "key": "statement" },
+      "match": {
+        "kind": "sourceField",
+        "key": "statement"
+      },
       "template": "Problem space, as stated in source: “{text}”",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "No artist statement in selected sources. Collection records rarely include one."
+      "missingMessage": "No artist statement in the supplied dataset."
     },
     {
       "id": "STARTUP_FUNDING_TO_PATRONAGE",
       "version": "1.0",
       "sourceEntityType": "startup",
       "targetVocabulary": "art_world",
-      "inputFields": ["events.funding_round"],
+      "inputFields": [
+        "events.funding_round"
+      ],
       "outputLabel": "Financial patronage event",
       "description": "A funding round is reframed through the language of patronage.",
       "rationale": "Both involve external financial support for a proposed future.",
       "limitation": "Venture investment is not equivalent to artistic patronage.",
       "enabled": true,
-      "match": { "kind": "event", "eventType": "funding_round" },
+      "match": {
+        "kind": "event",
+        "eventType": "funding_round"
+      },
       "template": "Financial patronage event: {title}{dateSuffix}",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "Funding history not available in selected sources."
+      "missingMessage": "No funding history in the supplied dataset. The Office records none and infers none."
     },
     {
       "id": "STARTUP_ACCELERATOR_TO_NETWORK",
       "version": "1.0",
       "sourceEntityType": "startup",
       "targetVocabulary": "art_world",
-      "inputFields": ["events.accelerator"],
+      "inputFields": [
+        "events.accelerator"
+      ],
       "outputLabel": "Network validation",
       "description": "Joining an accelerator is reframed as admission to a recognized network, like a residency or a curated group show.",
       "rationale": "Both are selection events in which an institution's name attaches to an emerging practice.",
       "limitation": "Accelerator selection criteria and obligations differ from curatorial ones, and listing in a directory is weaker evidence than being selected in a named year.",
       "enabled": true,
-      "match": { "kind": "event", "eventType": "accelerator" },
+      "match": {
+        "kind": "event",
+        "eventType": "accelerator"
+      },
       "template": "Network validation: {title}{dateSuffix}",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "Accelerator affiliation not recorded in selected sources."
+      "missingMessage": "No accelerator affiliation recorded in the supplied dataset (not proof there was none)."
     },
     {
       "id": "STARTUP_LAUNCH_TO_PREMIERE",
       "version": "1.0",
       "sourceEntityType": "startup",
       "targetVocabulary": "art_world",
-      "inputFields": ["events.product_launch"],
+      "inputFields": [
+        "events.product_launch"
+      ],
       "outputLabel": "Public premiere",
       "description": "A product launch is reframed as the premiere of a work.",
       "rationale": "Both mark the first time something is shown to a public.",
       "limitation": "A product is expected to be iterated and scaled; a premiere is usually a fixed event.",
       "enabled": true,
-      "match": { "kind": "event", "eventType": "product_launch" },
+      "match": {
+        "kind": "event",
+        "eventType": "product_launch"
+      },
       "template": "Public premiere: {title}{dateSuffix}",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "No product launch records included in this dataset."
+      "missingMessage": "No product launch records in the supplied dataset."
     },
     {
       "id": "STARTUP_PITCH_TO_PROPOSITION",
       "version": "1.0",
       "sourceEntityType": "startup",
       "targetVocabulary": "art_world",
-      "inputFields": ["sources.normalizedFields.pitch"],
+      "inputFields": [
+        "sources.normalizedFields.pitch"
+      ],
       "outputLabel": "Curatorial proposition",
       "description": "A company's public description of what it does or will do is reframed as a curatorial proposition.",
       "rationale": "Both are short public statements that ask an audience to imagine a future.",
       "limitation": "Marketing language is not a curatorial argument. The Office quotes the source text and does not infer funding, revenue or traction from it.",
       "enabled": true,
-      "match": { "kind": "sourceField", "key": "pitch" },
+      "match": {
+        "kind": "sourceField",
+        "key": "pitch"
+      },
       "template": "Curatorial proposition, as stated in source: “{text}”",
       "confidenceLabel": "interpretive_mapping",
-      "missingMessage": "No source description available."
+      "missingMessage": "No company-authored pitch text in the supplied dataset. Its summary description was written for the dataset, not by the company, so it is not translated."
     }
   ]
 }

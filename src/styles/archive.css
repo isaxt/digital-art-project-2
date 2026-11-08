@@ -55,9 +55,9 @@
 .ob__x { all: unset; cursor: pointer; color: #fff; padding: 2px 10px; font-size: 16px; border: 1px solid transparent; }
 .ob__x:hover { background: var(--yellow); color: var(--ink); }
 .ob__x:focus-visible { outline: 3px solid var(--yellow); }
-.ob__pane { max-width: 640px; margin: 0 auto; padding: 24px 22px 26px; font-family: Georgia, "Times New Roman", serif; }
+.ob__pane { max-width: 640px; margin: 0 auto; padding: 24px 22px 26px; font-family: var(--font-serif); }
 .ob__eyebrow { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); margin: 0 0 4px; }
-.ob__h1 { font-size: clamp(26px, 5vw, 36px); line-height: 1.1; margin: 0 0 12px; color: var(--blue); font-weight: 400; }
+.ob__h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 5vw, 36px); line-height: 1.1; margin: 0 0 12px; color: var(--blue); font-weight: 400; }
 .ob__h2 { font-family: var(--font-ui); font-size: 15px; color: var(--blue); margin: 20px 0 6px; }
 .ob__lede { font-size: 18px; line-height: 1.55; margin: 0 0 14px; }
 .ob__q { margin: 14px 0; padding: 8px 12px; border-left: 6px solid var(--yellow); background: #fffde0; font-style: italic; font-size: 17px; line-height: 1.5; }

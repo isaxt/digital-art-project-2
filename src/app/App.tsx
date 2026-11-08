@@ -10,7 +10,7 @@ import { useRecords } from "../store/localRecords";
 import type { EntityType } from "../types/entity";
 
 function StatusTicker() {
-  const { ledger, certificates, verification, localCount } = useRecords();
+  const { ledger, certificates, verification, localCount, blocks, mempool } = useRecords();
   const chain = verification === null ? "VERIFYING…" : verification.ok ? "CHAIN OK" : `CHAIN FAILED @${verification.firstFailure + 1}`;
   const cls = verification === null ? "warn" : verification.ok ? "" : "bad";
   return (
@@ -18,6 +18,8 @@ function StatusTicker() {
       <span>RECORDS <b>{String(entities.length).padStart(4, "0")}</b></span>
       <span>CERTIFICATES <b>{String(certificates.length).padStart(4, "0")}</b></span>
       <span>LEDGER EVENTS <b>{String(ledger.length).padStart(6, "0")}</b></span>
+      <span>BLOCK <b>#{blocks.length - 1}</b></span>
+      <span>MEMPOOL <b>{String(mempool.length).padStart(2, "0")}</b></span>
       <span>LOCAL (THIS BROWSER) <b>{String(localCount).padStart(3, "0")}</b></span>
       <span className={cls}>INTEGRITY: {chain}</span>
       <span className="warn">LEDGER TYPE: LOCAL / SIMULATED</span>
@@ -47,6 +49,8 @@ function Rail() {
         <li><NavLink to="/translate">Translation Engine</NavLink></li>
         <li><NavLink to="/certificates">Certificates</NavLink></li>
         <li><NavLink to="/ledger">Public Ledger</NavLink></li>
+        <li><NavLink to="/explorer">Explorer</NavLink></li>
+        <li><NavLink to="/contract">Rules Contract</NavLink></li>
         <li><NavLink to="/archive">Archive</NavLink></li>
         <li><NavLink to="/methods">Methods / Terms</NavLink></li>
       </ul>
@@ -74,7 +78,7 @@ export default function App() {
         <Outlet />
       </div>
       <footer className="foot">
-        {CONFIG.institutionName} · A critical digital artwork · {CONFIG.ledgerLabel} · Rule set v{CONFIG.ruleSetVersion} ·{" "}
+        <span className="seal">{CONFIG.institutionName}</span> · A critical digital artwork · {CONFIG.ledgerLabel} · Rule set v{CONFIG.ruleSetVersion} ·{" "}
         <Link to="/methods">Methods / Terms</Link> ·{" "}
         <a href="#!" onClick={(e) => { e.preventDefault(); openIntro(); }}>Orientation</a>
       </footer>

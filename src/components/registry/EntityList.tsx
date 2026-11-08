@@ -8,7 +8,7 @@ export function EntityList({ items, caption }: { items: Entity[]; caption?: stri
   if (items.length === 0)
     return (
       <p className="panel" style={{ padding: 10 }} role="status">
-        No records match these filters. Nothing is implied about entities outside this small curated dataset.
+        No records match these filters. Nothing is implied about entities outside the supplied datasets.
       </p>
     );
   return (
@@ -20,12 +20,13 @@ export function EntityList({ items, caption }: { items: Entity[]; caption?: stri
             <th scope="col">Record ID</th>
             <th scope="col">Name</th>
             <th scope="col">Type</th>
+            <th scope="col">City</th>
             <th scope="col">Fields recorded</th>
             <th scope="col">Source record</th>
             <th scope="col">Verification</th>
             <th scope="col" className="num">Src</th>
             <th scope="col" className="num">Evt</th>
-            <th scope="col">Updated</th>
+            <th scope="col">Dataset date</th>
           </tr>
         </thead>
         <tbody>
@@ -34,6 +35,7 @@ export function EntityList({ items, caption }: { items: Entity[]; caption?: stri
               <td className="id">{e.id}</td>
               <td><Link to={`/registry/${e.id}`}><b>{e.displayName}</b></Link></td>
               <td>{TYPE_LABEL[e.entityType]}</td>
+              <td>{e.location?.city ?? <span className="muted">n/a</span>}</td>
               <td><Coverage entity={e} /></td>
               <td><span className="badge gray">{completeness(e)}</span></td>
               <td><VerificationBadge status={e.verificationStatus} /></td>

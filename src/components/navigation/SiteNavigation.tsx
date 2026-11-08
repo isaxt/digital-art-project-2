@@ -6,6 +6,8 @@ const PRIMARY = [
   { to: "/translate", label: "Translation Engine" },
   { to: "/certificates", label: "Certificates" },
   { to: "/ledger", label: "Public Ledger" },
+  { to: "/explorer", label: "Explorer" },
+  { to: "/contract", label: "Contract" },
 ];
 
 export function SiteNavigation() {

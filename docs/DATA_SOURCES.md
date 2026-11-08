@@ -1,31 +1,35 @@
 # Data sources
 
-## In the current dataset (retrieved 2026-11-05)
+## The Registry's only data sources
 
-| Provider | Used for | Notes |
+| File (src/data/raw/, unchanged) | Contents | Notes |
 |---|---|---|
-| The Met: exhibition listing, three collection pages | Kara Walker records; Met as institution | Page content read via automated summary; not yet human-verified. One collection page's credit line names a private collection, so it is NOT recorded as a Met holding. One is a library catalogue entry for a book. |
-| Y Combinator company directory (airbnb, dropbox, aesthetic) | Startup description line, founded year, location, directory listing | Batch/cohort is not shown on these pages and is not recorded. Team size is volatile and stored "as listed at retrieval". |
-| TechCrunch article, 2012-03-21 | EveryArt | Headline only; states no funding amount. One press source, so `needs_review`. |
+| `nyc_sf_contemporary_galleries.json` | 45 galleries / art spaces in NYC and San Francisco; partial artist rosters; current exhibitions | Statuses (`verified` / `not_yet_parsed`) are carried over as supplied. Empty roster = not yet parsed, not "no artists". Perrotin's roster is a partial extraction (its note says 73 represented artists). |
+| `nyc_sf_startups.json` | 99 startups with sector, accelerator, batch, location, website | Descriptions are summaries written for the dataset. Batch is "recorded from known program history". Directory links are city/portfolio level. Location is a city association, not a verified HQ claim. |
 
-Pages that could not be fetched during the build (not used, nothing inferred): Art Institute of Chicago API and pages, Met API, Wikidata, Y Combinator pages for Stripe, Twitch and Reddit.
+## How they are imported (`npm run data:import`)
 
-## Adapters
+- Galleries, startups: one entity each, original ID and name kept. The duplicate ID `hashimoto_contemporary` becomes two records with the city appended.
+- Source records: one per supplied URL (website, roster page, exhibitions page, accelerator directory), each with the dataset's own status and notes.
+- Events: current exhibitions (title, dates, venue, participants as listed); accelerator affiliation (with batch only if supplied, never dated); roster listings on artist records.
+- Artists: derived only from exact names in parsed rosters / exhibition listings. "Group exhibition" placeholders are skipped. No biography, ID or relationship terms exist in the data, so none are shown.
+- Never inferred: batches, dates, locations/HQ, representation, funding, valuation.
+
+## Parked
+
+`src/data/_unverified_pre_dataset/`: seven earlier records from automated page summaries. Not loaded.
+
+## Adapters (not part of the Registry)
 
 | Adapter | State |
 |---|---|
-| `src/ingestion/fetchArtInstitute.ts` | Written from the public docs, mocked-network tests only |
-| `src/ingestion/fetchMetMuseum.ts` | Written from the public docs, mocked-network tests only |
-| Wikidata (SPARQL, narrow queries) | Not built |
-| SEC EDGAR (descriptive User-Agent, caching) | Not built |
-| Companies House (API key via env) | Not built |
+| `src/ingestion/fetchArtInstitute.ts`, `fetchMetMuseum.ts` | Written from public docs, mocked-network tests only; output is candidate-only and never enters the Registry automatically |
+| Wikidata, SEC EDGAR, Companies House | Not built |
 
-Adapters return normalized candidates only. `npm run ingest` writes `data/ingested/candidates.json`; nothing enters the Registry without manual promotion, and imported records start as `needs_review`.
+## Rules for adding records later
 
-## Rules for adding records
-
-1. Every fact needs a `sourceUrl` and `retrievedAt`. Quote excerpts verbatim and briefly.
-2. Do not infer funding, revenue, traction or affiliation from marketing language.
-3. Record the source's own event category in `originalEventType`.
-4. Do not store personal contact information or images without checking terms.
+1. Real entities from an identifiable source; every fact has a `sourceUrl` and a date.
+2. Record the source's own category in `originalEventType`; keep verification status explicit.
+3. Do not infer funding, revenue, representation, batches or locations.
+4. No personal contact information or images without checking terms.
 5. Run `npm run data:validate`, then `npm run data:build`.

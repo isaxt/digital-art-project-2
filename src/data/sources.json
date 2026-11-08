@@ -1,176 +1,4396 @@
 [
-  {
-    "id": "SRC-0001",
-    "entityId": "OCF-0001",
-    "provider": "The Metropolitan Museum of Art — exhibition listing",
-    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2006/kara-walker",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Kara Walker at the Met: After the Deluge",
-    "sourceExcerpt": "In the wake of Hurricane Katrina, contemporary American artist Kara Walker",
-    "normalizedFields": {
-      "exhibitionTitle": "Kara Walker at the Met: After the Deluge",
-      "startDate": "2006-03-21",
-      "endDate": "2006-08-06"
-    },
-    "reuseNotes": "Short factual fields and one brief excerpt for attribution. No images stored. Check Met terms before any wider reuse.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "Retrieved through an automated page summary on the retrieval date. Dates and title should be confirmed by a person against the live page. The page does not state which gallery hosted the show, so none is recorded."
+ {
+  "id": "src:david_zwirner:website",
+  "entityId": "david_zwirner",
+  "provider": "David Zwirner — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.davidzwirner.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "David Zwirner",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
   },
-  {
-    "id": "SRC-0002",
-    "entityId": "OCF-0001",
-    "provider": "The Metropolitan Museum of Art — collection (library catalogue)",
-    "providerRecordId": "857096",
-    "sourceUrl": "https://www.metmuseum.org/art/collection/search/857096",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Kara Walker : a black hole is everything a star longs to be",
-    "normalizedFields": {
-      "objectTitle": "Kara Walker : a black hole is everything a star longs to be",
-      "artist": "Kara Walker (American, born Stockton, California, 1969)",
-      "date": "2020",
-      "format": "598 pages : many illustrations (chiefly color) ; Height: 11 in. (28 cm)",
-      "department": "Thomas J. Watson Library",
-      "objectNumber": "C 005555",
-      "idSource": "Object ID taken from the page URL; the page does not label it."
-    },
-    "reuseNotes": "Catalogue metadata only.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "This is a library catalogue record for a book, not an artwork in the art collection. Kept deliberately: it is a record about the artist that no startup rule can honestly translate."
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:david_zwirner:exhibitions",
+  "entityId": "david_zwirner",
+  "provider": "David Zwirner — exhibitions page",
+  "sourceUrl": "https://www.davidzwirner.com/exhibitions",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 2,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
   },
-  {
-    "id": "SRC-0003",
-    "entityId": "OCF-0001",
-    "provider": "The Metropolitan Museum of Art — collection page",
-    "providerRecordId": "898074",
-    "sourceUrl": "https://www.metmuseum.org/art/collection/search/898074",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Untitled (Study for A Subtlety, or the Marvelous Sugar Baby)",
-    "normalizedFields": {
-      "objectTitle": "Untitled (Study for A Subtlety, or the Marvelous Sugar Baby)",
-      "date": "2013–14",
-      "medium": "Charcoal on paper",
-      "department": "Modern and Contemporary Art",
-      "creditLine": "Collection of Richard and Michelle Jeschelnig"
-    },
-    "reuseNotes": "Catalogue metadata only.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "The credit line names a private collection, so this page is NOT evidence that the Met holds the work. It is recorded as a source about the work, not as an acquisition."
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:gagosian:website",
+  "entityId": "gagosian",
+  "provider": "Gagosian — official website (URL supplied in dataset)",
+  "sourceUrl": "https://gagosian.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Gagosian",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
   },
-  {
-    "id": "SRC-0004",
-    "entityId": "OCF-0001",
-    "provider": "The Metropolitan Museum of Art — collection page",
-    "providerRecordId": "846944",
-    "sourceUrl": "https://www.metmuseum.org/art/collection/search/846944",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Negress",
-    "normalizedFields": {
-      "objectTitle": "Negress",
-      "medium": "Plaster"
-    },
-    "reuseNotes": "Catalogue metadata only. Title reproduced as printed on the source page.",
-    "verificationStatus": "needs_review",
-    "reviewNote": "The automated summary did not return date, accession number or credit line, so only title and medium are recorded. A person should open the page and complete the record. Whether this is an acquisition is not established, so no acquisition event is recorded."
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:gagosian:exhibitions",
+  "entityId": "gagosian",
+  "provider": "Gagosian — exhibitions page",
+  "sourceUrl": "https://gagosian.com/exhibitions/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 2,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
   },
-  {
-    "id": "SRC-0005",
-    "entityId": "OCF-0002",
-    "provider": "Y Combinator company directory",
-    "sourceUrl": "https://www.ycombinator.com/companies/airbnb",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Airbnb: Book accommodations around the world. | Y Combinator",
-    "sourceExcerpt": "Book accommodations around the world.",
-    "normalizedFields": {
-      "pitch": "Book accommodations around the world.",
-      "foundedYear": "2008",
-      "location": "San Francisco",
-      "teamSizeAsListed": 6132
-    },
-    "reuseNotes": "Short factual fields only. Review ycombinator.com terms before wider reuse. Team size is volatile and shown as listed at retrieval.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "Retrieved through an automated page summary. Batch/cohort is not shown on the page and is not recorded."
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:pace_gallery:website",
+  "entityId": "pace_gallery",
+  "provider": "Pace Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.pacegallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Pace Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
   },
-  {
-    "id": "SRC-0006",
-    "entityId": "OCF-0003",
-    "provider": "Y Combinator company directory",
-    "sourceUrl": "https://www.ycombinator.com/companies/dropbox",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Dropbox | Y Combinator",
-    "sourceExcerpt": "Backup and share files in the cloud.",
-    "normalizedFields": {
-      "pitch": "Backup and share files in the cloud.",
-      "foundedYear": "2008",
-      "location": "San Francisco",
-      "teamSizeAsListed": 4000
-    },
-    "reuseNotes": "Short factual fields only. Review ycombinator.com terms before wider reuse.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "Retrieved through an automated page summary. Batch/cohort is not shown on the page and is not recorded."
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:pace_gallery:exhibitions",
+  "entityId": "pace_gallery",
+  "provider": "Pace Gallery — exhibitions page",
+  "sourceUrl": "https://www.pacegallery.com/exhibitions/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 3,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
   },
-  {
-    "id": "SRC-0007",
-    "entityId": "OCF-0004",
-    "provider": "Y Combinator company directory",
-    "sourceUrl": "https://www.ycombinator.com/companies/aesthetic",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Aesthetic | Y Combinator",
-    "sourceExcerpt": "Your AI-powered creative apprentice 🪄",
-    "normalizedFields": {
-      "pitch": "Your AI-powered creative apprentice 🪄",
-      "foundedYear": "2018",
-      "location": "New York City",
-      "teamSizeAsListed": 4
-    },
-    "reuseNotes": "Short factual fields only. Review ycombinator.com terms before wider reuse.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "Retrieved through an automated page summary. Batch/cohort is not shown on the page and is not recorded."
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:hauser_and_wirth:website",
+  "entityId": "hauser_and_wirth",
+  "provider": "Hauser & Wirth — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hauserwirth.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Hauser & Wirth",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
   },
-  {
-    "id": "SRC-0008",
-    "entityId": "OCF-0005",
-    "provider": "TechCrunch (press article)",
-    "sourceUrl": "https://techcrunch.com/2012/03/21/with-everyart-you-dont-have-to-be-afraid-of-commissioning-art/",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "publishedAt": "2012-03-21",
-    "sourceTitle": "With Y Combinator-Backed EveryArt, You Don't Have To Be Afraid Of Commissioning Art",
-    "sourceExcerpt": "With Y Combinator-Backed EveryArt, You Don't Have To Be Afraid Of Commissioning Art",
-    "normalizedFields": {
-      "headline": "With Y Combinator-Backed EveryArt, You Don't Have To Be Afraid Of Commissioning Art",
-      "author": "Anthony Ha",
-      "publishedDate": "2012-03-21",
-      "statesFundingAmount": false
-    },
-    "reuseNotes": "Headline quoted for attribution. Article text not reproduced.",
-    "verificationStatus": "needs_review",
-    "reviewNote": "A single press article, not a company-supplied or registry source. The article calls EveryArt a 'Y Combinator-backed startup' and states no funding amount or investors. Whether the company still operates is not established here."
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:gladstone_gallery:website",
+  "entityId": "gladstone_gallery",
+  "provider": "Gladstone Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.gladstonegallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Gladstone Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
   },
-  {
-    "id": "SRC-0009",
-    "entityId": "OCF-0006",
-    "provider": "The Metropolitan Museum of Art — exhibition listing",
-    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2006/kara-walker",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Kara Walker at the Met: After the Deluge",
-    "normalizedFields": {
-      "institutionName": "The Metropolitan Museum of Art"
-    },
-    "reuseNotes": "Name only.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "Registered as the publisher of the art-side records. Would be strengthened by a Wikidata QID once the Wikidata adapter is run."
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:white_cube:website",
+  "entityId": "white_cube",
+  "provider": "White Cube — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.whitecube.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "White Cube",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
   },
-  {
-    "id": "SRC-0010",
-    "entityId": "OCF-0007",
-    "provider": "Y Combinator company directory",
-    "sourceUrl": "https://www.ycombinator.com/companies/airbnb",
-    "retrievedAt": "2026-11-05T00:00:00Z",
-    "sourceTitle": "Airbnb: Book accommodations around the world. | Y Combinator",
-    "normalizedFields": {
-      "directoryName": "Y Combinator company directory"
-    },
-    "reuseNotes": "Name only.",
-    "verificationStatus": "partially_verified",
-    "reviewNote": "Registered as the publisher of the startup-side records."
-  }
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:303_gallery:website",
+  "entityId": "303_gallery",
+  "provider": "303 Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.303gallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "303 Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:luhring_augustine:website",
+  "entityId": "luhring_augustine",
+  "provider": "Luhring Augustine — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.luhringaugustine.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Luhring Augustine",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:james_cohan:website",
+  "entityId": "james_cohan",
+  "provider": "James Cohan — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.jamescohan.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "James Cohan",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:james_fuentes:website",
+  "entityId": "james_fuentes",
+  "provider": "James Fuentes — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.jamesfuentes.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "James Fuentes",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:canada:website",
+  "entityId": "canada",
+  "provider": "Canada — official website (URL supplied in dataset)",
+  "sourceUrl": "https://canadanewyork.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Canada",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:alexander_gray_associates:website",
+  "entityId": "alexander_gray_associates",
+  "provider": "Alexander Gray Associates — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.alexandergray.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Alexander Gray Associates",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:hannah_traore_gallery:website",
+  "entityId": "hannah_traore_gallery",
+  "provider": "Hannah Traore Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hannahtraoregallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Hannah Traore Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:hesse_flatow:website",
+  "entityId": "hesse_flatow",
+  "provider": "HESSE FLATOW — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hesseflatow.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "HESSE FLATOW",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:transmitter:website",
+  "entityId": "transmitter",
+  "provider": "Transmitter — official website (URL supplied in dataset)",
+  "sourceUrl": "https://transmitter.nyc/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Transmitter",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:the_journal_gallery:website",
+  "entityId": "the_journal_gallery",
+  "provider": "The Journal Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.thejournalgallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "The Journal Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:hashimoto_contemporary--new-york:website",
+  "entityId": "hashimoto_contemporary--new-york",
+  "provider": "Hashimoto Contemporary — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hashimotocontemporary.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Hashimoto Contemporary",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:shrine:website",
+  "entityId": "shrine",
+  "provider": "SHRINE — official website (URL supplied in dataset)",
+  "sourceUrl": "https://shrinenyc.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "SHRINE",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:harkawik:website",
+  "entityId": "harkawik",
+  "provider": "Harkawik — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.harkawik.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Harkawik",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:uffner_and_liu:website",
+  "entityId": "uffner_and_liu",
+  "provider": "Uffner & Liu — official website (URL supplied in dataset)",
+  "sourceUrl": "https://uffnerliu.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Uffner & Liu",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:marian_goodman_gallery:website",
+  "entityId": "marian_goodman_gallery",
+  "provider": "Marian Goodman Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.mariangoodman.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Marian Goodman Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:marian_goodman_gallery:exhibitions",
+  "entityId": "marian_goodman_gallery",
+  "provider": "Marian Goodman Gallery — exhibitions page",
+  "sourceUrl": "https://www.mariangoodman.com/exhibitions/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 1,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:perrotin:website",
+  "entityId": "perrotin",
+  "provider": "Perrotin — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.perrotin.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Perrotin",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:perrotin:roster",
+  "entityId": "perrotin",
+  "provider": "Perrotin — artist roster page",
+  "sourceUrl": "https://www.perrotin.com/en/artists",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Artist roster (as parsed in the supplied dataset)",
+  "normalizedFields": {
+   "artistRoster": [
+    "Paul Pfeiffer",
+    "Pieter Vermeersch",
+    "Alma Allen",
+    "Lee Bae",
+    "Jean-Marie Appriou",
+    "Iván Argote",
+    "Hernan Bas",
+    "Anna-Eva Bergman",
+    "Sophie Calle",
+    "Maurizio Cattelan",
+    "Johan Creten",
+    "Jean-Philippe Delhomme",
+    "Wim Delvoye",
+    "Mathilde Denize",
+    "Bernard Frize",
+    "Nick Goss",
+    "Laurent Grasso",
+    "Hans Hartung",
+    "Jeppe Hein",
+    "Thilo Heinzmann",
+    "Klara Kristalova",
+    "Holly Lowen",
+    "Jean-Michel Othoniel",
+    "Christiane Pooley",
+    "Jesús Rafael Soto",
+    "Pierre Soulages",
+    "Josh Sperling",
+    "Xavier Veilhan",
+    "Bernar Venet"
+   ],
+   "rosterStatus": "verified",
+   "rosterCount": 29
+  },
+  "reuseNotes": "Names only, as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: artist_roster = verified. Dataset note: Partial extraction of visible roster; official site states 73 represented artists plus 26 collaborators."
+ },
+ {
+  "id": "src:matthew_marks_gallery:website",
+  "entityId": "matthew_marks_gallery",
+  "provider": "Matthew Marks Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://matthewmarks.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Matthew Marks Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:matthew_marks_gallery:exhibitions",
+  "entityId": "matthew_marks_gallery",
+  "provider": "Matthew Marks Gallery — exhibitions page",
+  "sourceUrl": "https://matthewmarks.com/exhibitions/current",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 3,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:tanya_bonakdar_gallery:website",
+  "entityId": "tanya_bonakdar_gallery",
+  "provider": "Tanya Bonakdar Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.tanyabonakdargallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Tanya Bonakdar Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:tanya_bonakdar_gallery:roster",
+  "entityId": "tanya_bonakdar_gallery",
+  "provider": "Tanya Bonakdar Gallery — artist roster page",
+  "sourceUrl": "https://www.tanyabonakdargallery.com/artists/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Artist roster (as parsed in the supplied dataset)",
+  "normalizedFields": {
+   "artistRoster": [
+    "Uta Barth",
+    "Math Bass",
+    "Nathalie Djurberg & Hans Berg",
+    "Monica Bonvicini",
+    "Martin Boyce",
+    "Sandra Cinto",
+    "Phil Collins",
+    "Mark Dion",
+    "Olafur Eliasson",
+    "Meschac Gaba",
+    "Shilpa Gupta",
+    "Rodrigo Hernández",
+    "Sabine Hornig",
+    "Teresa Hubbard & Alexander Birchler",
+    "Jónsi",
+    "Kimsooja",
+    "Carla Klein",
+    "Laura Lima",
+    "Liu Shiyuan",
+    "Charles Long",
+    "Rita Lundqvist",
+    "Mark Manders",
+    "Yuko Mohri",
+    "Ernesto Neto",
+    "Rivane Neuenschwander",
+    "Karyn Olivier",
+    "Lisa Oppenheim",
+    "Susan Philipsz",
+    "Amalia Pica",
+    "Dana Powell",
+    "Magali Reus",
+    "Sherrill Roland",
+    "Analia Saban",
+    "Tomás Saraceno",
+    "Thomas Scheibitz",
+    "Slavs and Tatars",
+    "Hannah Starkey",
+    "Haim Steinbach",
+    "Dirk Stewen",
+    "Sarah Sze",
+    "Sandra Vásquez de la Horra",
+    "Gillian Wearing",
+    "Nicole Wermers",
+    "Lisa Williamson",
+    "Wong Ping"
+   ],
+   "rosterStatus": "verified",
+   "rosterCount": 45
+  },
+  "reuseNotes": "Names only, as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: artist_roster = verified."
+ },
+ {
+  "id": "src:tanya_bonakdar_gallery:exhibitions",
+  "entityId": "tanya_bonakdar_gallery",
+  "provider": "Tanya Bonakdar Gallery — exhibitions page",
+  "sourceUrl": "https://www.tanyabonakdargallery.com/exhibitions/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 2,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:bortolami:website",
+  "entityId": "bortolami",
+  "provider": "Bortolami — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.bortolamigallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Bortolami",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:bortolami:exhibitions",
+  "entityId": "bortolami",
+  "provider": "Bortolami — exhibitions page",
+  "sourceUrl": "https://www.bortolamigallery.com/exhibitions",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 2,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:ppow:website",
+  "entityId": "ppow",
+  "provider": "P·P·O·W — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.ppowgallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "P·P·O·W",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:ppow:exhibitions",
+  "entityId": "ppow",
+  "provider": "P·P·O·W — exhibitions page",
+  "sourceUrl": "https://www.ppowgallery.com/exhibitions",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 2,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:sargents_daughters:website",
+  "entityId": "sargents_daughters",
+  "provider": "Sargent's Daughters — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.sargentsdaughters.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Sargent's Daughters",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:sargents_daughters:exhibitions",
+  "entityId": "sargents_daughters",
+  "provider": "Sargent's Daughters — exhibitions page",
+  "sourceUrl": "https://www.sargentsdaughters.com/exhibitions",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 1,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:nicelle_beauchene_gallery:website",
+  "entityId": "nicelle_beauchene_gallery",
+  "provider": "Nicelle Beauchene Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://nicellebeauchene.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Nicelle Beauchene Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:nicelle_beauchene_gallery:exhibitions",
+  "entityId": "nicelle_beauchene_gallery",
+  "provider": "Nicelle Beauchene Gallery — exhibitions page",
+  "sourceUrl": "https://nicellebeauchene.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 1,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:participant_inc:website",
+  "entityId": "participant_inc",
+  "provider": "Participant Inc. — official website (URL supplied in dataset)",
+  "sourceUrl": "https://participantinc.org/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Participant Inc.",
+  "normalizedFields": {
+   "category": "nonprofit_contemporary_art_space",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:kiang_malingue:website",
+  "entityId": "kiang_malingue",
+  "provider": "Kiang Malingue — official website (URL supplied in dataset)",
+  "sourceUrl": "https://kiangmalingue.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Kiang Malingue",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "New York",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:kiang_malingue:roster",
+  "entityId": "kiang_malingue",
+  "provider": "Kiang Malingue — artist roster page",
+  "sourceUrl": "https://kiangmalingue.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Artist roster (as parsed in the supplied dataset)",
+  "normalizedFields": {
+   "artistRoster": [
+    "Eric Baudart",
+    "Grace Carney",
+    "Chang Ya Chin",
+    "Cho Yong-Ik",
+    "Chou Yu-Cheng",
+    "Tiffany Chung",
+    "Cui Xinming",
+    "Ho Tzu Nyen",
+    "Brook Hsu",
+    "Ko Sin Tung",
+    "Kwan Sheung Chi",
+    "Kyung-Me",
+    "Lai Chih-Sheng",
+    "Phillip Lai",
+    "Liu Yin",
+    "Fabien Mérelle",
+    "Miao Ying",
+    "Nabuqi",
+    "Ellen Pau",
+    "Thảo Nguyên Phan",
+    "Homer Shew",
+    "Tao Hui",
+    "Tromarama",
+    "Trương Công Tùng",
+    "Tseng Chien-Ying",
+    "Su-Mei Tse",
+    "Wang Zhibo",
+    "Wang Wei",
+    "Apichatpong Weerasethakul",
+    "Wong Ping",
+    "Carrie Yamaoka",
+    "Hiroka Yamashita",
+    "Yang Chi-Chuan",
+    "Yeung Hok Tak",
+    "Samson Young",
+    "Yu Ji",
+    "Yuan Yuan",
+    "Zheng Bo",
+    "Zheng Zhou"
+   ],
+   "rosterStatus": "verified",
+   "rosterCount": 39
+  },
+  "reuseNotes": "Names only, as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: artist_roster = verified. Dataset note: Gallery has spaces in Hong Kong and New York; verify location before associating an exhibition with NYC."
+ },
+ {
+  "id": "src:hosfelt_gallery:website",
+  "entityId": "hosfelt_gallery",
+  "provider": "Hosfelt Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://hosfeltgallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Hosfelt Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:hosfelt_gallery:exhibitions",
+  "entityId": "hosfelt_gallery",
+  "provider": "Hosfelt Gallery — exhibitions page",
+  "sourceUrl": "https://hosfeltgallery.com/exhibitions",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 2,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:berggruen_gallery:website",
+  "entityId": "berggruen_gallery",
+  "provider": "Berggruen Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.berggruen.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Berggruen Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:berggruen_gallery:exhibitions",
+  "entityId": "berggruen_gallery",
+  "provider": "Berggruen Gallery — exhibitions page",
+  "sourceUrl": "https://berggruen.com/exhibitions",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 2,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:modernism_inc:website",
+  "entityId": "modernism_inc",
+  "provider": "Modernism Inc. — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.modernisminc.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Modernism Inc.",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:fraenkel_gallery:website",
+  "entityId": "fraenkel_gallery",
+  "provider": "Fraenkel Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://fraenkelgallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Fraenkel Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:catharine_clark_gallery:website",
+  "entityId": "catharine_clark_gallery",
+  "provider": "Catharine Clark Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://cclarkgallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Catharine Clark Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:jessica_silverman:website",
+  "entityId": "jessica_silverman",
+  "provider": "Jessica Silverman — official website (URL supplied in dataset)",
+  "sourceUrl": "https://jessicasilvermangallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Jessica Silverman",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:hashimoto_contemporary--san-francisco:website",
+  "entityId": "hashimoto_contemporary--san-francisco",
+  "provider": "Hashimoto Contemporary — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hashimotocontemporary.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Hashimoto Contemporary",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:gallery_16:website",
+  "entityId": "gallery_16",
+  "provider": "Gallery 16 — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.gallery16.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Gallery 16",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:rena_bransten_gallery:website",
+  "entityId": "rena_bransten_gallery",
+  "provider": "Rena Bransten Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://renabranstengallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Rena Bransten Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:altman_siegel:website",
+  "entityId": "altman_siegel",
+  "provider": "Altman Siegel — official website (URL supplied in dataset)",
+  "sourceUrl": "https://altmansiegel.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Altman Siegel",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:rebecca_camacho_presents:website",
+  "entityId": "rebecca_camacho_presents",
+  "provider": "Rebecca Camacho Presents — official website (URL supplied in dataset)",
+  "sourceUrl": "https://rebeccacamacho.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Rebecca Camacho Presents",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:et_al:website",
+  "entityId": "et_al",
+  "provider": "Et al. — official website (URL supplied in dataset)",
+  "sourceUrl": "https://etaletc.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Et al.",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:cushion_works:website",
+  "entityId": "cushion_works",
+  "provider": "Cushion Works — official website (URL supplied in dataset)",
+  "sourceUrl": "https://cushionworks.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Cushion Works",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:haines_gallery:website",
+  "entityId": "haines_gallery",
+  "provider": "Haines Gallery — official website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hainesgallery.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Haines Gallery",
+  "normalizedFields": {
+   "category": "contemporary_gallery",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:haines_gallery:exhibitions",
+  "entityId": "haines_gallery",
+  "provider": "Haines Gallery — exhibitions page",
+  "sourceUrl": "https://www.hainesgallery.com/exhibitions/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Exhibitions listed as current when checked",
+  "normalizedFields": {
+   "currentExhibitionCount": 1,
+   "exhibitionsStatus": "verified",
+   "lastChecked": "2026-11-07"
+  },
+  "reuseNotes": "Titles, dates, venues and artist names as listed in the supplied dataset.",
+  "verificationStatus": "verified",
+  "reviewNote": "Dataset status: current_exhibitions = verified; last_checked 2026-11-07. A listing \"current\" on that date may have since closed."
+ },
+ {
+  "id": "src:minnesota_street_project:website",
+  "entityId": "minnesota_street_project",
+  "provider": "Minnesota Street Project — official website (URL supplied in dataset)",
+  "sourceUrl": "https://minnesotastreetproject.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Minnesota Street Project",
+  "normalizedFields": {
+   "category": "gallery_campus_collective",
+   "city": "San Francisco",
+   "country": "United States"
+  },
+  "reuseNotes": "Link only. No page content stored.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL but makes no verification claim about the page itself."
+ },
+ {
+  "id": "src:ramp:website",
+  "entityId": "ramp",
+  "provider": "Ramp — company website (URL supplied in dataset)",
+  "sourceUrl": "https://ramp.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Ramp",
+  "normalizedFields": {
+   "description": "Corporate finance platform for spend management, cards, bill pay, and financial operations.",
+   "sector": [
+    "Fintech",
+    "B2B SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:ramp:accelerator",
+  "entityId": "ramp",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W20",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:odeko:website",
+  "entityId": "odeko",
+  "provider": "Odeko — company website (URL supplied in dataset)",
+  "sourceUrl": "https://odeko.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Odeko",
+  "normalizedFields": {
+   "description": "Operating platform and supply-chain services for independent coffee shops and cafes.",
+   "sector": [
+    "Commerce",
+    "Logistics",
+    "SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:odeko:accelerator",
+  "entityId": "odeko",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S19",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:scentbird:website",
+  "entityId": "scentbird",
+  "provider": "Scentbird — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.scentbird.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Scentbird",
+  "normalizedFields": {
+   "description": "Subscription service for discovering and sampling fragrances.",
+   "sector": [
+    "Consumer",
+    "E-commerce"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:scentbird:accelerator",
+  "entityId": "scentbird",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S15",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:codecademy:website",
+  "entityId": "codecademy",
+  "provider": "Codecademy — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.codecademy.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Codecademy",
+  "normalizedFields": {
+   "description": "Interactive online platform for learning programming and technical skills.",
+   "sector": [
+    "Education",
+    "EdTech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:codecademy:accelerator",
+  "entityId": "codecademy",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S11",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:vimeo:website",
+  "entityId": "vimeo",
+  "provider": "Vimeo — company website (URL supplied in dataset)",
+  "sourceUrl": "https://vimeo.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Vimeo",
+  "normalizedFields": {
+   "description": "Video hosting, creation, and collaboration platform for businesses and creators.",
+   "sector": [
+    "Media",
+    "SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:vimeo:accelerator",
+  "entityId": "vimeo",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S06",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:the-muse:website",
+  "entityId": "the-muse",
+  "provider": "The Muse — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.themuse.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "The Muse",
+  "normalizedFields": {
+   "description": "Career platform connecting job seekers with employers and workplace information.",
+   "sector": [
+    "HR Tech",
+    "Marketplace"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:the-muse:accelerator",
+  "entityId": "the-muse",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W12",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:vow-to-be-chic:website",
+  "entityId": "vow-to-be-chic",
+  "provider": "Vow to be Chic — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.vowtobechic.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Vow to be Chic",
+  "normalizedFields": {
+   "description": "Online rental service for bridesmaid dresses and formalwear.",
+   "sector": [
+    "Consumer",
+    "E-commerce"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:vow-to-be-chic:accelerator",
+  "entityId": "vow-to-be-chic",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W13",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:lendkey:website",
+  "entityId": "lendkey",
+  "provider": "LendKey — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.lendkey.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "LendKey",
+  "normalizedFields": {
+   "description": "Digital lending platform connecting borrowers with community banks and credit unions.",
+   "sector": [
+    "Fintech",
+    "Lending"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:lendkey:accelerator",
+  "entityId": "lendkey",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S09",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:knotel:website",
+  "entityId": "knotel",
+  "provider": "Knotel — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.knotel.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Knotel",
+  "normalizedFields": {
+   "description": "Flexible workspace provider offering office space and workplace services.",
+   "sector": [
+    "Real Estate",
+    "PropTech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:knotel:accelerator",
+  "entityId": "knotel",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W16",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:justworks:website",
+  "entityId": "justworks",
+  "provider": "Justworks — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.justworks.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Justworks",
+  "normalizedFields": {
+   "description": "HR, payroll, benefits, and compliance platform for small and midsize businesses.",
+   "sector": [
+    "HR Tech",
+    "SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:justworks:accelerator",
+  "entityId": "justworks",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S12",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:almanac:website",
+  "entityId": "almanac",
+  "provider": "Almanac — company website (URL supplied in dataset)",
+  "sourceUrl": "https://almanac.io/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Almanac",
+  "normalizedFields": {
+   "description": "Collaborative workspace for teams to create and manage documents and workflows.",
+   "sector": [
+    "Productivity",
+    "SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:almanac:accelerator",
+  "entityId": "almanac",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W19",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:alinea:website",
+  "entityId": "alinea",
+  "provider": "Alinea — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.alinea-invest.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Alinea",
+  "normalizedFields": {
+   "description": "Consumer investing platform designed to make investing more approachable.",
+   "sector": [
+    "Fintech",
+    "Consumer"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:alinea:accelerator",
+  "entityId": "alinea",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W21",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:abacum:website",
+  "entityId": "abacum",
+  "provider": "Abacum — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.abacum.ai/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Abacum",
+  "normalizedFields": {
+   "description": "Financial planning and analysis software for finance teams.",
+   "sector": [
+    "Fintech",
+    "B2B SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:abacum:accelerator",
+  "entityId": "abacum",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W21",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:hadrius:website",
+  "entityId": "hadrius",
+  "provider": "Hadrius — company website (URL supplied in dataset)",
+  "sourceUrl": "https://hadrius.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Hadrius",
+  "normalizedFields": {
+   "description": "Compliance automation platform for financial services firms.",
+   "sector": [
+    "Fintech",
+    "RegTech",
+    "AI"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:hadrius:accelerator",
+  "entityId": "hadrius",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W23",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:avoca:website",
+  "entityId": "avoca",
+  "provider": "Avoca — company website (URL supplied in dataset)",
+  "sourceUrl": "https://avoca.ai/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Avoca",
+  "normalizedFields": {
+   "description": "AI-powered voice agents that automate sales and customer conversations.",
+   "sector": [
+    "AI",
+    "Sales Tech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:avoca:accelerator",
+  "entityId": "avoca",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W23",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:concourse:website",
+  "entityId": "concourse",
+  "provider": "Concourse — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.concourse.co/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Concourse",
+  "normalizedFields": {
+   "description": "AI agents for finance teams, helping automate analysis and recurring workflows.",
+   "sector": [
+    "AI",
+    "Fintech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:concourse:accelerator",
+  "entityId": "concourse",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W23",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:allia-health:website",
+  "entityId": "allia-health",
+  "provider": "Allia Health — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.alliahealth.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Allia Health",
+  "normalizedFields": {
+   "description": "AI-native mental health care provider and clinical services platform.",
+   "sector": [
+    "Healthcare",
+    "AI"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:allia-health:accelerator",
+  "entityId": "allia-health",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S26",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:litmus:website",
+  "entityId": "litmus",
+  "provider": "Litmus — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.litmus.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Litmus",
+  "normalizedFields": {
+   "description": "Software for evaluating and testing AI systems with human-centered assessments.",
+   "sector": [
+    "AI",
+    "Developer Tools"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:litmus:accelerator",
+  "entityId": "litmus",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/new-york",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S26",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:titan:website",
+  "entityId": "titan",
+  "provider": "Titan — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.titan.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Titan",
+  "normalizedFields": {
+   "description": "Wealth-management platform designed for individual investors.",
+   "sector": [
+    "Fintech",
+    "Wealth Management"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:titan:accelerator",
+  "entityId": "titan",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:profound:website",
+  "entityId": "profound",
+  "provider": "Profound — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.tryprofound.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Profound",
+  "normalizedFields": {
+   "description": "Analytics and optimization platform for how brands appear in AI-powered search.",
+   "sector": [
+    "AI",
+    "Marketing Tech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:profound:accelerator",
+  "entityId": "profound",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:ironsite:website",
+  "entityId": "ironsite",
+  "provider": "Ironsite — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.ironsite.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Ironsite",
+  "normalizedFields": {
+   "description": "AI-based platform designed to improve construction-site safety and operational insight.",
+   "sector": [
+    "Construction Tech",
+    "AI"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:ironsite:accelerator",
+  "entityId": "ironsite",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:the-sentience-company:website",
+  "entityId": "the-sentience-company",
+  "provider": "The Sentience Company — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.sentience.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "The Sentience Company",
+  "normalizedFields": {
+   "description": "Personalized AI simulations designed to model an individual's knowledge and judgment.",
+   "sector": [
+    "AI",
+    "Research"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:the-sentience-company:accelerator",
+  "entityId": "the-sentience-company",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:clay:website",
+  "entityId": "clay",
+  "provider": "Clay — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.clay.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Clay",
+  "normalizedFields": {
+   "description": "Go-to-market data enrichment and workflow automation platform for sales teams.",
+   "sector": [
+    "Sales Tech",
+    "Data",
+    "SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:runway:website",
+  "entityId": "runway",
+  "provider": "Runway — company website (URL supplied in dataset)",
+  "sourceUrl": "https://runwayml.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Runway",
+  "normalizedFields": {
+   "description": "Generative AI tools for video, image, and creative media production.",
+   "sector": [
+    "AI",
+    "Creative Tools",
+    "Media"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:elevenlabs:website",
+  "entityId": "elevenlabs",
+  "provider": "ElevenLabs — company website (URL supplied in dataset)",
+  "sourceUrl": "https://elevenlabs.io/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "ElevenLabs",
+  "normalizedFields": {
+   "description": "AI voice generation, speech synthesis, and audio tools.",
+   "sector": [
+    "AI",
+    "Audio"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:hebbia:website",
+  "entityId": "hebbia",
+  "provider": "Hebbia — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hebbia.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Hebbia",
+  "normalizedFields": {
+   "description": "AI-powered research and knowledge-work platform for analyzing complex information.",
+   "sector": [
+    "AI",
+    "Enterprise Software"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:viam:website",
+  "entityId": "viam",
+  "provider": "Viam — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.viam.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Viam",
+  "normalizedFields": {
+   "description": "Software platform for building, deploying, and managing robotics and smart machines.",
+   "sector": [
+    "Robotics",
+    "Developer Tools"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:eliseai:website",
+  "entityId": "eliseai",
+  "provider": "EliseAI — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.eliseai.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "EliseAI",
+  "normalizedFields": {
+   "description": "Conversational AI and workflow automation for housing and healthcare organizations.",
+   "sector": [
+    "AI",
+    "PropTech",
+    "Healthcare"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:flatiron-health:website",
+  "entityId": "flatiron-health",
+  "provider": "Flatiron Health — company website (URL supplied in dataset)",
+  "sourceUrl": "https://flatiron.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Flatiron Health",
+  "normalizedFields": {
+   "description": "Oncology-focused health technology and real-world data platform.",
+   "sector": [
+    "Healthcare",
+    "Health Data"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:oscar-health:website",
+  "entityId": "oscar-health",
+  "provider": "Oscar Health — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.hioscar.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Oscar Health",
+  "normalizedFields": {
+   "description": "Technology-enabled health insurance company and care navigation platform.",
+   "sector": [
+    "Healthcare",
+    "Insurtech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:maven-clinic:website",
+  "entityId": "maven-clinic",
+  "provider": "Maven Clinic — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.mavenclinic.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Maven Clinic",
+  "normalizedFields": {
+   "description": "Virtual care platform focused on women's and family health.",
+   "sector": [
+    "Healthcare",
+    "Digital Health"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:ro:website",
+  "entityId": "ro",
+  "provider": "Ro — company website (URL supplied in dataset)",
+  "sourceUrl": "https://ro.co/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Ro",
+  "normalizedFields": {
+   "description": "Direct-to-consumer digital healthcare company connecting patients with clinicians and treatments.",
+   "sector": [
+    "Healthcare",
+    "Digital Health"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:noom:website",
+  "entityId": "noom",
+  "provider": "Noom — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.noom.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Noom",
+  "normalizedFields": {
+   "description": "Digital health platform focused on behavior change, nutrition, and wellness.",
+   "sector": [
+    "Healthcare",
+    "Consumer"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:betterment:website",
+  "entityId": "betterment",
+  "provider": "Betterment — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.betterment.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Betterment",
+  "normalizedFields": {
+   "description": "Digital investment and cash-management platform.",
+   "sector": [
+    "Fintech",
+    "Wealth Management"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:public:website",
+  "entityId": "public",
+  "provider": "Public — company website (URL supplied in dataset)",
+  "sourceUrl": "https://public.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Public",
+  "normalizedFields": {
+   "description": "Investing platform for stocks, ETFs, bonds, and other assets.",
+   "sector": [
+    "Fintech",
+    "Consumer"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:stash:website",
+  "entityId": "stash",
+  "provider": "Stash — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.stash.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Stash",
+  "normalizedFields": {
+   "description": "Personal finance and investing app for retail investors.",
+   "sector": [
+    "Fintech",
+    "Consumer"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:bond:website",
+  "entityId": "bond",
+  "provider": "Bond — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.bond.tech/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Bond",
+  "normalizedFields": {
+   "description": "Embedded finance infrastructure for companies building financial products.",
+   "sector": [
+    "Fintech",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:persona:website",
+  "entityId": "persona",
+  "provider": "Persona — company website (URL supplied in dataset)",
+  "sourceUrl": "https://withpersona.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Persona",
+  "normalizedFields": {
+   "description": "Identity verification and fraud prevention infrastructure for online businesses.",
+   "sector": [
+    "Identity",
+    "Security",
+    "Fintech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:alloy:website",
+  "entityId": "alloy",
+  "provider": "Alloy — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.alloy.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Alloy",
+  "normalizedFields": {
+   "description": "Identity and fraud decisioning platform for financial institutions.",
+   "sector": [
+    "Fintech",
+    "Identity",
+    "RegTech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:unit:website",
+  "entityId": "unit",
+  "provider": "Unit — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.unit.co/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Unit",
+  "normalizedFields": {
+   "description": "Embedded finance infrastructure that enables businesses to offer banking products.",
+   "sector": [
+    "Fintech",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:modern-treasury:website",
+  "entityId": "modern-treasury",
+  "provider": "Modern Treasury — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.moderntreasury.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Modern Treasury",
+  "normalizedFields": {
+   "description": "Payments operations and money movement infrastructure for businesses.",
+   "sector": [
+    "Fintech",
+    "Payments"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:k-health:website",
+  "entityId": "k-health",
+  "provider": "K Health — company website (URL supplied in dataset)",
+  "sourceUrl": "https://khealth.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "K Health",
+  "normalizedFields": {
+   "description": "Digital primary-care platform combining virtual care and clinical data.",
+   "sector": [
+    "Healthcare",
+    "AI"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:spring-health:website",
+  "entityId": "spring-health",
+  "provider": "Spring Health — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.springhealth.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Spring Health",
+  "normalizedFields": {
+   "description": "Behavioral health platform offering mental health care for employees and organizations.",
+   "sector": [
+    "Healthcare",
+    "HR Tech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:flatiron-school:website",
+  "entityId": "flatiron-school",
+  "provider": "Flatiron School — company website (URL supplied in dataset)",
+  "sourceUrl": "https://flatironschool.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Flatiron School",
+  "normalizedFields": {
+   "description": "Career-focused technology education and coding bootcamp provider.",
+   "sector": [
+    "Education",
+    "EdTech"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:gem:website",
+  "entityId": "gem",
+  "provider": "Gem — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.gem.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Gem",
+  "normalizedFields": {
+   "description": "Talent acquisition and recruiting platform for hiring teams.",
+   "sector": [
+    "HR Tech",
+    "Recruiting"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:lattice:website",
+  "entityId": "lattice",
+  "provider": "Lattice — company website (URL supplied in dataset)",
+  "sourceUrl": "https://lattice.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Lattice",
+  "normalizedFields": {
+   "description": "People management platform for performance, engagement, and HR workflows.",
+   "sector": [
+    "HR Tech",
+    "SaaS"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:dataiku:website",
+  "entityId": "dataiku",
+  "provider": "Dataiku — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.dataiku.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Dataiku",
+  "normalizedFields": {
+   "description": "Enterprise AI and data science platform for building and deploying analytics workflows.",
+   "sector": [
+    "AI",
+    "Data",
+    "Enterprise"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:cockroach-labs:website",
+  "entityId": "cockroach-labs",
+  "provider": "Cockroach Labs — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.cockroachlabs.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Cockroach Labs",
+  "normalizedFields": {
+   "description": "Distributed SQL database designed for resilient, scalable applications.",
+   "sector": [
+    "Developer Tools",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:vercel:website",
+  "entityId": "vercel",
+  "provider": "Vercel — company website (URL supplied in dataset)",
+  "sourceUrl": "https://vercel.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Vercel",
+  "normalizedFields": {
+   "description": "Cloud platform for building, deploying, and scaling web applications.",
+   "sector": [
+    "Developer Tools",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:airbnb:website",
+  "entityId": "airbnb",
+  "provider": "Airbnb — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.airbnb.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Airbnb",
+  "normalizedFields": {
+   "description": "Marketplace for booking accommodations and experiences around the world.",
+   "sector": [
+    "Travel",
+    "Marketplace"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:airbnb:accelerator",
+  "entityId": "airbnb",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W09",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:dropbox:website",
+  "entityId": "dropbox",
+  "provider": "Dropbox — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.dropbox.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Dropbox",
+  "normalizedFields": {
+   "description": "Cloud storage and collaboration platform for files and team workflows.",
+   "sector": [
+    "Productivity",
+    "Cloud"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:dropbox:accelerator",
+  "entityId": "dropbox",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S07",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:gitlab:website",
+  "entityId": "gitlab",
+  "provider": "GitLab — company website (URL supplied in dataset)",
+  "sourceUrl": "https://about.gitlab.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "GitLab",
+  "normalizedFields": {
+   "description": "DevSecOps platform for software development, collaboration, and delivery.",
+   "sector": [
+    "Developer Tools",
+    "Enterprise"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:gitlab:accelerator",
+  "entityId": "gitlab",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W15",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:instacart:website",
+  "entityId": "instacart",
+  "provider": "Instacart — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.instacart.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Instacart",
+  "normalizedFields": {
+   "description": "Online grocery marketplace and fulfillment platform.",
+   "sector": [
+    "Commerce",
+    "Logistics"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:instacart:accelerator",
+  "entityId": "instacart",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S12",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:fivetran:website",
+  "entityId": "fivetran",
+  "provider": "Fivetran — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.fivetran.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Fivetran",
+  "normalizedFields": {
+   "description": "Automated data movement and integration platform for analytics teams.",
+   "sector": [
+    "Data",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:fivetran:accelerator",
+  "entityId": "fivetran",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W13",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:segment:website",
+  "entityId": "segment",
+  "provider": "Segment — company website (URL supplied in dataset)",
+  "sourceUrl": "https://segment.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Segment",
+  "normalizedFields": {
+   "description": "Customer data infrastructure for collecting and routing event data.",
+   "sector": [
+    "Data",
+    "Marketing Tech"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:segment:accelerator",
+  "entityId": "segment",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S11",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:brex:website",
+  "entityId": "brex",
+  "provider": "Brex — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.brex.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Brex",
+  "normalizedFields": {
+   "description": "Financial technology platform for corporate cards, spend management, and business finance.",
+   "sector": [
+    "Fintech",
+    "B2B SaaS"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:brex:accelerator",
+  "entityId": "brex",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W17",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:replit:website",
+  "entityId": "replit",
+  "provider": "Replit — company website (URL supplied in dataset)",
+  "sourceUrl": "https://replit.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Replit",
+  "normalizedFields": {
+   "description": "Online software development environment with collaborative coding and AI app-building tools.",
+   "sector": [
+    "Developer Tools",
+    "AI"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:replit:accelerator",
+  "entityId": "replit",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W18",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:ginkgo-bioworks:website",
+  "entityId": "ginkgo-bioworks",
+  "provider": "Ginkgo Bioworks — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.ginkgobioworks.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Ginkgo Bioworks",
+  "normalizedFields": {
+   "description": "Platform company engineering biological systems for industrial and research applications.",
+   "sector": [
+    "Biotech",
+    "Synthetic Biology"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:ginkgo-bioworks:accelerator",
+  "entityId": "ginkgo-bioworks",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W14",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:amplitude:website",
+  "entityId": "amplitude",
+  "provider": "Amplitude — company website (URL supplied in dataset)",
+  "sourceUrl": "https://amplitude.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Amplitude",
+  "normalizedFields": {
+   "description": "Digital analytics platform for understanding product usage and customer behavior.",
+   "sector": [
+    "Analytics",
+    "SaaS"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:amplitude:accelerator",
+  "entityId": "amplitude",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S12",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:loom:website",
+  "entityId": "loom",
+  "provider": "Loom — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.loom.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Loom",
+  "normalizedFields": {
+   "description": "Video messaging platform for asynchronous workplace communication.",
+   "sector": [
+    "Productivity",
+    "Media"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:loom:accelerator",
+  "entityId": "loom",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W16",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:pagerduty:website",
+  "entityId": "pagerduty",
+  "provider": "PagerDuty — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.pagerduty.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "PagerDuty",
+  "normalizedFields": {
+   "description": "Digital operations platform for incident response and service reliability.",
+   "sector": [
+    "Developer Tools",
+    "Enterprise"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:pagerduty:accelerator",
+  "entityId": "pagerduty",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W10",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:optimizely:website",
+  "entityId": "optimizely",
+  "provider": "Optimizely — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.optimizely.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Optimizely",
+  "normalizedFields": {
+   "description": "Digital experience platform for experimentation, content, and personalization.",
+   "sector": [
+    "Marketing Tech",
+    "SaaS"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:optimizely:accelerator",
+  "entityId": "optimizely",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W10",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:matterport:website",
+  "entityId": "matterport",
+  "provider": "Matterport — company website (URL supplied in dataset)",
+  "sourceUrl": "https://matterport.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Matterport",
+  "normalizedFields": {
+   "description": "Spatial data platform that creates digital twins and 3D representations of physical spaces.",
+   "sector": [
+    "Spatial Computing",
+    "Real Estate"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:matterport:accelerator",
+  "entityId": "matterport",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W12",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:heroku:website",
+  "entityId": "heroku",
+  "provider": "Heroku — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.heroku.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Heroku",
+  "normalizedFields": {
+   "description": "Cloud application platform for deploying and managing software.",
+   "sector": [
+    "Developer Tools",
+    "Cloud"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:heroku:accelerator",
+  "entityId": "heroku",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S08",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:truebill-rocket-money:website",
+  "entityId": "truebill-rocket-money",
+  "provider": "Truebill (Rocket Money) — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.rocketmoney.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Truebill (Rocket Money)",
+  "normalizedFields": {
+   "description": "Personal finance app for tracking subscriptions, spending, and recurring bills.",
+   "sector": [
+    "Fintech",
+    "Consumer"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:truebill-rocket-money:accelerator",
+  "entityId": "truebill-rocket-money",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S11",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:checkr:website",
+  "entityId": "checkr",
+  "provider": "Checkr — company website (URL supplied in dataset)",
+  "sourceUrl": "https://checkr.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Checkr",
+  "normalizedFields": {
+   "description": "Background screening and identity technology for employers and platforms.",
+   "sector": [
+    "HR Tech",
+    "RegTech"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:checkr:accelerator",
+  "entityId": "checkr",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "S14",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:modern-health:website",
+  "entityId": "modern-health",
+  "provider": "Modern Health — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.modernhealth.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Modern Health",
+  "normalizedFields": {
+   "description": "Workplace mental health and wellbeing platform.",
+   "sector": [
+    "Healthcare",
+    "HR Tech"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:modern-health:accelerator",
+  "entityId": "modern-health",
+  "provider": "Y Combinator — directory (city / portfolio level)",
+  "sourceUrl": "https://www.ycombinator.com/companies/location/san-francisco",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Y Combinator directory listing",
+  "normalizedFields": {
+   "accelerator": "Y Combinator",
+   "batch": "W17",
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "recorded_from_known_program_history"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = recorded_from_known_program_history. The batch is recorded from the dataset author's program knowledge and is not confirmed against an individual directory page."
+ },
+ {
+  "id": "src:vanta:website",
+  "entityId": "vanta",
+  "provider": "Vanta — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.vanta.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Vanta",
+  "normalizedFields": {
+   "description": "Trust management platform that automates security and compliance processes.",
+   "sector": [
+    "Security",
+    "B2B SaaS"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:vanta:accelerator",
+  "entityId": "vanta",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:render:website",
+  "entityId": "render",
+  "provider": "Render — company website (URL supplied in dataset)",
+  "sourceUrl": "https://render.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Render",
+  "normalizedFields": {
+   "description": "Cloud platform for deploying and scaling web services, databases, and applications.",
+   "sector": [
+    "Developer Tools",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:render:accelerator",
+  "entityId": "render",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:baseten:website",
+  "entityId": "baseten",
+  "provider": "Baseten — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.baseten.co/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Baseten",
+  "normalizedFields": {
+   "description": "Infrastructure for deploying and serving machine learning models in production.",
+   "sector": [
+    "AI",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:baseten:accelerator",
+  "entityId": "baseten",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:luma-ai:website",
+  "entityId": "luma-ai",
+  "provider": "Luma AI — company website (URL supplied in dataset)",
+  "sourceUrl": "https://lumalabs.ai/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Luma AI",
+  "normalizedFields": {
+   "description": "Generative AI tools for creating and working with 3D, video, and multimodal media.",
+   "sector": [
+    "AI",
+    "Creative Tools"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:luma-ai:accelerator",
+  "entityId": "luma-ai",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:gamma:website",
+  "entityId": "gamma",
+  "provider": "Gamma — company website (URL supplied in dataset)",
+  "sourceUrl": "https://gamma.app/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Gamma",
+  "normalizedFields": {
+   "description": "AI-powered platform for creating presentations, documents, and visual communication.",
+   "sector": [
+    "AI",
+    "Creative Tools"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:gamma:accelerator",
+  "entityId": "gamma",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:goodfire:website",
+  "entityId": "goodfire",
+  "provider": "Goodfire — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.goodfire.ai/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Goodfire",
+  "normalizedFields": {
+   "description": "AI research company focused on understanding and interpreting neural networks.",
+   "sector": [
+    "AI",
+    "Research"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:goodfire:accelerator",
+  "entityId": "goodfire",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:cognition:website",
+  "entityId": "cognition",
+  "provider": "Cognition — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.cognition.ai/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Cognition",
+  "normalizedFields": {
+   "description": "AI software engineering company behind autonomous coding agent Devin.",
+   "sector": [
+    "AI",
+    "Developer Tools"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:cognition:accelerator",
+  "entityId": "cognition",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:muon-space:website",
+  "entityId": "muon-space",
+  "provider": "Muon Space — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.muonspace.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Muon Space",
+  "normalizedFields": {
+   "description": "Designs and operates satellite systems and Earth-observation data infrastructure.",
+   "sector": [
+    "Aerospace",
+    "Climate Tech"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:muon-space:accelerator",
+  "entityId": "muon-space",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:socket:website",
+  "entityId": "socket",
+  "provider": "Socket — company website (URL supplied in dataset)",
+  "sourceUrl": "https://socket.dev/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Socket",
+  "normalizedFields": {
+   "description": "Developer security platform that detects and prevents risks in open-source dependencies.",
+   "sector": [
+    "Security",
+    "Developer Tools"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:socket:accelerator",
+  "entityId": "socket",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:pilot:website",
+  "entityId": "pilot",
+  "provider": "Pilot — company website (URL supplied in dataset)",
+  "sourceUrl": "https://pilot.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Pilot",
+  "normalizedFields": {
+   "description": "Bookkeeping, tax, and finance operations services for startups and growing businesses.",
+   "sector": [
+    "Fintech",
+    "Business Services"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:pilot:accelerator",
+  "entityId": "pilot",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:material-security:website",
+  "entityId": "material-security",
+  "provider": "Material Security — company website (URL supplied in dataset)",
+  "sourceUrl": "https://material.security/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Material Security",
+  "normalizedFields": {
+   "description": "Security platform protecting cloud email and collaboration environments.",
+   "sector": [
+    "Security",
+    "Enterprise"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:material-security:accelerator",
+  "entityId": "material-security",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:doppel:website",
+  "entityId": "doppel",
+  "provider": "Doppel — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.doppel.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Doppel",
+  "normalizedFields": {
+   "description": "Digital risk protection platform focused on social engineering and impersonation threats.",
+   "sector": [
+    "Security",
+    "AI"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:doppel:accelerator",
+  "entityId": "doppel",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:planetscale:website",
+  "entityId": "planetscale",
+  "provider": "PlanetScale — company website (URL supplied in dataset)",
+  "sourceUrl": "https://planetscale.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "PlanetScale",
+  "normalizedFields": {
+   "description": "Database platform built around scalable MySQL-compatible infrastructure.",
+   "sector": [
+    "Developer Tools",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:planetscale:accelerator",
+  "entityId": "planetscale",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:imbue:website",
+  "entityId": "imbue",
+  "provider": "Imbue — company website (URL supplied in dataset)",
+  "sourceUrl": "https://imbue.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Imbue",
+  "normalizedFields": {
+   "description": "AI research and product company developing systems that can reason and operate computers.",
+   "sector": [
+    "AI",
+    "Research"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:imbue:accelerator",
+  "entityId": "imbue",
+  "provider": "South Park Commons — directory (city / portfolio level)",
+  "sourceUrl": "https://www.southparkcommons.com/companies/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "South Park Commons directory listing",
+  "normalizedFields": {
+   "accelerator": "South Park Commons",
+   "batch": null,
+   "acceleratorAffiliationStatus": "directory_listed",
+   "batchStatus": "not_verified_or_not_applicable"
+  },
+  "reuseNotes": "Dataset note: directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+  "verificationStatus": "partially_verified",
+  "reviewNote": "Dataset status: accelerator_affiliation = directory_listed; batch = not_verified_or_not_applicable."
+ },
+ {
+  "id": "src:decagon:website",
+  "entityId": "decagon",
+  "provider": "Decagon — company website (URL supplied in dataset)",
+  "sourceUrl": "https://decagon.ai/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Decagon",
+  "normalizedFields": {
+   "description": "AI agents for customer support and customer experience workflows.",
+   "sector": [
+    "AI",
+    "Customer Experience"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:scale-ai:website",
+  "entityId": "scale-ai",
+  "provider": "Scale AI — company website (URL supplied in dataset)",
+  "sourceUrl": "https://scale.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Scale AI",
+  "normalizedFields": {
+   "description": "Data infrastructure and evaluation services for artificial intelligence systems.",
+   "sector": [
+    "AI",
+    "Data"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:openai:website",
+  "entityId": "openai",
+  "provider": "OpenAI — company website (URL supplied in dataset)",
+  "sourceUrl": "https://openai.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "OpenAI",
+  "normalizedFields": {
+   "description": "AI research and deployment company developing general-purpose AI systems and products.",
+   "sector": [
+    "AI",
+    "Research"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:anthropic:website",
+  "entityId": "anthropic",
+  "provider": "Anthropic — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.anthropic.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Anthropic",
+  "normalizedFields": {
+   "description": "AI safety and research company developing large language models and AI products.",
+   "sector": [
+    "AI",
+    "Research"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:stripe:website",
+  "entityId": "stripe",
+  "provider": "Stripe — company website (URL supplied in dataset)",
+  "sourceUrl": "https://stripe.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Stripe",
+  "normalizedFields": {
+   "description": "Payments and financial infrastructure for internet businesses.",
+   "sector": [
+    "Fintech",
+    "Payments"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:coinbase:website",
+  "entityId": "coinbase",
+  "provider": "Coinbase — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.coinbase.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Coinbase",
+  "normalizedFields": {
+   "description": "Cryptocurrency exchange and financial infrastructure platform.",
+   "sector": [
+    "Fintech",
+    "Crypto"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:chime:website",
+  "entityId": "chime",
+  "provider": "Chime — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.chime.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Chime",
+  "normalizedFields": {
+   "description": "Consumer financial technology company offering mobile banking services.",
+   "sector": [
+    "Fintech",
+    "Consumer"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:plaid:website",
+  "entityId": "plaid",
+  "provider": "Plaid — company website (URL supplied in dataset)",
+  "sourceUrl": "https://plaid.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Plaid",
+  "normalizedFields": {
+   "description": "Data connectivity infrastructure linking financial accounts to applications.",
+   "sector": [
+    "Fintech",
+    "Infrastructure"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:affirm:website",
+  "entityId": "affirm",
+  "provider": "Affirm — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.affirm.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Affirm",
+  "normalizedFields": {
+   "description": "Buy-now-pay-later and consumer installment payment platform.",
+   "sector": [
+    "Fintech",
+    "Payments"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:sofi:website",
+  "entityId": "sofi",
+  "provider": "SoFi — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.sofi.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "SoFi",
+  "normalizedFields": {
+   "description": "Consumer finance platform offering lending, banking, and investing products.",
+   "sector": [
+    "Fintech",
+    "Consumer"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:doordash:website",
+  "entityId": "doordash",
+  "provider": "DoorDash — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.doordash.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "DoorDash",
+  "normalizedFields": {
+   "description": "Local commerce and on-demand delivery marketplace.",
+   "sector": [
+    "Commerce",
+    "Logistics"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:lyft:website",
+  "entityId": "lyft",
+  "provider": "Lyft — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.lyft.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Lyft",
+  "normalizedFields": {
+   "description": "Mobility platform connecting riders with transportation services.",
+   "sector": [
+    "Mobility",
+    "Marketplace"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:turo:website",
+  "entityId": "turo",
+  "provider": "Turo — company website (URL supplied in dataset)",
+  "sourceUrl": "https://turo.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Turo",
+  "normalizedFields": {
+   "description": "Peer-to-peer car-sharing marketplace.",
+   "sector": [
+    "Mobility",
+    "Marketplace"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:roblox:website",
+  "entityId": "roblox",
+  "provider": "Roblox — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.roblox.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Roblox",
+  "normalizedFields": {
+   "description": "Online platform for user-generated games and immersive social experiences.",
+   "sector": [
+    "Gaming",
+    "Consumer"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:unity:website",
+  "entityId": "unity",
+  "provider": "Unity — company website (URL supplied in dataset)",
+  "sourceUrl": "https://unity.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Unity",
+  "normalizedFields": {
+   "description": "Real-time 3D development platform for games, simulations, and interactive experiences.",
+   "sector": [
+    "Gaming",
+    "Creative Tools"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:discord:website",
+  "entityId": "discord",
+  "provider": "Discord — company website (URL supplied in dataset)",
+  "sourceUrl": "https://discord.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Discord",
+  "normalizedFields": {
+   "description": "Communication platform for communities, gaming, and group collaboration.",
+   "sector": [
+    "Social",
+    "Communication"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:pinterest:website",
+  "entityId": "pinterest",
+  "provider": "Pinterest — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.pinterest.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Pinterest",
+  "normalizedFields": {
+   "description": "Visual discovery and inspiration platform for finding and saving ideas.",
+   "sector": [
+    "Social",
+    "Media"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ },
+ {
+  "id": "src:notion:website",
+  "entityId": "notion",
+  "provider": "Notion — company website (URL supplied in dataset)",
+  "sourceUrl": "https://www.notion.com/",
+  "retrievedAt": "2026-11-07T00:00:00Z",
+  "sourceTitle": "Notion",
+  "normalizedFields": {
+   "description": "Connected workspace for documents, projects, knowledge, and team collaboration.",
+   "sector": [
+    "Productivity",
+    "SaaS"
+   ],
+   "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+   },
+   "companyWebsiteProvided": true
+  },
+  "reuseNotes": "The description is a summary written for the supplied dataset, not a quotation from the company.",
+  "verificationStatus": "needs_review",
+  "reviewNote": "The dataset supplies this URL and a summary description; it makes no verification claim about the page."
+ }
 ]

@@ -1,0 +1,1140 @@
+{
+  "dataset_name": "Contemporary Fine Art Galleries — New York City and San Francisco",
+  "schema_version": "1.0.0",
+  "generated_on": "2026-11-07",
+  "description": "Starter dataset of galleries and contemporary art spaces previously identified in NYC and San Francisco, with official websites and a partial source-linked extraction of visible artist rosters and exhibitions.",
+  "data_model_notes": [
+    "artist_roster contains represented artists only where an official roster page was parsed; an empty array means not yet parsed, not that no artists are represented.",
+    "current_exhibitions contains shows listed as current on the reviewed page at the time checked; it is not a complete inventory of artworks for sale.",
+    "Artwork-level records and prices are not included unless explicitly exposed by a reviewed page.",
+    "Group shows use a placeholder when participant names were not available in the extracted listing.",
+    "data_status distinguishes verified data from pages not yet parsed."
+  ],
+  "galleries": [
+    {
+      "id": "david_zwirner",
+      "name": "David Zwirner",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.davidzwirner.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Sospiro",
+          "artists": [
+            "Jem Perucchini"
+          ],
+          "venue": "New York: Tribeca",
+          "start_date": "2026-11-06",
+          "end_date": "2026-12-19",
+          "status": "current"
+        },
+        {
+          "title": "Yoshitomo Nara",
+          "artists": [
+            "Yoshitomo Nara"
+          ],
+          "venue": "New York: 19th Street / 20th Street",
+          "start_date": "2026-11-05",
+          "end_date": "2026-12-12",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://www.davidzwirner.com/exhibitions"
+    },
+    {
+      "id": "gagosian",
+      "name": "Gagosian",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://gagosian.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Groomed",
+          "artists": [
+            "Bea Scaccia"
+          ],
+          "venue": "Park & 75, New York",
+          "start_date": "2026-09-22",
+          "end_date": "2026-12-23",
+          "status": "current"
+        },
+        {
+          "title": "I Am Plane Image",
+          "artists": [
+            "Brice Marden"
+          ],
+          "venue": "West 21st Street, New York",
+          "start_date": "2026-09-15",
+          "end_date": "2026-12-12",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://gagosian.com/exhibitions/"
+    },
+    {
+      "id": "pace_gallery",
+      "name": "Pace Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.pacegallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "the year of mud",
+          "artists": [
+            "Li Hei Di"
+          ],
+          "venue": "New York",
+          "start_date": "2026-11-06",
+          "end_date": "2026-12-19",
+          "status": "current"
+        },
+        {
+          "title": "Boxes and Reconstructions",
+          "artists": [
+            "Lucas Samaras"
+          ],
+          "venue": "New York",
+          "start_date": "2026-11-06",
+          "end_date": "2027-01-23",
+          "status": "current"
+        },
+        {
+          "title": "TRANSITION",
+          "artists": [
+            "Elmgreen & Dragset"
+          ],
+          "venue": "New York",
+          "start_date": "2026-11-06",
+          "end_date": "2027-01-16",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://www.pacegallery.com/exhibitions/"
+    },
+    {
+      "id": "hauser_and_wirth",
+      "name": "Hauser & Wirth",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.hauserwirth.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "gladstone_gallery",
+      "name": "Gladstone Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.gladstonegallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "white_cube",
+      "name": "White Cube",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.whitecube.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "303_gallery",
+      "name": "303 Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.303gallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "luhring_augustine",
+      "name": "Luhring Augustine",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.luhringaugustine.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "james_cohan",
+      "name": "James Cohan",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.jamescohan.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "james_fuentes",
+      "name": "James Fuentes",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.jamesfuentes.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://canadanewyork.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "alexander_gray_associates",
+      "name": "Alexander Gray Associates",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.alexandergray.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "hannah_traore_gallery",
+      "name": "Hannah Traore Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.hannahtraoregallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "hesse_flatow",
+      "name": "HESSE FLATOW",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.hesseflatow.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "transmitter",
+      "name": "Transmitter",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://transmitter.nyc/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "the_journal_gallery",
+      "name": "The Journal Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.thejournalgallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "hashimoto_contemporary",
+      "name": "Hashimoto Contemporary",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.hashimotocontemporary.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "shrine",
+      "name": "SHRINE",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://shrinenyc.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "harkawik",
+      "name": "Harkawik",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.harkawik.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "uffner_and_liu",
+      "name": "Uffner & Liu",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://uffnerliu.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "marian_goodman_gallery",
+      "name": "Marian Goodman Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.mariangoodman.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Drawing Blind",
+          "artists": [
+            "Tacita Dean",
+            "Bruce Nauman"
+          ],
+          "venue": "Paris",
+          "start_date": "2026-10-19",
+          "end_date": "2026-12-19",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://www.mariangoodman.com/exhibitions/",
+      "notes": "Current listing found is at the Paris location, not New York."
+    },
+    {
+      "id": "perrotin",
+      "name": "Perrotin",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.perrotin.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [
+        "Paul Pfeiffer",
+        "Pieter Vermeersch",
+        "Alma Allen",
+        "Lee Bae",
+        "Jean-Marie Appriou",
+        "Iván Argote",
+        "Hernan Bas",
+        "Anna-Eva Bergman",
+        "Sophie Calle",
+        "Maurizio Cattelan",
+        "Johan Creten",
+        "Jean-Philippe Delhomme",
+        "Wim Delvoye",
+        "Mathilde Denize",
+        "Bernard Frize",
+        "Nick Goss",
+        "Laurent Grasso",
+        "Hans Hartung",
+        "Jeppe Hein",
+        "Thilo Heinzmann",
+        "Klara Kristalova",
+        "Holly Lowen",
+        "Jean-Michel Othoniel",
+        "Christiane Pooley",
+        "Jesús Rafael Soto",
+        "Pierre Soulages",
+        "Josh Sperling",
+        "Xavier Veilhan",
+        "Bernar Venet"
+      ],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "verified",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      },
+      "artist_roster_source": "https://www.perrotin.com/en/artists",
+      "notes": "Partial extraction of visible roster; official site states 73 represented artists plus 26 collaborators."
+    },
+    {
+      "id": "matthew_marks_gallery",
+      "name": "Matthew Marks Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://matthewmarks.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Wade Guyton",
+          "artists": [
+            "Wade Guyton"
+          ],
+          "venue": "522 West 22nd Street, New York",
+          "end_date": "2027-01-23",
+          "status": "current"
+        },
+        {
+          "title": "101 Drawings",
+          "artists": [
+            "Group exhibition"
+          ],
+          "venue": "523 West 24th Street, New York",
+          "end_date": "2027-01-23",
+          "status": "current"
+        },
+        {
+          "title": "Recent Drawings",
+          "artists": [
+            "Jasper Johns"
+          ],
+          "venue": "526 West 22nd Street, New York",
+          "end_date": "2027-01-23",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://matthewmarks.com/exhibitions/current"
+    },
+    {
+      "id": "tanya_bonakdar_gallery",
+      "name": "Tanya Bonakdar Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.tanyabonakdargallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [
+        "Uta Barth",
+        "Math Bass",
+        "Nathalie Djurberg & Hans Berg",
+        "Monica Bonvicini",
+        "Martin Boyce",
+        "Sandra Cinto",
+        "Phil Collins",
+        "Mark Dion",
+        "Olafur Eliasson",
+        "Meschac Gaba",
+        "Shilpa Gupta",
+        "Rodrigo Hernández",
+        "Sabine Hornig",
+        "Teresa Hubbard & Alexander Birchler",
+        "Jónsi",
+        "Kimsooja",
+        "Carla Klein",
+        "Laura Lima",
+        "Liu Shiyuan",
+        "Charles Long",
+        "Rita Lundqvist",
+        "Mark Manders",
+        "Yuko Mohri",
+        "Ernesto Neto",
+        "Rivane Neuenschwander",
+        "Karyn Olivier",
+        "Lisa Oppenheim",
+        "Susan Philipsz",
+        "Amalia Pica",
+        "Dana Powell",
+        "Magali Reus",
+        "Sherrill Roland",
+        "Analia Saban",
+        "Tomás Saraceno",
+        "Thomas Scheibitz",
+        "Slavs and Tatars",
+        "Hannah Starkey",
+        "Haim Steinbach",
+        "Dirk Stewen",
+        "Sarah Sze",
+        "Sandra Vásquez de la Horra",
+        "Gillian Wearing",
+        "Nicole Wermers",
+        "Lisa Williamson",
+        "Wong Ping"
+      ],
+      "current_exhibitions": [
+        {
+          "title": "The Path to Stars",
+          "artists": [
+            "Sandra Cinto"
+          ],
+          "venue": "New York",
+          "start_date": "2026-11-05",
+          "end_date": "2026-12-18",
+          "status": "current"
+        },
+        {
+          "title": "Rita Lundqvist",
+          "artists": [
+            "Rita Lundqvist"
+          ],
+          "venue": "New York",
+          "start_date": "2026-11-05",
+          "end_date": "2026-12-18",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "verified",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "artist_roster_source": "https://www.tanyabonakdargallery.com/artists/",
+      "exhibitions_source": "https://www.tanyabonakdargallery.com/exhibitions/"
+    },
+    {
+      "id": "bortolami",
+      "name": "Bortolami",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.bortolamigallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "#35 Rebecca Morris",
+          "artists": [
+            "Rebecca Morris"
+          ],
+          "venue": "39 Walker, New York",
+          "start_date": "2026-10-30",
+          "end_date": "2026-12-19",
+          "status": "current"
+        },
+        {
+          "title": "As a moment and as an accumulation",
+          "artists": [
+            "Maki Katayama",
+            "Hikari Ono"
+          ],
+          "venue": "The Upstairs at 39 Walker, New York",
+          "start_date": "2026-10-30",
+          "end_date": "2026-12-19",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://www.bortolamigallery.com/exhibitions"
+    },
+    {
+      "id": "ppow",
+      "name": "P·P·O·W",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.ppowgallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Deity",
+          "artists": [
+            "Adam Putnam"
+          ],
+          "venue": "390 Broadway, 2nd Floor, New York",
+          "start_date": "2026-11-06",
+          "end_date": "2026-12-19",
+          "status": "current"
+        },
+        {
+          "title": "To the Bone",
+          "artists": [
+            "Grace Carney"
+          ],
+          "venue": "392 Broadway, New York",
+          "start_date": "2026-10-30",
+          "end_date": "2026-12-19",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://www.ppowgallery.com/exhibitions"
+    },
+    {
+      "id": "sargents_daughters",
+      "name": "Sargent's Daughters",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://www.sargentsdaughters.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "her her",
+          "artists": [
+            "Jane Benson"
+          ],
+          "venue": "New York",
+          "start_date": "2026-10-30",
+          "end_date": "2026-12-05",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://www.sargentsdaughters.com/exhibitions"
+    },
+    {
+      "id": "nicelle_beauchene_gallery",
+      "name": "Nicelle Beauchene Gallery",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://nicellebeauchene.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Miracle Paintings",
+          "artists": [
+            "William Schaeuble"
+          ],
+          "venue": "Main Gallery, New York",
+          "start_date": "2026-10-15",
+          "end_date": "2026-11-14",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://nicellebeauchene.com/"
+    },
+    {
+      "id": "participant_inc",
+      "name": "Participant Inc.",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://participantinc.org/",
+      "category": "nonprofit_contemporary_art_space",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "kiang_malingue",
+      "name": "Kiang Malingue",
+      "city": "New York",
+      "country": "United States",
+      "website": "https://kiangmalingue.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [
+        "Eric Baudart",
+        "Grace Carney",
+        "Chang Ya Chin",
+        "Cho Yong-Ik",
+        "Chou Yu-Cheng",
+        "Tiffany Chung",
+        "Cui Xinming",
+        "Ho Tzu Nyen",
+        "Brook Hsu",
+        "Ko Sin Tung",
+        "Kwan Sheung Chi",
+        "Kyung-Me",
+        "Lai Chih-Sheng",
+        "Phillip Lai",
+        "Liu Yin",
+        "Fabien Mérelle",
+        "Miao Ying",
+        "Nabuqi",
+        "Ellen Pau",
+        "Thảo Nguyên Phan",
+        "Homer Shew",
+        "Tao Hui",
+        "Tromarama",
+        "Trương Công Tùng",
+        "Tseng Chien-Ying",
+        "Su-Mei Tse",
+        "Wang Zhibo",
+        "Wang Wei",
+        "Apichatpong Weerasethakul",
+        "Wong Ping",
+        "Carrie Yamaoka",
+        "Hiroka Yamashita",
+        "Yang Chi-Chuan",
+        "Yeung Hok Tak",
+        "Samson Young",
+        "Yu Ji",
+        "Yuan Yuan",
+        "Zheng Bo",
+        "Zheng Zhou"
+      ],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "verified",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      },
+      "artist_roster_source": "https://kiangmalingue.com/",
+      "notes": "Gallery has spaces in Hong Kong and New York; verify location before associating an exhibition with NYC."
+    },
+    {
+      "id": "hosfelt_gallery",
+      "name": "Hosfelt Gallery",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://hosfeltgallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Self-Portraits",
+          "artists": [
+            "Andrea Higgins"
+          ],
+          "venue": "San Francisco",
+          "start_date": "2026-10-17",
+          "end_date": "2026-11-25",
+          "status": "current"
+        },
+        {
+          "title": "Errant Geometries",
+          "artists": [
+            "Beto de Volder"
+          ],
+          "venue": "San Francisco",
+          "start_date": "2026-10-17",
+          "end_date": "2026-11-25",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://hosfeltgallery.com/exhibitions"
+    },
+    {
+      "id": "berggruen_gallery",
+      "name": "Berggruen Gallery",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://www.berggruen.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "Recent Nocturnes in the Gloaming",
+          "artists": [
+            "Stephen Hannock"
+          ],
+          "venue": "San Francisco",
+          "start_date": "2026-10-29",
+          "end_date": "2027-01-07",
+          "status": "current"
+        },
+        {
+          "title": "Death by Water",
+          "artists": [
+            "Jacob Hashimoto"
+          ],
+          "venue": "San Francisco",
+          "start_date": "2026-11-05",
+          "end_date": "2027-01-07",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://berggruen.com/exhibitions"
+    },
+    {
+      "id": "modernism_inc",
+      "name": "Modernism Inc.",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://www.modernisminc.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "fraenkel_gallery",
+      "name": "Fraenkel Gallery",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://fraenkelgallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "catharine_clark_gallery",
+      "name": "Catharine Clark Gallery",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://cclarkgallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "jessica_silverman",
+      "name": "Jessica Silverman",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://jessicasilvermangallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "hashimoto_contemporary",
+      "name": "Hashimoto Contemporary",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://www.hashimotocontemporary.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "gallery_16",
+      "name": "Gallery 16",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://www.gallery16.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "rena_bransten_gallery",
+      "name": "Rena Bransten Gallery",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://renabranstengallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "altman_siegel",
+      "name": "Altman Siegel",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://altmansiegel.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "rebecca_camacho_presents",
+      "name": "Rebecca Camacho Presents",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://rebeccacamacho.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "et_al",
+      "name": "Et al.",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://etaletc.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "cushion_works",
+      "name": "Cushion Works",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://cushionworks.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      }
+    },
+    {
+      "id": "haines_gallery",
+      "name": "Haines Gallery",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://www.hainesgallery.com/",
+      "category": "contemporary_gallery",
+      "artist_roster": [],
+      "current_exhibitions": [
+        {
+          "title": "250 Years, Indigenous Futures",
+          "artists": [
+            "Group exhibition"
+          ],
+          "venue": "San Francisco",
+          "start_date": "2026-09-15",
+          "end_date": "2026-11-07",
+          "status": "current"
+        }
+      ],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "verified",
+        "last_checked": "2026-11-07"
+      },
+      "exhibitions_source": "https://www.hainesgallery.com/exhibitions/"
+    },
+    {
+      "id": "minnesota_street_project",
+      "name": "Minnesota Street Project",
+      "city": "San Francisco",
+      "country": "United States",
+      "website": "https://minnesotastreetproject.com/",
+      "category": "gallery_campus_collective",
+      "artist_roster": [],
+      "current_exhibitions": [],
+      "data_status": {
+        "artist_roster": "not_yet_parsed",
+        "current_exhibitions": "not_yet_parsed",
+        "last_checked": "2026-11-07"
+      },
+      "notes": "Multi-gallery campus/organization, not a single commercial gallery."
+    }
+  ],
+  "source_index": [
+    {
+      "name": "David Zwirner exhibitions",
+      "url": "https://www.davidzwirner.com/exhibitions"
+    },
+    {
+      "name": "Gagosian exhibitions",
+      "url": "https://gagosian.com/exhibitions/"
+    },
+    {
+      "name": "Pace exhibitions",
+      "url": "https://www.pacegallery.com/exhibitions/"
+    },
+    {
+      "name": "Marian Goodman exhibitions",
+      "url": "https://www.mariangoodman.com/exhibitions/"
+    },
+    {
+      "name": "Matthew Marks current exhibitions",
+      "url": "https://matthewmarks.com/exhibitions/current"
+    },
+    {
+      "name": "Perrotin artists",
+      "url": "https://www.perrotin.com/en/artists"
+    },
+    {
+      "name": "Tanya Bonakdar artists",
+      "url": "https://www.tanyabonakdargallery.com/artists/"
+    },
+    {
+      "name": "Tanya Bonakdar exhibitions",
+      "url": "https://www.tanyabonakdargallery.com/exhibitions/"
+    },
+    {
+      "name": "Bortolami exhibitions",
+      "url": "https://www.bortolamigallery.com/exhibitions"
+    },
+    {
+      "name": "P·P·O·W exhibitions",
+      "url": "https://www.ppowgallery.com/exhibitions"
+    },
+    {
+      "name": "Sargent's Daughters exhibitions",
+      "url": "https://www.sargentsdaughters.com/exhibitions"
+    },
+    {
+      "name": "Kiang Malingue roster",
+      "url": "https://kiangmalingue.com/"
+    },
+    {
+      "name": "Hosfelt exhibitions",
+      "url": "https://hosfeltgallery.com/exhibitions"
+    },
+    {
+      "name": "Berggruen exhibitions",
+      "url": "https://berggruen.com/exhibitions"
+    },
+    {
+      "name": "Haines exhibitions",
+      "url": "https://www.hainesgallery.com/exhibitions/"
+    }
+  ]
+}

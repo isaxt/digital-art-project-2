@@ -1,4 +1,4 @@
-export type EntityType = "artist" | "startup" | "institution" | "project" | "other";
+export type EntityType = "artist" | "startup" | "gallery" | "institution" | "project" | "other";
 
 export type VerificationStatus = "verified" | "partially_verified" | "needs_review";
 
@@ -20,6 +20,22 @@ export interface Entity {
 
   verificationStatus: VerificationStatus;
   tags?: string[];
+
+  /** Original record id in the supplied dataset (kept even when `id` had to be disambiguated). */
+  datasetRecordId?: string;
+  /** Which supplied dataset the record came from. */
+  dataset?: "galleries" | "startups" | "derived_from_galleries";
+  /** Classification as written in the supplied dataset (e.g. contemporary_gallery). */
+  category?: string;
+  location?: { city: string; state?: string; country: string };
+  sector?: string[];
+  /** null = none recorded in the dataset (NOT proof there was none). */
+  accelerator?: string | null;
+  batch?: string | null;
+  /** The dataset's own status fields, verbatim (e.g. artist_roster: "not_yet_parsed"). */
+  datasetStatus?: Record<string, string>;
+  /** Notes from the supplied dataset, verbatim. */
+  sourceNotes?: string[];
   /** Researcher's selection / interpretation notes (shown on Methods and entity pages). */
   selectionNote?: string;
 }
@@ -47,4 +63,8 @@ export interface EntityEvent {
   sourceRecordId: string;
   /** How the source itself described the event. */
   originalEventType: string;
+  endDate?: string;
+  venue?: string;
+  /** Names exactly as listed by the source for this event. */
+  participants?: string[];
 }

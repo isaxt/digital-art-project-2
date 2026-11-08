@@ -5,6 +5,7 @@ import { recordStatus } from "../services/ledgerService";
 import { CertificatePreview } from "../components/certificate/CertificatePreview";
 import { LedgerTimeline } from "../components/ledger/LedgerTimeline";
 import { Panel } from "../components/shared";
+import { FinalityPanel } from "../components/explorer/FinalityPanel";
 import NotFoundPage from "./NotFoundPage";
 import { CONFIG } from "../config";
 
@@ -44,6 +45,8 @@ export default function CertificateDetailPage() {
           <button type="button" onClick={exportJson}>Export provenance JSON</button>
         </div>
         <CertificatePreview cert={cert} status={status} />
+
+        <FinalityPanel cert={cert} />
 
         <Panel title="Translation record behind this certificate" kind="source">
           {tr ? (

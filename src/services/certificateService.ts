@@ -1,4 +1,4 @@
-import type { Certificate } from "../types/certificate";
+import type { Certificate, ProofOfWork } from "../types/certificate";
 import type { LedgerEvent } from "../types/ledger";
 import type { Direction, RuleSet, TranslationRecord } from "../types/translation";
 import { CONFIG } from "../config";
@@ -33,6 +33,7 @@ export async function issue(
   ruleSet: RuleSet,
   chain: readonly LedgerEvent[],
   issuedAt: string,
+  pow?: ProofOfWork,
 ): Promise<Issuance> {
   const translation = await buildTranslationRecord(snap, direction, ruleSet, issuedAt);
   const mappedCount = (translation.translatedContent.outputs as { confidenceLabel: string }[]).filter(
@@ -61,7 +62,7 @@ export async function issue(
     certificateId: certId,
     timestamp: issuedAt,
     ruleSetVersion: ruleSet.version,
-    payload: { classificationCode: cls.code, classification: cls.label, direction, mappedCount },
+    payload: { classificationCode: cls.code, classification: cls.label, direction, mappedCount, ...(pow ? { proofOfWork: pow } : {}) },
   });
 
   const ledgerEventId = next[next.length - 1].id;
@@ -83,6 +84,7 @@ export async function issue(
     ruleSetVersion: ruleSet.version,
     appliedRuleIds: translation.appliedRuleIds,
     ledgerEventId,
+    ...(pow ? { proofOfWork: pow } : {}),
     status: "local_simulation",
     disclaimer: CONFIG.disclaimer,
   };

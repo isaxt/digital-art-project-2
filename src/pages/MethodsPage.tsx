@@ -3,26 +3,37 @@ import { entities, ruleSet, sources } from "../services/registryService";
 import { Panel } from "../components/shared";
 
 export default function MethodsPage() {
-  const providers = [...new Map(sources.map((s) => [s.provider, s.sourceUrl])).entries()];
-  return (
+    return (
     <main className="main stack" style={{ maxWidth: 980 }}>
       <div className="pagehead"><h1>Methods / Terms</h1><span className="id">RULE SET v{ruleSet.version}</span></div>
       <p className="intro">This page is part of the work. It states what the Office knows, how it knows it, and what its certificates cannot establish.</p>
 
-      <Panel title="1. Sources" kind="source" id="sources">
-        <p>Records come from a small set of cited public pages, retrieved on 2026-11-05 and saved as a fixed dataset. The website never calls these sources live, so it works when they are unavailable and every certificate keeps the exact snapshot it used.</p>
-        <ul>{providers.map(([p, u]) => <li key={p}><a href={u} target="_blank" rel="noopener noreferrer">{p}</a></li>)}</ul>
-        <p className="small">Planned adapters (not yet run for this dataset): Art Institute of Chicago API, The Met Collection API, Wikidata Query Service, SEC EDGAR, Companies House. See docs/DATA_SOURCES.md.</p>
-        <p className="small"><b>How records were obtained:</b> source pages were read through an automated page summary and have <b>not yet been checked line by line by a person</b>. Each source record carries a verification status and a reviewer note saying what is still unconfirmed. Records marked PARTIAL or NEEDS REVIEW should not be quoted as verified.</p>
+      <Panel title="1. Sources: real records only" kind="source" id="sources">
+        <p>
+          <b>The central rule: real entities, real source records, transparent interpretation.</b> Every gallery, artist and startup in the Registry comes from one of two supplied datasets, kept unchanged in <span className="mono">src/data/raw/</span>:
+        </p>
+        <ul>
+          <li><b>Contemporary Fine Art Galleries — New York City and San Francisco</b> (schema 1.0.0, generated 2026-11-07): {entities.filter((e) => e.entityType === "gallery").length} galleries and art spaces, with artist rosters and current exhibitions where parsed.</li>
+          <li><b>NYC + San Francisco Startup Directory</b> (schema 1.0.0, generated 2026-11-07): {entities.filter((e) => e.entityType === "startup").length} startups and technology companies, with sectors, accelerators and batches where recorded.</li>
+        </ul>
+        <p>The Office does not generate, simulate or add records. Names, descriptions, URLs, classifications, status fields and notes are preserved as supplied. The website never calls these sources live, so every certificate keeps the exact snapshot it used. Source pages linked from each record are the datasets&apos; own references; they open the gallery, company or directory site.</p>
+        <p className="small">Source families linked from records:</p>
+        <ul className="small"><li>Gallery websites, roster pages and exhibition pages ({sources.filter((s) => entities.find((e) => e.id === s.entityId)?.entityType === "gallery").length} source records)</li><li>Company websites and accelerator directory pages (Y Combinator, South Park Commons)</li></ul>
+        <p className="small"><b>Review status.</b> The datasets mark some sections <i>verified</i> and others <i>not yet parsed</i>. The Office shows these labels as supplied and adds no verification of its own. A status describes review state, not quality, and an unparsed section is never a finding of absence.</p>
       </Panel>
 
-      <Panel title="2. Selection" kind="source">
-        <p>The first intake is {entities.length} hand-selected records (target: 20–40). Each entity page states why the record was chosen. Selection favours records that make the comparison instructive, including records where the analogy fails. Museum acquisition and funding are not treated as measures of merit, and inclusion is not endorsement.</p>
-        <p className="small">The intake is currently smaller than the 20–40 target, and has no artist with very sparse public information yet. Both are listed as open work in the README.</p>
+      <Panel title="2. What the Office derives, and what it never infers" kind="source">
+        <ul>
+          <li><b>Artists.</b> The galleries dataset has no artist-level records. An artist entity exists only because its exact name appears in a parsed roster or in an exhibition listing. Identity is by exact name string; same-named people are not disambiguated and different spellings are not merged.</li>
+          <li><b>Roster.</b> A name on a parsed roster page is shown as such. The dataset states no terms of representation. A gallery whose roster is <i>not yet parsed</i> shows no artists, which means unknown, never “none”.</li>
+          <li><b>Exhibitions.</b> Shown as the gallery&apos;s listing on the date it was checked, with venue and dates as supplied. “Group exhibition” placeholders are not turned into artists. One listing is at a Paris venue under a gallery with a New York record; the venue is displayed, not corrected.</li>
+          <li><b>Never inferred:</b> accelerator batches, company locations or headquarters, artist representation, exhibition participation beyond the listing, funding, valuations or market value. A missing accelerator means “none recorded”, not “never joined one”.</li>
+          <li><b>Duplicate ID in the supplied file.</b> <span className="mono">hashimoto_contemporary</span> appears twice (New York and San Francisco entries). Both are kept as separate records with the city appended to their registry ID; the original ID is shown as “Dataset ID”. The Office has not decided whether they are one gallery or a data-entry repeat.</li>
+        </ul>
       </Panel>
 
       <Panel title="3. Fields collected" kind="source">
-        <p>Entity name and type, a verbatim source description or pitch line, dated events with both the source&apos;s own category and the Office&apos;s normalized category, source URLs, retrieval dates and a verification status. No personal contact information is collected. No valuations, funding amounts or revenue figures are recorded unless a cited source states them.</p>
+        <p>Record ID (original where supplied), name, type, category, city association, description (startups), sector labels, accelerator and batch, roster names, exhibition titles, venues and dates, source URLs, the dataset&apos;s own status fields and notes. No personal contact information, valuations, funding amounts or revenue figures are recorded. Additional records may be added later only from identifiable real-world sources with their URLs and verification status.</p>
       </Panel>
 
       <Panel title="4. Translation rules" kind="office" id="rules">
@@ -44,7 +55,7 @@ export default function MethodsPage() {
       </Panel>
 
       <Panel title="6. Missing data">
-        <p>Missing data is shown as <i>unavailable in selected sources</i> and as hatched squares in the Registry. It is never converted into zero, failure or a low classification. A record with nothing the rules can read receives “Not classified: insufficient mapped data (no inference drawn)”.</p>
+        <p>Missing data is shown as <i>not recorded</i> or <i>not yet parsed</i> and as hatched squares in the Registry. It is never converted into zero, failure or a low classification. A record with nothing the rules can read receives “Not classified: insufficient mapped data (no inference drawn)”.</p>
       </Panel>
 
       <Panel title="7. The ledger: what it can and cannot verify" kind="terminal" id="ledger">
@@ -57,6 +68,21 @@ export default function MethodsPage() {
           <li>No testnet anchor exists. If one is added, only a hash will be anchored, and a transaction would confirm only that a hash was submitted, not that its content is true or meritorious.</li>
           <li>Records you create are stored in your browser only (localStorage) and are never sent anywhere.</li>
         </ul>
+      </Panel>
+
+      <Panel title="8a. Blocks, confirmations, mining and witnesses: borrowed forms" kind="terminal" id="chain">
+        <p>
+          The <a href="#/explorer">Explorer</a> reads the ledger the way a public chain is read. These are <b>presentation devices over one local ledger</b>, not a network. Nothing is stored for them; all of it is recomputed from the events.
+        </p>
+        <ul>
+          <li><b>Blocks:</b> every 8 events are grouped, with a toy Merkle root and a hash linking to the previous block. The last group is open and its hash is provisional.</li>
+          <li><b>Addresses:</b> <code>0x…</code> values are hashes of record IDs. No keys exist, so no one can sign as an address.</li>
+          <li><b>Confirmations:</b> the number of later events. They accumulate whether or not anyone checked the certificate. Six counts as buried.</li>
+          <li><b>Rules contract:</b> the rule set is shown with an address that is the hash of its canonical text. “No upgrades” means a changed rule has a different address. It does not mean the rules are right, and the Office can publish a new contract.</li>
+          <li><b>Mining:</b> certificates wait in a mempool until your browser finds a nonce. The work proves hashing took place. It does not test the sources or the rules.</li>
+          <li><b>Witnessing:</b> three distinct witness addresses mark a certificate “finalized”. Anyone can create addresses without limit, so this is a Sybil-vulnerable quorum, shown as such.</li>
+        </ul>
+        <p>Artist certificates start unissued; the seed ledger holds certificates for galleries and startups only.</p>
       </Panel>
 
       <Panel title="8. Corrections and revisions" id="corrections">

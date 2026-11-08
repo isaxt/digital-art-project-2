@@ -1,97 +1,2226 @@
 [
-  {
-    "id": "EV-0001",
-    "entityId": "OCF-0001",
-    "eventType": "exhibition",
-    "title": "Kara Walker at the Met: After the Deluge",
-    "description": "Exhibition listed on the Met website, March 21 to August 6, 2006.",
-    "date": "2006-03-21",
-    "sourceRecordId": "SRC-0001",
-    "originalEventType": "exhibition listing"
-  },
-  {
-    "id": "EV-0002",
-    "entityId": "OCF-0001",
-    "eventType": "other",
-    "title": "Plaster object “Negress” has a Met collection page",
-    "description": "Existence of a collection page is recorded. It is not an acquisition record: no date or credit line was captured.",
-    "sourceRecordId": "SRC-0004",
-    "originalEventType": "collection object record"
-  },
-  {
-    "id": "EV-0003",
-    "entityId": "OCF-0001",
-    "eventType": "other",
-    "title": "2020 publication catalogued in the Watson Library",
-    "description": "Library catalogue entry for a 598-page publication.",
-    "date": "2020",
-    "sourceRecordId": "SRC-0002",
-    "originalEventType": "library catalogue record"
-  },
-  {
-    "id": "EV-0004",
-    "entityId": "OCF-0002",
-    "eventType": "other",
-    "title": "Founded",
-    "description": "Founding year as stated in the directory profile.",
-    "date": "2008",
-    "sourceRecordId": "SRC-0005",
-    "originalEventType": "founded (directory profile)"
-  },
-  {
-    "id": "EV-0005",
-    "entityId": "OCF-0002",
-    "eventType": "accelerator",
-    "title": "Listed in the Y Combinator company directory",
-    "description": "Batch and date are not shown on the page.",
-    "sourceRecordId": "SRC-0005",
-    "originalEventType": "directory listing"
-  },
-  {
-    "id": "EV-0006",
-    "entityId": "OCF-0003",
-    "eventType": "other",
-    "title": "Founded",
-    "description": "Founding year as stated in the directory profile.",
-    "date": "2008",
-    "sourceRecordId": "SRC-0006",
-    "originalEventType": "founded (directory profile)"
-  },
-  {
-    "id": "EV-0007",
-    "entityId": "OCF-0003",
-    "eventType": "accelerator",
-    "title": "Listed in the Y Combinator company directory",
-    "description": "Batch and date are not shown on the page.",
-    "sourceRecordId": "SRC-0006",
-    "originalEventType": "directory listing"
-  },
-  {
-    "id": "EV-0008",
-    "entityId": "OCF-0004",
-    "eventType": "other",
-    "title": "Founded",
-    "description": "Founding year as stated in the directory profile.",
-    "date": "2018",
-    "sourceRecordId": "SRC-0007",
-    "originalEventType": "founded (directory profile)"
-  },
-  {
-    "id": "EV-0009",
-    "entityId": "OCF-0004",
-    "eventType": "accelerator",
-    "title": "Listed in the Y Combinator company directory",
-    "description": "Batch and date are not shown on the page.",
-    "sourceRecordId": "SRC-0007",
-    "originalEventType": "directory listing"
-  },
-  {
-    "id": "EV-0010",
-    "entityId": "OCF-0005",
-    "eventType": "accelerator",
-    "title": "Described as a “Y Combinator-backed startup”",
-    "description": "TechCrunch, published 2012-03-21. The article states no funding amount or investors. The date of the accelerator participation itself is not stated.",
-    "sourceRecordId": "SRC-0008",
-    "originalEventType": "press description"
-  }
+ {
+  "id": "ev:david_zwirner:exh:1",
+  "entityId": "david_zwirner",
+  "eventType": "exhibition",
+  "title": "Sospiro",
+  "description": "Listed as current at New York: Tribeca.",
+  "date": "2026-11-06",
+  "endDate": "2026-12-19",
+  "venue": "New York: Tribeca",
+  "participants": [
+   "Jem Perucchini"
+  ],
+  "sourceRecordId": "src:david_zwirner:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:david_zwirner:exh:2",
+  "entityId": "david_zwirner",
+  "eventType": "exhibition",
+  "title": "Yoshitomo Nara",
+  "description": "Listed as current at New York: 19th Street / 20th Street.",
+  "date": "2026-11-05",
+  "endDate": "2026-12-12",
+  "venue": "New York: 19th Street / 20th Street",
+  "participants": [
+   "Yoshitomo Nara"
+  ],
+  "sourceRecordId": "src:david_zwirner:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:gagosian:exh:1",
+  "entityId": "gagosian",
+  "eventType": "exhibition",
+  "title": "Groomed",
+  "description": "Listed as current at Park & 75, New York.",
+  "date": "2026-09-22",
+  "endDate": "2026-12-23",
+  "venue": "Park & 75, New York",
+  "participants": [
+   "Bea Scaccia"
+  ],
+  "sourceRecordId": "src:gagosian:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:gagosian:exh:2",
+  "entityId": "gagosian",
+  "eventType": "exhibition",
+  "title": "I Am Plane Image",
+  "description": "Listed as current at West 21st Street, New York.",
+  "date": "2026-09-15",
+  "endDate": "2026-12-12",
+  "venue": "West 21st Street, New York",
+  "participants": [
+   "Brice Marden"
+  ],
+  "sourceRecordId": "src:gagosian:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:pace_gallery:exh:1",
+  "entityId": "pace_gallery",
+  "eventType": "exhibition",
+  "title": "the year of mud",
+  "description": "Listed as current at New York.",
+  "date": "2026-11-06",
+  "endDate": "2026-12-19",
+  "venue": "New York",
+  "participants": [
+   "Li Hei Di"
+  ],
+  "sourceRecordId": "src:pace_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:pace_gallery:exh:2",
+  "entityId": "pace_gallery",
+  "eventType": "exhibition",
+  "title": "Boxes and Reconstructions",
+  "description": "Listed as current at New York.",
+  "date": "2026-11-06",
+  "endDate": "2027-01-23",
+  "venue": "New York",
+  "participants": [
+   "Lucas Samaras"
+  ],
+  "sourceRecordId": "src:pace_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:pace_gallery:exh:3",
+  "entityId": "pace_gallery",
+  "eventType": "exhibition",
+  "title": "TRANSITION",
+  "description": "Listed as current at New York.",
+  "date": "2026-11-06",
+  "endDate": "2027-01-16",
+  "venue": "New York",
+  "participants": [
+   "Elmgreen & Dragset"
+  ],
+  "sourceRecordId": "src:pace_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:marian_goodman_gallery:exh:1",
+  "entityId": "marian_goodman_gallery",
+  "eventType": "exhibition",
+  "title": "Drawing Blind",
+  "description": "Listed as current at Paris.",
+  "date": "2026-10-19",
+  "endDate": "2026-12-19",
+  "venue": "Paris",
+  "participants": [
+   "Tacita Dean",
+   "Bruce Nauman"
+  ],
+  "sourceRecordId": "src:marian_goodman_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:matthew_marks_gallery:exh:1",
+  "entityId": "matthew_marks_gallery",
+  "eventType": "exhibition",
+  "title": "Wade Guyton",
+  "description": "Listed as current at 522 West 22nd Street, New York.",
+  "endDate": "2027-01-23",
+  "venue": "522 West 22nd Street, New York",
+  "participants": [
+   "Wade Guyton"
+  ],
+  "sourceRecordId": "src:matthew_marks_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:matthew_marks_gallery:exh:2",
+  "entityId": "matthew_marks_gallery",
+  "eventType": "exhibition",
+  "title": "101 Drawings",
+  "description": "Listed as current at 523 West 24th Street, New York.",
+  "endDate": "2027-01-23",
+  "venue": "523 West 24th Street, New York",
+  "participants": [
+   "Group exhibition"
+  ],
+  "sourceRecordId": "src:matthew_marks_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:matthew_marks_gallery:exh:3",
+  "entityId": "matthew_marks_gallery",
+  "eventType": "exhibition",
+  "title": "Recent Drawings",
+  "description": "Listed as current at 526 West 22nd Street, New York.",
+  "endDate": "2027-01-23",
+  "venue": "526 West 22nd Street, New York",
+  "participants": [
+   "Jasper Johns"
+  ],
+  "sourceRecordId": "src:matthew_marks_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:tanya_bonakdar_gallery:exh:1",
+  "entityId": "tanya_bonakdar_gallery",
+  "eventType": "exhibition",
+  "title": "The Path to Stars",
+  "description": "Listed as current at New York.",
+  "date": "2026-11-05",
+  "endDate": "2026-12-18",
+  "venue": "New York",
+  "participants": [
+   "Sandra Cinto"
+  ],
+  "sourceRecordId": "src:tanya_bonakdar_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:tanya_bonakdar_gallery:exh:2",
+  "entityId": "tanya_bonakdar_gallery",
+  "eventType": "exhibition",
+  "title": "Rita Lundqvist",
+  "description": "Listed as current at New York.",
+  "date": "2026-11-05",
+  "endDate": "2026-12-18",
+  "venue": "New York",
+  "participants": [
+   "Rita Lundqvist"
+  ],
+  "sourceRecordId": "src:tanya_bonakdar_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:bortolami:exh:1",
+  "entityId": "bortolami",
+  "eventType": "exhibition",
+  "title": "#35 Rebecca Morris",
+  "description": "Listed as current at 39 Walker, New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-19",
+  "venue": "39 Walker, New York",
+  "participants": [
+   "Rebecca Morris"
+  ],
+  "sourceRecordId": "src:bortolami:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:bortolami:exh:2",
+  "entityId": "bortolami",
+  "eventType": "exhibition",
+  "title": "As a moment and as an accumulation",
+  "description": "Listed as current at The Upstairs at 39 Walker, New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-19",
+  "venue": "The Upstairs at 39 Walker, New York",
+  "participants": [
+   "Maki Katayama",
+   "Hikari Ono"
+  ],
+  "sourceRecordId": "src:bortolami:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:ppow:exh:1",
+  "entityId": "ppow",
+  "eventType": "exhibition",
+  "title": "Deity",
+  "description": "Listed as current at 390 Broadway, 2nd Floor, New York.",
+  "date": "2026-11-06",
+  "endDate": "2026-12-19",
+  "venue": "390 Broadway, 2nd Floor, New York",
+  "participants": [
+   "Adam Putnam"
+  ],
+  "sourceRecordId": "src:ppow:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:ppow:exh:2",
+  "entityId": "ppow",
+  "eventType": "exhibition",
+  "title": "To the Bone",
+  "description": "Listed as current at 392 Broadway, New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-19",
+  "venue": "392 Broadway, New York",
+  "participants": [
+   "Grace Carney"
+  ],
+  "sourceRecordId": "src:ppow:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:sargents_daughters:exh:1",
+  "entityId": "sargents_daughters",
+  "eventType": "exhibition",
+  "title": "her her",
+  "description": "Listed as current at New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-05",
+  "venue": "New York",
+  "participants": [
+   "Jane Benson"
+  ],
+  "sourceRecordId": "src:sargents_daughters:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:nicelle_beauchene_gallery:exh:1",
+  "entityId": "nicelle_beauchene_gallery",
+  "eventType": "exhibition",
+  "title": "Miracle Paintings",
+  "description": "Listed as current at Main Gallery, New York.",
+  "date": "2026-10-15",
+  "endDate": "2026-11-14",
+  "venue": "Main Gallery, New York",
+  "participants": [
+   "William Schaeuble"
+  ],
+  "sourceRecordId": "src:nicelle_beauchene_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:hosfelt_gallery:exh:1",
+  "entityId": "hosfelt_gallery",
+  "eventType": "exhibition",
+  "title": "Self-Portraits",
+  "description": "Listed as current at San Francisco.",
+  "date": "2026-10-17",
+  "endDate": "2026-11-25",
+  "venue": "San Francisco",
+  "participants": [
+   "Andrea Higgins"
+  ],
+  "sourceRecordId": "src:hosfelt_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:hosfelt_gallery:exh:2",
+  "entityId": "hosfelt_gallery",
+  "eventType": "exhibition",
+  "title": "Errant Geometries",
+  "description": "Listed as current at San Francisco.",
+  "date": "2026-10-17",
+  "endDate": "2026-11-25",
+  "venue": "San Francisco",
+  "participants": [
+   "Beto de Volder"
+  ],
+  "sourceRecordId": "src:hosfelt_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:berggruen_gallery:exh:1",
+  "entityId": "berggruen_gallery",
+  "eventType": "exhibition",
+  "title": "Recent Nocturnes in the Gloaming",
+  "description": "Listed as current at San Francisco.",
+  "date": "2026-10-29",
+  "endDate": "2027-01-07",
+  "venue": "San Francisco",
+  "participants": [
+   "Stephen Hannock"
+  ],
+  "sourceRecordId": "src:berggruen_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:berggruen_gallery:exh:2",
+  "entityId": "berggruen_gallery",
+  "eventType": "exhibition",
+  "title": "Death by Water",
+  "description": "Listed as current at San Francisco.",
+  "date": "2026-11-05",
+  "endDate": "2027-01-07",
+  "venue": "San Francisco",
+  "participants": [
+   "Jacob Hashimoto"
+  ],
+  "sourceRecordId": "src:berggruen_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:haines_gallery:exh:1",
+  "entityId": "haines_gallery",
+  "eventType": "exhibition",
+  "title": "250 Years, Indigenous Futures",
+  "description": "Listed as current at San Francisco.",
+  "date": "2026-09-15",
+  "endDate": "2026-11-07",
+  "venue": "San Francisco",
+  "participants": [
+   "Group exhibition"
+  ],
+  "sourceRecordId": "src:haines_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-paul-pfeiffer:roster:perrotin",
+  "entityId": "artist-paul-pfeiffer",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-pieter-vermeersch:roster:perrotin",
+  "entityId": "artist-pieter-vermeersch",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-alma-allen:roster:perrotin",
+  "entityId": "artist-alma-allen",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-lee-bae:roster:perrotin",
+  "entityId": "artist-lee-bae",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-jean-marie-appriou:roster:perrotin",
+  "entityId": "artist-jean-marie-appriou",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-ivan-argote:roster:perrotin",
+  "entityId": "artist-ivan-argote",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-hernan-bas:roster:perrotin",
+  "entityId": "artist-hernan-bas",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-anna-eva-bergman:roster:perrotin",
+  "entityId": "artist-anna-eva-bergman",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-sophie-calle:roster:perrotin",
+  "entityId": "artist-sophie-calle",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-maurizio-cattelan:roster:perrotin",
+  "entityId": "artist-maurizio-cattelan",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-johan-creten:roster:perrotin",
+  "entityId": "artist-johan-creten",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-jean-philippe-delhomme:roster:perrotin",
+  "entityId": "artist-jean-philippe-delhomme",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-wim-delvoye:roster:perrotin",
+  "entityId": "artist-wim-delvoye",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-mathilde-denize:roster:perrotin",
+  "entityId": "artist-mathilde-denize",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-bernard-frize:roster:perrotin",
+  "entityId": "artist-bernard-frize",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-nick-goss:roster:perrotin",
+  "entityId": "artist-nick-goss",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-laurent-grasso:roster:perrotin",
+  "entityId": "artist-laurent-grasso",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-hans-hartung:roster:perrotin",
+  "entityId": "artist-hans-hartung",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-jeppe-hein:roster:perrotin",
+  "entityId": "artist-jeppe-hein",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-thilo-heinzmann:roster:perrotin",
+  "entityId": "artist-thilo-heinzmann",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-klara-kristalova:roster:perrotin",
+  "entityId": "artist-klara-kristalova",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-holly-lowen:roster:perrotin",
+  "entityId": "artist-holly-lowen",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-jean-michel-othoniel:roster:perrotin",
+  "entityId": "artist-jean-michel-othoniel",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-christiane-pooley:roster:perrotin",
+  "entityId": "artist-christiane-pooley",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-jesus-rafael-soto:roster:perrotin",
+  "entityId": "artist-jesus-rafael-soto",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-pierre-soulages:roster:perrotin",
+  "entityId": "artist-pierre-soulages",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-josh-sperling:roster:perrotin",
+  "entityId": "artist-josh-sperling",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-xavier-veilhan:roster:perrotin",
+  "entityId": "artist-xavier-veilhan",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-bernar-venet:roster:perrotin",
+  "entityId": "artist-bernar-venet",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Perrotin",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:perrotin:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-uta-barth:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-uta-barth",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-math-bass:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-math-bass",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-nathalie-djurberg-and-hans-berg:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-nathalie-djurberg-and-hans-berg",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-monica-bonvicini:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-monica-bonvicini",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-martin-boyce:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-martin-boyce",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-sandra-cinto:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-sandra-cinto",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-sandra-cinto:tanya_bonakdar_gallery:exh:1",
+  "entityId": "artist-sandra-cinto",
+  "eventType": "exhibition",
+  "title": "The Path to Stars",
+  "description": "Named in Tanya Bonakdar Gallery's listing. Listed as current at New York.",
+  "date": "2026-11-05",
+  "endDate": "2026-12-18",
+  "venue": "New York",
+  "participants": [
+   "Sandra Cinto"
+  ],
+  "sourceRecordId": "src:tanya_bonakdar_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-phil-collins:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-phil-collins",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-mark-dion:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-mark-dion",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-olafur-eliasson:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-olafur-eliasson",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-meschac-gaba:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-meschac-gaba",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-shilpa-gupta:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-shilpa-gupta",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-rodrigo-hernandez:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-rodrigo-hernandez",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-sabine-hornig:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-sabine-hornig",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-teresa-hubbard-and-alexander-birchler:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-teresa-hubbard-and-alexander-birchler",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-jonsi:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-jonsi",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-kimsooja:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-kimsooja",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-carla-klein:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-carla-klein",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-laura-lima:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-laura-lima",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-liu-shiyuan:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-liu-shiyuan",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-charles-long:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-charles-long",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-rita-lundqvist:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-rita-lundqvist",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-rita-lundqvist:tanya_bonakdar_gallery:exh:2",
+  "entityId": "artist-rita-lundqvist",
+  "eventType": "exhibition",
+  "title": "Rita Lundqvist",
+  "description": "Named in Tanya Bonakdar Gallery's listing. Listed as current at New York.",
+  "date": "2026-11-05",
+  "endDate": "2026-12-18",
+  "venue": "New York",
+  "participants": [
+   "Rita Lundqvist"
+  ],
+  "sourceRecordId": "src:tanya_bonakdar_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-mark-manders:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-mark-manders",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-yuko-mohri:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-yuko-mohri",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-ernesto-neto:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-ernesto-neto",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-rivane-neuenschwander:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-rivane-neuenschwander",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-karyn-olivier:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-karyn-olivier",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-lisa-oppenheim:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-lisa-oppenheim",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-susan-philipsz:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-susan-philipsz",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-amalia-pica:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-amalia-pica",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-dana-powell:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-dana-powell",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-magali-reus:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-magali-reus",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-sherrill-roland:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-sherrill-roland",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-analia-saban:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-analia-saban",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-tomas-saraceno:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-tomas-saraceno",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-thomas-scheibitz:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-thomas-scheibitz",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-slavs-and-tatars:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-slavs-and-tatars",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-hannah-starkey:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-hannah-starkey",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-haim-steinbach:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-haim-steinbach",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-dirk-stewen:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-dirk-stewen",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-sarah-sze:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-sarah-sze",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-sandra-vasquez-de-la-horra:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-sandra-vasquez-de-la-horra",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-gillian-wearing:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-gillian-wearing",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-nicole-wermers:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-nicole-wermers",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-lisa-williamson:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-lisa-williamson",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-wong-ping:roster:tanya_bonakdar_gallery",
+  "entityId": "artist-wong-ping",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Tanya Bonakdar Gallery",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:tanya_bonakdar_gallery:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-wong-ping:roster:kiang_malingue",
+  "entityId": "artist-wong-ping",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-eric-baudart:roster:kiang_malingue",
+  "entityId": "artist-eric-baudart",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-grace-carney:roster:kiang_malingue",
+  "entityId": "artist-grace-carney",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-grace-carney:ppow:exh:2",
+  "entityId": "artist-grace-carney",
+  "eventType": "exhibition",
+  "title": "To the Bone",
+  "description": "Named in P·P·O·W's listing. Listed as current at 392 Broadway, New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-19",
+  "venue": "392 Broadway, New York",
+  "participants": [
+   "Grace Carney"
+  ],
+  "sourceRecordId": "src:ppow:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-chang-ya-chin:roster:kiang_malingue",
+  "entityId": "artist-chang-ya-chin",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-cho-yong-ik:roster:kiang_malingue",
+  "entityId": "artist-cho-yong-ik",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-chou-yu-cheng:roster:kiang_malingue",
+  "entityId": "artist-chou-yu-cheng",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-tiffany-chung:roster:kiang_malingue",
+  "entityId": "artist-tiffany-chung",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-cui-xinming:roster:kiang_malingue",
+  "entityId": "artist-cui-xinming",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-ho-tzu-nyen:roster:kiang_malingue",
+  "entityId": "artist-ho-tzu-nyen",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-brook-hsu:roster:kiang_malingue",
+  "entityId": "artist-brook-hsu",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-ko-sin-tung:roster:kiang_malingue",
+  "entityId": "artist-ko-sin-tung",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-kwan-sheung-chi:roster:kiang_malingue",
+  "entityId": "artist-kwan-sheung-chi",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-kyung-me:roster:kiang_malingue",
+  "entityId": "artist-kyung-me",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-lai-chih-sheng:roster:kiang_malingue",
+  "entityId": "artist-lai-chih-sheng",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-phillip-lai:roster:kiang_malingue",
+  "entityId": "artist-phillip-lai",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-liu-yin:roster:kiang_malingue",
+  "entityId": "artist-liu-yin",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-fabien-merelle:roster:kiang_malingue",
+  "entityId": "artist-fabien-merelle",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-miao-ying:roster:kiang_malingue",
+  "entityId": "artist-miao-ying",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-nabuqi:roster:kiang_malingue",
+  "entityId": "artist-nabuqi",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-ellen-pau:roster:kiang_malingue",
+  "entityId": "artist-ellen-pau",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-thao-nguyen-phan:roster:kiang_malingue",
+  "entityId": "artist-thao-nguyen-phan",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-homer-shew:roster:kiang_malingue",
+  "entityId": "artist-homer-shew",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-tao-hui:roster:kiang_malingue",
+  "entityId": "artist-tao-hui",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-tromarama:roster:kiang_malingue",
+  "entityId": "artist-tromarama",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-truong-cong-tung:roster:kiang_malingue",
+  "entityId": "artist-truong-cong-tung",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-tseng-chien-ying:roster:kiang_malingue",
+  "entityId": "artist-tseng-chien-ying",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-su-mei-tse:roster:kiang_malingue",
+  "entityId": "artist-su-mei-tse",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-wang-zhibo:roster:kiang_malingue",
+  "entityId": "artist-wang-zhibo",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-wang-wei:roster:kiang_malingue",
+  "entityId": "artist-wang-wei",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-apichatpong-weerasethakul:roster:kiang_malingue",
+  "entityId": "artist-apichatpong-weerasethakul",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-carrie-yamaoka:roster:kiang_malingue",
+  "entityId": "artist-carrie-yamaoka",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-hiroka-yamashita:roster:kiang_malingue",
+  "entityId": "artist-hiroka-yamashita",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-yang-chi-chuan:roster:kiang_malingue",
+  "entityId": "artist-yang-chi-chuan",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-yeung-hok-tak:roster:kiang_malingue",
+  "entityId": "artist-yeung-hok-tak",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-samson-young:roster:kiang_malingue",
+  "entityId": "artist-samson-young",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-yu-ji:roster:kiang_malingue",
+  "entityId": "artist-yu-ji",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-yuan-yuan:roster:kiang_malingue",
+  "entityId": "artist-yuan-yuan",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-zheng-bo:roster:kiang_malingue",
+  "entityId": "artist-zheng-bo",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-zheng-zhou:roster:kiang_malingue",
+  "entityId": "artist-zheng-zhou",
+  "eventType": "gallery_representation",
+  "title": "Named on the artist roster of Kiang Malingue",
+  "description": "Appears in the roster as parsed in the supplied dataset. The dataset does not state the terms of any relationship.",
+  "sourceRecordId": "src:kiang_malingue:roster",
+  "originalEventType": "artist_roster (parsed roster page)"
+ },
+ {
+  "id": "ev:artist-jem-perucchini:david_zwirner:exh:1",
+  "entityId": "artist-jem-perucchini",
+  "eventType": "exhibition",
+  "title": "Sospiro",
+  "description": "Named in David Zwirner's listing. Listed as current at New York: Tribeca.",
+  "date": "2026-11-06",
+  "endDate": "2026-12-19",
+  "venue": "New York: Tribeca",
+  "participants": [
+   "Jem Perucchini"
+  ],
+  "sourceRecordId": "src:david_zwirner:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-yoshitomo-nara:david_zwirner:exh:2",
+  "entityId": "artist-yoshitomo-nara",
+  "eventType": "exhibition",
+  "title": "Yoshitomo Nara",
+  "description": "Named in David Zwirner's listing. Listed as current at New York: 19th Street / 20th Street.",
+  "date": "2026-11-05",
+  "endDate": "2026-12-12",
+  "venue": "New York: 19th Street / 20th Street",
+  "participants": [
+   "Yoshitomo Nara"
+  ],
+  "sourceRecordId": "src:david_zwirner:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-bea-scaccia:gagosian:exh:1",
+  "entityId": "artist-bea-scaccia",
+  "eventType": "exhibition",
+  "title": "Groomed",
+  "description": "Named in Gagosian's listing. Listed as current at Park & 75, New York.",
+  "date": "2026-09-22",
+  "endDate": "2026-12-23",
+  "venue": "Park & 75, New York",
+  "participants": [
+   "Bea Scaccia"
+  ],
+  "sourceRecordId": "src:gagosian:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-brice-marden:gagosian:exh:2",
+  "entityId": "artist-brice-marden",
+  "eventType": "exhibition",
+  "title": "I Am Plane Image",
+  "description": "Named in Gagosian's listing. Listed as current at West 21st Street, New York.",
+  "date": "2026-09-15",
+  "endDate": "2026-12-12",
+  "venue": "West 21st Street, New York",
+  "participants": [
+   "Brice Marden"
+  ],
+  "sourceRecordId": "src:gagosian:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-li-hei-di:pace_gallery:exh:1",
+  "entityId": "artist-li-hei-di",
+  "eventType": "exhibition",
+  "title": "the year of mud",
+  "description": "Named in Pace Gallery's listing. Listed as current at New York.",
+  "date": "2026-11-06",
+  "endDate": "2026-12-19",
+  "venue": "New York",
+  "participants": [
+   "Li Hei Di"
+  ],
+  "sourceRecordId": "src:pace_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-lucas-samaras:pace_gallery:exh:2",
+  "entityId": "artist-lucas-samaras",
+  "eventType": "exhibition",
+  "title": "Boxes and Reconstructions",
+  "description": "Named in Pace Gallery's listing. Listed as current at New York.",
+  "date": "2026-11-06",
+  "endDate": "2027-01-23",
+  "venue": "New York",
+  "participants": [
+   "Lucas Samaras"
+  ],
+  "sourceRecordId": "src:pace_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-elmgreen-and-dragset:pace_gallery:exh:3",
+  "entityId": "artist-elmgreen-and-dragset",
+  "eventType": "exhibition",
+  "title": "TRANSITION",
+  "description": "Named in Pace Gallery's listing. Listed as current at New York.",
+  "date": "2026-11-06",
+  "endDate": "2027-01-16",
+  "venue": "New York",
+  "participants": [
+   "Elmgreen & Dragset"
+  ],
+  "sourceRecordId": "src:pace_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-tacita-dean:marian_goodman_gallery:exh:1",
+  "entityId": "artist-tacita-dean",
+  "eventType": "exhibition",
+  "title": "Drawing Blind",
+  "description": "Named in Marian Goodman Gallery's listing. Listed as current at Paris.",
+  "date": "2026-10-19",
+  "endDate": "2026-12-19",
+  "venue": "Paris",
+  "participants": [
+   "Tacita Dean",
+   "Bruce Nauman"
+  ],
+  "sourceRecordId": "src:marian_goodman_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-bruce-nauman:marian_goodman_gallery:exh:1",
+  "entityId": "artist-bruce-nauman",
+  "eventType": "exhibition",
+  "title": "Drawing Blind",
+  "description": "Named in Marian Goodman Gallery's listing. Listed as current at Paris.",
+  "date": "2026-10-19",
+  "endDate": "2026-12-19",
+  "venue": "Paris",
+  "participants": [
+   "Tacita Dean",
+   "Bruce Nauman"
+  ],
+  "sourceRecordId": "src:marian_goodman_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-wade-guyton:matthew_marks_gallery:exh:1",
+  "entityId": "artist-wade-guyton",
+  "eventType": "exhibition",
+  "title": "Wade Guyton",
+  "description": "Named in Matthew Marks Gallery's listing. Listed as current at 522 West 22nd Street, New York.",
+  "endDate": "2027-01-23",
+  "venue": "522 West 22nd Street, New York",
+  "participants": [
+   "Wade Guyton"
+  ],
+  "sourceRecordId": "src:matthew_marks_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-jasper-johns:matthew_marks_gallery:exh:3",
+  "entityId": "artist-jasper-johns",
+  "eventType": "exhibition",
+  "title": "Recent Drawings",
+  "description": "Named in Matthew Marks Gallery's listing. Listed as current at 526 West 22nd Street, New York.",
+  "endDate": "2027-01-23",
+  "venue": "526 West 22nd Street, New York",
+  "participants": [
+   "Jasper Johns"
+  ],
+  "sourceRecordId": "src:matthew_marks_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-rebecca-morris:bortolami:exh:1",
+  "entityId": "artist-rebecca-morris",
+  "eventType": "exhibition",
+  "title": "#35 Rebecca Morris",
+  "description": "Named in Bortolami's listing. Listed as current at 39 Walker, New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-19",
+  "venue": "39 Walker, New York",
+  "participants": [
+   "Rebecca Morris"
+  ],
+  "sourceRecordId": "src:bortolami:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-maki-katayama:bortolami:exh:2",
+  "entityId": "artist-maki-katayama",
+  "eventType": "exhibition",
+  "title": "As a moment and as an accumulation",
+  "description": "Named in Bortolami's listing. Listed as current at The Upstairs at 39 Walker, New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-19",
+  "venue": "The Upstairs at 39 Walker, New York",
+  "participants": [
+   "Maki Katayama",
+   "Hikari Ono"
+  ],
+  "sourceRecordId": "src:bortolami:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-hikari-ono:bortolami:exh:2",
+  "entityId": "artist-hikari-ono",
+  "eventType": "exhibition",
+  "title": "As a moment and as an accumulation",
+  "description": "Named in Bortolami's listing. Listed as current at The Upstairs at 39 Walker, New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-19",
+  "venue": "The Upstairs at 39 Walker, New York",
+  "participants": [
+   "Maki Katayama",
+   "Hikari Ono"
+  ],
+  "sourceRecordId": "src:bortolami:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-adam-putnam:ppow:exh:1",
+  "entityId": "artist-adam-putnam",
+  "eventType": "exhibition",
+  "title": "Deity",
+  "description": "Named in P·P·O·W's listing. Listed as current at 390 Broadway, 2nd Floor, New York.",
+  "date": "2026-11-06",
+  "endDate": "2026-12-19",
+  "venue": "390 Broadway, 2nd Floor, New York",
+  "participants": [
+   "Adam Putnam"
+  ],
+  "sourceRecordId": "src:ppow:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-jane-benson:sargents_daughters:exh:1",
+  "entityId": "artist-jane-benson",
+  "eventType": "exhibition",
+  "title": "her her",
+  "description": "Named in Sargent's Daughters's listing. Listed as current at New York.",
+  "date": "2026-10-30",
+  "endDate": "2026-12-05",
+  "venue": "New York",
+  "participants": [
+   "Jane Benson"
+  ],
+  "sourceRecordId": "src:sargents_daughters:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-william-schaeuble:nicelle_beauchene_gallery:exh:1",
+  "entityId": "artist-william-schaeuble",
+  "eventType": "exhibition",
+  "title": "Miracle Paintings",
+  "description": "Named in Nicelle Beauchene Gallery's listing. Listed as current at Main Gallery, New York.",
+  "date": "2026-10-15",
+  "endDate": "2026-11-14",
+  "venue": "Main Gallery, New York",
+  "participants": [
+   "William Schaeuble"
+  ],
+  "sourceRecordId": "src:nicelle_beauchene_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-andrea-higgins:hosfelt_gallery:exh:1",
+  "entityId": "artist-andrea-higgins",
+  "eventType": "exhibition",
+  "title": "Self-Portraits",
+  "description": "Named in Hosfelt Gallery's listing. Listed as current at San Francisco.",
+  "date": "2026-10-17",
+  "endDate": "2026-11-25",
+  "venue": "San Francisco",
+  "participants": [
+   "Andrea Higgins"
+  ],
+  "sourceRecordId": "src:hosfelt_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-beto-de-volder:hosfelt_gallery:exh:2",
+  "entityId": "artist-beto-de-volder",
+  "eventType": "exhibition",
+  "title": "Errant Geometries",
+  "description": "Named in Hosfelt Gallery's listing. Listed as current at San Francisco.",
+  "date": "2026-10-17",
+  "endDate": "2026-11-25",
+  "venue": "San Francisco",
+  "participants": [
+   "Beto de Volder"
+  ],
+  "sourceRecordId": "src:hosfelt_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-stephen-hannock:berggruen_gallery:exh:1",
+  "entityId": "artist-stephen-hannock",
+  "eventType": "exhibition",
+  "title": "Recent Nocturnes in the Gloaming",
+  "description": "Named in Berggruen Gallery's listing. Listed as current at San Francisco.",
+  "date": "2026-10-29",
+  "endDate": "2027-01-07",
+  "venue": "San Francisco",
+  "participants": [
+   "Stephen Hannock"
+  ],
+  "sourceRecordId": "src:berggruen_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:artist-jacob-hashimoto:berggruen_gallery:exh:2",
+  "entityId": "artist-jacob-hashimoto",
+  "eventType": "exhibition",
+  "title": "Death by Water",
+  "description": "Named in Berggruen Gallery's listing. Listed as current at San Francisco.",
+  "date": "2026-11-05",
+  "endDate": "2027-01-07",
+  "venue": "San Francisco",
+  "participants": [
+   "Jacob Hashimoto"
+  ],
+  "sourceRecordId": "src:berggruen_gallery:exhibitions",
+  "originalEventType": "current_exhibition (gallery listing)"
+ },
+ {
+  "id": "ev:ramp:accelerator",
+  "entityId": "ramp",
+  "eventType": "accelerator",
+  "title": "Y Combinator W20",
+  "description": "Batch W20 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:ramp:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:odeko:accelerator",
+  "entityId": "odeko",
+  "eventType": "accelerator",
+  "title": "Y Combinator S19",
+  "description": "Batch S19 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:odeko:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:scentbird:accelerator",
+  "entityId": "scentbird",
+  "eventType": "accelerator",
+  "title": "Y Combinator S15",
+  "description": "Batch S15 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:scentbird:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:codecademy:accelerator",
+  "entityId": "codecademy",
+  "eventType": "accelerator",
+  "title": "Y Combinator S11",
+  "description": "Batch S11 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:codecademy:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:vimeo:accelerator",
+  "entityId": "vimeo",
+  "eventType": "accelerator",
+  "title": "Y Combinator S06",
+  "description": "Batch S06 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:vimeo:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:the-muse:accelerator",
+  "entityId": "the-muse",
+  "eventType": "accelerator",
+  "title": "Y Combinator W12",
+  "description": "Batch W12 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:the-muse:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:vow-to-be-chic:accelerator",
+  "entityId": "vow-to-be-chic",
+  "eventType": "accelerator",
+  "title": "Y Combinator W13",
+  "description": "Batch W13 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:vow-to-be-chic:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:lendkey:accelerator",
+  "entityId": "lendkey",
+  "eventType": "accelerator",
+  "title": "Y Combinator S09",
+  "description": "Batch S09 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:lendkey:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:knotel:accelerator",
+  "entityId": "knotel",
+  "eventType": "accelerator",
+  "title": "Y Combinator W16",
+  "description": "Batch W16 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:knotel:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:justworks:accelerator",
+  "entityId": "justworks",
+  "eventType": "accelerator",
+  "title": "Y Combinator S12",
+  "description": "Batch S12 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:justworks:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:almanac:accelerator",
+  "entityId": "almanac",
+  "eventType": "accelerator",
+  "title": "Y Combinator W19",
+  "description": "Batch W19 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:almanac:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:alinea:accelerator",
+  "entityId": "alinea",
+  "eventType": "accelerator",
+  "title": "Y Combinator W21",
+  "description": "Batch W21 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:alinea:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:abacum:accelerator",
+  "entityId": "abacum",
+  "eventType": "accelerator",
+  "title": "Y Combinator W21",
+  "description": "Batch W21 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:abacum:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:hadrius:accelerator",
+  "entityId": "hadrius",
+  "eventType": "accelerator",
+  "title": "Y Combinator W23",
+  "description": "Batch W23 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:hadrius:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:avoca:accelerator",
+  "entityId": "avoca",
+  "eventType": "accelerator",
+  "title": "Y Combinator W23",
+  "description": "Batch W23 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:avoca:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:concourse:accelerator",
+  "entityId": "concourse",
+  "eventType": "accelerator",
+  "title": "Y Combinator W23",
+  "description": "Batch W23 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:concourse:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:allia-health:accelerator",
+  "entityId": "allia-health",
+  "eventType": "accelerator",
+  "title": "Y Combinator S26",
+  "description": "Batch S26 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:allia-health:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:litmus:accelerator",
+  "entityId": "litmus",
+  "eventType": "accelerator",
+  "title": "Y Combinator S26",
+  "description": "Batch S26 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:litmus:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:titan:accelerator",
+  "entityId": "titan",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:titan:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:profound:accelerator",
+  "entityId": "profound",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:profound:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:ironsite:accelerator",
+  "entityId": "ironsite",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:ironsite:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:the-sentience-company:accelerator",
+  "entityId": "the-sentience-company",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:the-sentience-company:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:airbnb:accelerator",
+  "entityId": "airbnb",
+  "eventType": "accelerator",
+  "title": "Y Combinator W09",
+  "description": "Batch W09 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:airbnb:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:dropbox:accelerator",
+  "entityId": "dropbox",
+  "eventType": "accelerator",
+  "title": "Y Combinator S07",
+  "description": "Batch S07 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:dropbox:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:gitlab:accelerator",
+  "entityId": "gitlab",
+  "eventType": "accelerator",
+  "title": "Y Combinator W15",
+  "description": "Batch W15 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:gitlab:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:instacart:accelerator",
+  "entityId": "instacart",
+  "eventType": "accelerator",
+  "title": "Y Combinator S12",
+  "description": "Batch S12 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:instacart:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:fivetran:accelerator",
+  "entityId": "fivetran",
+  "eventType": "accelerator",
+  "title": "Y Combinator W13",
+  "description": "Batch W13 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:fivetran:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:segment:accelerator",
+  "entityId": "segment",
+  "eventType": "accelerator",
+  "title": "Y Combinator S11",
+  "description": "Batch S11 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:segment:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:brex:accelerator",
+  "entityId": "brex",
+  "eventType": "accelerator",
+  "title": "Y Combinator W17",
+  "description": "Batch W17 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:brex:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:replit:accelerator",
+  "entityId": "replit",
+  "eventType": "accelerator",
+  "title": "Y Combinator W18",
+  "description": "Batch W18 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:replit:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:ginkgo-bioworks:accelerator",
+  "entityId": "ginkgo-bioworks",
+  "eventType": "accelerator",
+  "title": "Y Combinator W14",
+  "description": "Batch W14 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:ginkgo-bioworks:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:amplitude:accelerator",
+  "entityId": "amplitude",
+  "eventType": "accelerator",
+  "title": "Y Combinator S12",
+  "description": "Batch S12 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:amplitude:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:loom:accelerator",
+  "entityId": "loom",
+  "eventType": "accelerator",
+  "title": "Y Combinator W16",
+  "description": "Batch W16 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:loom:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:pagerduty:accelerator",
+  "entityId": "pagerduty",
+  "eventType": "accelerator",
+  "title": "Y Combinator W10",
+  "description": "Batch W10 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:pagerduty:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:optimizely:accelerator",
+  "entityId": "optimizely",
+  "eventType": "accelerator",
+  "title": "Y Combinator W10",
+  "description": "Batch W10 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:optimizely:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:matterport:accelerator",
+  "entityId": "matterport",
+  "eventType": "accelerator",
+  "title": "Y Combinator W12",
+  "description": "Batch W12 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:matterport:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:heroku:accelerator",
+  "entityId": "heroku",
+  "eventType": "accelerator",
+  "title": "Y Combinator S08",
+  "description": "Batch S08 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:heroku:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:truebill-rocket-money:accelerator",
+  "entityId": "truebill-rocket-money",
+  "eventType": "accelerator",
+  "title": "Y Combinator S11",
+  "description": "Batch S11 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:truebill-rocket-money:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:checkr:accelerator",
+  "entityId": "checkr",
+  "eventType": "accelerator",
+  "title": "Y Combinator S14",
+  "description": "Batch S14 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:checkr:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:modern-health:accelerator",
+  "entityId": "modern-health",
+  "eventType": "accelerator",
+  "title": "Y Combinator W17",
+  "description": "Batch W17 (recorded_from_known_program_history). No date is recorded or inferred.",
+  "sourceRecordId": "src:modern-health:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:vanta:accelerator",
+  "entityId": "vanta",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:vanta:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:render:accelerator",
+  "entityId": "render",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:render:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:baseten:accelerator",
+  "entityId": "baseten",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:baseten:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:luma-ai:accelerator",
+  "entityId": "luma-ai",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:luma-ai:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:gamma:accelerator",
+  "entityId": "gamma",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:gamma:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:goodfire:accelerator",
+  "entityId": "goodfire",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:goodfire:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:cognition:accelerator",
+  "entityId": "cognition",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:cognition:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:muon-space:accelerator",
+  "entityId": "muon-space",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:muon-space:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:socket:accelerator",
+  "entityId": "socket",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:socket:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:pilot:accelerator",
+  "entityId": "pilot",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:pilot:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:material-security:accelerator",
+  "entityId": "material-security",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:material-security:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:doppel:accelerator",
+  "entityId": "doppel",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:doppel:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:planetscale:accelerator",
+  "entityId": "planetscale",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:planetscale:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ },
+ {
+  "id": "ev:imbue:accelerator",
+  "entityId": "imbue",
+  "eventType": "accelerator",
+  "title": "South Park Commons",
+  "description": "No batch recorded in the dataset (not verified or not applicable).",
+  "sourceRecordId": "src:imbue:accelerator",
+  "originalEventType": "accelerator_affiliation (directory_listed)"
+ }
 ]

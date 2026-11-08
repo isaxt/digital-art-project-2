@@ -3,6 +3,7 @@ import { useRecords } from "../store/localRecords";
 import { recordStatus } from "../services/ledgerService";
 import { Disclaimer } from "../components/shared";
 import { fmtTimestamp } from "../utils/dates";
+import { confirmations, isBuried, isFinalized, witnessesOf } from "../services/chainService";
 
 export default function CertificatesPage() {
   const { certificates, ledger } = useRecords();
@@ -14,7 +15,7 @@ export default function CertificatesPage() {
       <div className="scroll-x">
         <table className="data">
           <caption>Issued certificates, newest first</caption>
-          <thead><tr><th>Certificate</th><th>Entity</th><th>Direction</th><th>Classification</th><th>Issued (UTC)</th><th>Status</th><th>Ledger</th></tr></thead>
+          <thead><tr><th>Certificate</th><th>Entity</th><th>Direction</th><th>Classification</th><th>Issued (UTC)</th><th>Status</th><th>Confirmations</th><th>Witnesses</th><th>Ledger</th></tr></thead>
           <tbody>
             {rows.map((c) => (
               <tr key={c.id}>
@@ -24,6 +25,12 @@ export default function CertificatesPage() {
                 <td><span className="badge yellow">{c.classificationCode}</span> {c.classification}</td>
                 <td className="mono nowrap">{fmtTimestamp(c.issuedAt)}</td>
                 <td><span className="badge gray">{recordStatus(ledger, c.id)}</span> <span className="badge">simulated</span></td>
+                {(() => {
+                  const i = ledger.findIndex((e) => e.id === c.ledgerEventId);
+                  const n = i >= 0 ? confirmations(ledger.length, i) : 0;
+                  const w = witnessesOf(ledger, c.id).length;
+                  return (<><td className="mono nowrap">{n} {isBuried(n) ? "· buried" : "· shallow"}</td><td className="mono nowrap">{w}{isFinalized(w) ? " · FINAL" : ""}</td></>);
+                })()}
                 <td className="id">{c.ledgerEventId ? <Link to={`/ledger/${c.ledgerEventId}`}>{c.ledgerEventId}</Link> : "—"}</td>
               </tr>
             ))}

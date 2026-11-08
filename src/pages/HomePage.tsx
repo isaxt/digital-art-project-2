@@ -4,13 +4,15 @@ import { entities, getEntity, TYPE_LABEL, eventsOf, sourcesOf } from "../service
 import { useRecords } from "../store/localRecords";
 import { Disclaimer, Panel, VerificationBadge } from "../components/shared";
 import { LedgerTimeline } from "../components/ledger/LedgerTimeline";
+import { defaultDirection, DIRECTIONS } from "../services/translationService";
 import { fmtTimestamp } from "../utils/dates";
 
 export default function HomePage() {
   const { ledger, certificates, verification } = useRecords();
   const latest = [...certificates].sort((a, b) => b.issuedAt.localeCompare(a.issuedAt)).slice(0, 5);
-  const review = entities.filter((e) => e.verificationStatus !== "verified");
-  const featured = entities.find((e) => e.id === "OCF-0001")!;
+  const review = entities.filter((e) => e.verificationStatus === "needs_review");
+  const featured = entities.find((e) => e.id === CONFIG.featuredEntityId)!;
+  const featuredDir = defaultDirection(featured.entityType);
   const featuredCert = certificates.find((c) => c.entityId === featured.id);
 
   return (
@@ -19,15 +21,15 @@ export default function HomePage() {
         <div className="pagehead"><h1>{CONFIG.institutionName}</h1><span className="id">EST. REGISTRY 0001</span></div>
 
         <p className="intro">
-          The Office registers artists, startups and creative projects from selected public records, translates what is known
+          The Office registers galleries, artists and startups from two supplied datasets of real, source-linked records, translates what is known
           about each into the vocabulary of the other ecosystem, and issues certificates of their anticipated cultural and
-          economic potential. Every certificate can be traced to its sources, its rule and a ledger entry.
+          economic potential. The data is real; the interpretation is the artwork. Every certificate can be traced to its sources, its rule and a ledger entry.
         </p>
 
         <div className="notice-strip" role="note"><b>{CONFIG.notice.ref} · </b>{CONFIG.notice.text}</div>
 
         <div className="counters" aria-label="Office totals">
-          <div className="counter"><b>{String(entities.length).padStart(4, "0")}</b><span>Records indexed</span></div>
+          <div className="counter"><b>{String(entities.length).padStart(4, "0")}</b><span>Records (galleries, artists, startups)</span></div>
           <div className="counter"><b>{String(entities.reduce((n, e) => n + sourcesOf(e).length, 0)).padStart(4, "0")}</b><span>Source records</span></div>
           <div className="counter"><b>{String(certificates.length).padStart(4, "0")}</b><span>Certificates</span></div>
           <div className="counter"><b>{String(ledger.length).padStart(6, "0")}</b><span>Ledger events</span></div>
@@ -50,11 +52,11 @@ export default function HomePage() {
             <div>
               <h2><Link to={`/registry/${featured.id}`}>{featured.displayName}</Link> <span className="badge">{TYPE_LABEL[featured.entityType]}</span></h2>
               <p className="small mono">{featured.id} · {sourcesOf(featured).length} source records · {eventsOf(featured).length} events</p>
-              <p className="small">{featured.selectionNote}</p>
+              <p className="small">An artist named on a gallery&apos;s parsed roster and in the same gallery&apos;s current-exhibition listing, so both rules that artists can be read by have something to read.</p>
             </div>
             <ol className="small" style={{ margin: 0, paddingLeft: 18 }}>
               <li><Link to={`/registry/${featured.id}`}>Inspect the source records</Link></li>
-              <li><Link to={`/translate/${featured.id}`}>Translate: Artist → Startup</Link>, with rules and limitations</li>
+              {featuredDir && <li><Link to={`/translate/${featured.id}`}>Translate: {DIRECTIONS[featuredDir].label}</Link>, with rules and limitations</li>}
               {featuredCert && <li><Link to={`/certificates/${featuredCert.id}`}>Open the certificate</Link></li>}
               {featuredCert?.ledgerEventId && <li><Link to={`/ledger/${featuredCert.ledgerEventId}`}>Inspect its ledger event</Link></li>}
             </ol>
@@ -72,14 +74,15 @@ export default function HomePage() {
               ))}
             </ul>
           </Panel>
-          <Panel title="Records requiring review">
+          <Panel title={`Records needing review (${review.length})`}>
             <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
-              {review.map((e) => (
+              {review.slice(0, 8).map((e) => (
                 <li key={e.id} style={{ padding: "3px 0", borderBottom: "1px dotted #858d99" }}>
                   <Link to={`/registry/${e.id}`}>{getEntity(e.id)!.displayName}</Link> <VerificationBadge status={e.verificationStatus} />
                 </li>
               ))}
             </ul>
+            <p className="small"><Link to="/registry?ver=needs_review">See all {review.length} →</Link></p>
           </Panel>
         </div>
 

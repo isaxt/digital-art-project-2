@@ -18,15 +18,15 @@ import type { Certificate } from "../src/types/certificate";
 import type { TranslationRecord } from "../src/types/translation";
 import { appendEvent, verifyChain } from "../src/services/ledgerService";
 import { issue } from "../src/services/certificateService";
-import { defaultDirection } from "../src/services/translationService";
+import { defaultDirection, mappedOutputs, translate } from "../src/services/translationService";
 
 const E = entities as unknown as Entity[];
 const S = sources as unknown as SourceRecord[];
 const V = events as unknown as EntityEvent[];
 const R = rules as unknown as RuleSet;
 
-const REGISTERED_AT = "2026-11-05T00:00:00Z";
-const ISSUE_BASE = Date.parse("2026-11-05T01:00:00Z");
+const REGISTERED_AT = "2026-11-07T00:00:00Z";
+const ISSUE_BASE = Date.parse("2026-11-07T01:00:00Z");
 
 let chain: LedgerEvent[] = [];
 for (const e of E) {
@@ -58,6 +58,10 @@ for (const e of E) {
     sources: S.filter((s) => e.sourceRecordIds.includes(s.id)),
     events: V.filter((v) => e.eventIds.includes(v.id)),
   };
+  // Seed certificates only where at least one rule can read a recorded fact. Nothing is issued for "nothing to read".
+  if (mappedOutputs(translate(snap, dir, R)).length === 0) continue;
+  // Artist records are deliberately left unissued: they start in the mempool, so a visitor can mine and issue them.
+  if (e.entityType === "artist") continue;
   const issuedAt = new Date(ISSUE_BASE + n++ * 60_000).toISOString().replace(/\.\d{3}Z$/, "Z");
   const out = await issue(snap, dir, R, chain, issuedAt);
   chain = out.chain;

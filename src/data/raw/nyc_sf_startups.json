@@ -1,0 +1,3149 @@
+{
+  "dataset_name": "NYC + San Francisco Startup Directory",
+  "schema_version": "1.0.0",
+  "generated_on": "2026-11-07",
+  "record_count": 99,
+  "description": "A curated starter dataset of 100 startups and technology companies associated with New York City and San Francisco. Designed as a companion dataset to the contemporary gallery registry for the Office of Cultural Futures project.",
+  "scope": {
+    "cities": [
+      "New York",
+      "San Francisco"
+    ],
+    "records_per_city": {
+      "New York": 49,
+      "San Francisco": 50
+    },
+    "selection": "Mix of accelerator-associated startups and other notable technology companies with a connection to the listed city. This is a research starter set, not a complete census or a claim that every company is currently headquartered in that city."
+  },
+  "schema_notes": [
+    "location records the city association used for this starter dataset; verify current headquarters before using it as a precise current-HQ claim.",
+    "accelerator is the named accelerator or founder program when a relationship is recorded. A null value means no accelerator affiliation is recorded here, not proof that the company never participated in one.",
+    "batch is populated only where a batch label is included with reasonable confidence. Null means unverified or not applicable; do not infer a batch from company founding year.",
+    "sector is a normalized, multi-label classification authored for this dataset, not necessarily the company's own taxonomy.",
+    "source_links includes the company website and, where applicable, the official accelerator/portfolio directory. Directory links are city-level or portfolio-level sources, not always individual company profile pages.",
+    "Descriptions are concise summaries for discovery and classification, not quotations from the companies."
+  ],
+  "records": [
+    {
+      "id": "ramp",
+      "name": "Ramp",
+      "website": "https://ramp.com/",
+      "description": "Corporate finance platform for spend management, cards, bill pay, and financial operations.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "B2B SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W20",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://ramp.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "odeko",
+      "name": "Odeko",
+      "website": "https://odeko.com/",
+      "description": "Operating platform and supply-chain services for independent coffee shops and cafes.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Commerce",
+        "Logistics",
+        "SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S19",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://odeko.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "scentbird",
+      "name": "Scentbird",
+      "website": "https://www.scentbird.com/",
+      "description": "Subscription service for discovering and sampling fragrances.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Consumer",
+        "E-commerce"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S15",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.scentbird.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "codecademy",
+      "name": "Codecademy",
+      "website": "https://www.codecademy.com/",
+      "description": "Interactive online platform for learning programming and technical skills.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Education",
+        "EdTech"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S11",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.codecademy.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "website": "https://vimeo.com/",
+      "description": "Video hosting, creation, and collaboration platform for businesses and creators.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Media",
+        "SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S06",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://vimeo.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "the-muse",
+      "name": "The Muse",
+      "website": "https://www.themuse.com/",
+      "description": "Career platform connecting job seekers with employers and workplace information.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "HR Tech",
+        "Marketplace"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W12",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.themuse.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "vow-to-be-chic",
+      "name": "Vow to be Chic",
+      "website": "https://www.vowtobechic.com/",
+      "description": "Online rental service for bridesmaid dresses and formalwear.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Consumer",
+        "E-commerce"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W13",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.vowtobechic.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "lendkey",
+      "name": "LendKey",
+      "website": "https://www.lendkey.com/",
+      "description": "Digital lending platform connecting borrowers with community banks and credit unions.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Lending"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S09",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.lendkey.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "knotel",
+      "name": "Knotel",
+      "website": "https://www.knotel.com/",
+      "description": "Flexible workspace provider offering office space and workplace services.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Real Estate",
+        "PropTech"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W16",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.knotel.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "justworks",
+      "name": "Justworks",
+      "website": "https://www.justworks.com/",
+      "description": "HR, payroll, benefits, and compliance platform for small and midsize businesses.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "HR Tech",
+        "SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S12",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.justworks.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "almanac",
+      "name": "Almanac",
+      "website": "https://almanac.io/",
+      "description": "Collaborative workspace for teams to create and manage documents and workflows.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Productivity",
+        "SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W19",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://almanac.io/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "alinea",
+      "name": "Alinea",
+      "website": "https://www.alinea-invest.com/",
+      "description": "Consumer investing platform designed to make investing more approachable.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Consumer"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W21",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.alinea-invest.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "abacum",
+      "name": "Abacum",
+      "website": "https://www.abacum.ai/",
+      "description": "Financial planning and analysis software for finance teams.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "B2B SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W21",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.abacum.ai/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "hadrius",
+      "name": "Hadrius",
+      "website": "https://hadrius.com/",
+      "description": "Compliance automation platform for financial services firms.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "RegTech",
+        "AI"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W23",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://hadrius.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "avoca",
+      "name": "Avoca",
+      "website": "https://avoca.ai/",
+      "description": "AI-powered voice agents that automate sales and customer conversations.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Sales Tech"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W23",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://avoca.ai/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "concourse",
+      "name": "Concourse",
+      "website": "https://www.concourse.co/",
+      "description": "AI agents for finance teams, helping automate analysis and recurring workflows.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Fintech"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W23",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.concourse.co/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "allia-health",
+      "name": "Allia Health",
+      "website": "https://www.alliahealth.com/",
+      "description": "AI-native mental health care provider and clinical services platform.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "AI"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S26",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.alliahealth.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "litmus",
+      "name": "Litmus",
+      "website": "https://www.litmus.com/",
+      "description": "Software for evaluating and testing AI systems with human-centered assessments.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Developer Tools"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S26",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.litmus.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/new-york"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "website": "https://www.titan.com/",
+      "description": "Wealth-management platform designed for individual investors.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Wealth Management"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.titan.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "profound",
+      "name": "Profound",
+      "website": "https://www.tryprofound.com/",
+      "description": "Analytics and optimization platform for how brands appear in AI-powered search.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Marketing Tech"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.tryprofound.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "ironsite",
+      "name": "Ironsite",
+      "website": "https://www.ironsite.com/",
+      "description": "AI-based platform designed to improve construction-site safety and operational insight.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Construction Tech",
+        "AI"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.ironsite.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "the-sentience-company",
+      "name": "The Sentience Company",
+      "website": "https://www.sentience.com/",
+      "description": "Personalized AI simulations designed to model an individual's knowledge and judgment.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Research"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.sentience.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "website": "https://www.clay.com/",
+      "description": "Go-to-market data enrichment and workflow automation platform for sales teams.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Sales Tech",
+        "Data",
+        "SaaS"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.clay.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "website": "https://runwayml.com/",
+      "description": "Generative AI tools for video, image, and creative media production.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Creative Tools",
+        "Media"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://runwayml.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "website": "https://elevenlabs.io/",
+      "description": "AI voice generation, speech synthesis, and audio tools.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Audio"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://elevenlabs.io/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "hebbia",
+      "name": "Hebbia",
+      "website": "https://www.hebbia.com/",
+      "description": "AI-powered research and knowledge-work platform for analyzing complex information.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Enterprise Software"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.hebbia.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "viam",
+      "name": "Viam",
+      "website": "https://www.viam.com/",
+      "description": "Software platform for building, deploying, and managing robotics and smart machines.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Robotics",
+        "Developer Tools"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.viam.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "eliseai",
+      "name": "EliseAI",
+      "website": "https://www.eliseai.com/",
+      "description": "Conversational AI and workflow automation for housing and healthcare organizations.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "PropTech",
+        "Healthcare"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.eliseai.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "flatiron-health",
+      "name": "Flatiron Health",
+      "website": "https://flatiron.com/",
+      "description": "Oncology-focused health technology and real-world data platform.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "Health Data"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://flatiron.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "oscar-health",
+      "name": "Oscar Health",
+      "website": "https://www.hioscar.com/",
+      "description": "Technology-enabled health insurance company and care navigation platform.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "Insurtech"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.hioscar.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "maven-clinic",
+      "name": "Maven Clinic",
+      "website": "https://www.mavenclinic.com/",
+      "description": "Virtual care platform focused on women's and family health.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "Digital Health"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.mavenclinic.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "ro",
+      "name": "Ro",
+      "website": "https://ro.co/",
+      "description": "Direct-to-consumer digital healthcare company connecting patients with clinicians and treatments.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "Digital Health"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://ro.co/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "noom",
+      "name": "Noom",
+      "website": "https://www.noom.com/",
+      "description": "Digital health platform focused on behavior change, nutrition, and wellness.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "Consumer"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.noom.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "betterment",
+      "name": "Betterment",
+      "website": "https://www.betterment.com/",
+      "description": "Digital investment and cash-management platform.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Wealth Management"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.betterment.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "public",
+      "name": "Public",
+      "website": "https://public.com/",
+      "description": "Investing platform for stocks, ETFs, bonds, and other assets.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Consumer"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://public.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "stash",
+      "name": "Stash",
+      "website": "https://www.stash.com/",
+      "description": "Personal finance and investing app for retail investors.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Consumer"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.stash.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "bond",
+      "name": "Bond",
+      "website": "https://www.bond.tech/",
+      "description": "Embedded finance infrastructure for companies building financial products.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Infrastructure"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.bond.tech/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "persona",
+      "name": "Persona",
+      "website": "https://withpersona.com/",
+      "description": "Identity verification and fraud prevention infrastructure for online businesses.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Identity",
+        "Security",
+        "Fintech"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://withpersona.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "alloy",
+      "name": "Alloy",
+      "website": "https://www.alloy.com/",
+      "description": "Identity and fraud decisioning platform for financial institutions.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Identity",
+        "RegTech"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.alloy.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "unit",
+      "name": "Unit",
+      "website": "https://www.unit.co/",
+      "description": "Embedded finance infrastructure that enables businesses to offer banking products.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Infrastructure"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.unit.co/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "modern-treasury",
+      "name": "Modern Treasury",
+      "website": "https://www.moderntreasury.com/",
+      "description": "Payments operations and money movement infrastructure for businesses.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Payments"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.moderntreasury.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "k-health",
+      "name": "K Health",
+      "website": "https://khealth.com/",
+      "description": "Digital primary-care platform combining virtual care and clinical data.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "AI"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://khealth.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "spring-health",
+      "name": "Spring Health",
+      "website": "https://www.springhealth.com/",
+      "description": "Behavioral health platform offering mental health care for employees and organizations.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "HR Tech"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.springhealth.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "flatiron-school",
+      "name": "Flatiron School",
+      "website": "https://flatironschool.com/",
+      "description": "Career-focused technology education and coding bootcamp provider.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Education",
+        "EdTech"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://flatironschool.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "gem",
+      "name": "Gem",
+      "website": "https://www.gem.com/",
+      "description": "Talent acquisition and recruiting platform for hiring teams.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "HR Tech",
+        "Recruiting"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.gem.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "lattice",
+      "name": "Lattice",
+      "website": "https://lattice.com/",
+      "description": "People management platform for performance, engagement, and HR workflows.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "HR Tech",
+        "SaaS"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://lattice.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "dataiku",
+      "name": "Dataiku",
+      "website": "https://www.dataiku.com/",
+      "description": "Enterprise AI and data science platform for building and deploying analytics workflows.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Data",
+        "Enterprise"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.dataiku.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "cockroach-labs",
+      "name": "Cockroach Labs",
+      "website": "https://www.cockroachlabs.com/",
+      "description": "Distributed SQL database designed for resilient, scalable applications.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "Infrastructure"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.cockroachlabs.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "website": "https://vercel.com/",
+      "description": "Cloud platform for building, deploying, and scaling web applications.",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "Infrastructure"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://vercel.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "website": "https://www.airbnb.com/",
+      "description": "Marketplace for booking accommodations and experiences around the world.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Travel",
+        "Marketplace"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W09",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.airbnb.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "website": "https://www.dropbox.com/",
+      "description": "Cloud storage and collaboration platform for files and team workflows.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Productivity",
+        "Cloud"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S07",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.dropbox.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "website": "https://about.gitlab.com/",
+      "description": "DevSecOps platform for software development, collaboration, and delivery.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "Enterprise"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W15",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://about.gitlab.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "instacart",
+      "name": "Instacart",
+      "website": "https://www.instacart.com/",
+      "description": "Online grocery marketplace and fulfillment platform.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Commerce",
+        "Logistics"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S12",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.instacart.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "fivetran",
+      "name": "Fivetran",
+      "website": "https://www.fivetran.com/",
+      "description": "Automated data movement and integration platform for analytics teams.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Data",
+        "Infrastructure"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W13",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.fivetran.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "segment",
+      "name": "Segment",
+      "website": "https://segment.com/",
+      "description": "Customer data infrastructure for collecting and routing event data.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Data",
+        "Marketing Tech"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S11",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://segment.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "brex",
+      "name": "Brex",
+      "website": "https://www.brex.com/",
+      "description": "Financial technology platform for corporate cards, spend management, and business finance.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "B2B SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W17",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.brex.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "website": "https://replit.com/",
+      "description": "Online software development environment with collaborative coding and AI app-building tools.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "AI"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W18",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://replit.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "ginkgo-bioworks",
+      "name": "Ginkgo Bioworks",
+      "website": "https://www.ginkgobioworks.com/",
+      "description": "Platform company engineering biological systems for industrial and research applications.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Biotech",
+        "Synthetic Biology"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W14",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.ginkgobioworks.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "website": "https://amplitude.com/",
+      "description": "Digital analytics platform for understanding product usage and customer behavior.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Analytics",
+        "SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S12",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://amplitude.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "website": "https://www.loom.com/",
+      "description": "Video messaging platform for asynchronous workplace communication.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Productivity",
+        "Media"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W16",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.loom.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "pagerduty",
+      "name": "PagerDuty",
+      "website": "https://www.pagerduty.com/",
+      "description": "Digital operations platform for incident response and service reliability.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "Enterprise"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W10",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.pagerduty.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "optimizely",
+      "name": "Optimizely",
+      "website": "https://www.optimizely.com/",
+      "description": "Digital experience platform for experimentation, content, and personalization.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Marketing Tech",
+        "SaaS"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W10",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.optimizely.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "matterport",
+      "name": "Matterport",
+      "website": "https://matterport.com/",
+      "description": "Spatial data platform that creates digital twins and 3D representations of physical spaces.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Spatial Computing",
+        "Real Estate"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W12",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://matterport.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "heroku",
+      "name": "Heroku",
+      "website": "https://www.heroku.com/",
+      "description": "Cloud application platform for deploying and managing software.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "Cloud"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S08",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.heroku.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "truebill-rocket-money",
+      "name": "Truebill (Rocket Money)",
+      "website": "https://www.rocketmoney.com/",
+      "description": "Personal finance app for tracking subscriptions, spending, and recurring bills.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Consumer"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S11",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.rocketmoney.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "checkr",
+      "name": "Checkr",
+      "website": "https://checkr.com/",
+      "description": "Background screening and identity technology for employers and platforms.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "HR Tech",
+        "RegTech"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "S14",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://checkr.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "modern-health",
+      "name": "Modern Health",
+      "website": "https://www.modernhealth.com/",
+      "description": "Workplace mental health and wellbeing platform.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Healthcare",
+        "HR Tech"
+      ],
+      "accelerator": "Y Combinator",
+      "batch": "W17",
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.modernhealth.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.ycombinator.com/companies/location/san-francisco"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "recorded_from_known_program_history",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "vanta",
+      "name": "Vanta",
+      "website": "https://www.vanta.com/",
+      "description": "Trust management platform that automates security and compliance processes.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Security",
+        "B2B SaaS"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.vanta.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "render",
+      "name": "Render",
+      "website": "https://render.com/",
+      "description": "Cloud platform for deploying and scaling web services, databases, and applications.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "Infrastructure"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://render.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "baseten",
+      "name": "Baseten",
+      "website": "https://www.baseten.co/",
+      "description": "Infrastructure for deploying and serving machine learning models in production.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Infrastructure"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.baseten.co/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "luma-ai",
+      "name": "Luma AI",
+      "website": "https://lumalabs.ai/",
+      "description": "Generative AI tools for creating and working with 3D, video, and multimodal media.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Creative Tools"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://lumalabs.ai/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "website": "https://gamma.app/",
+      "description": "AI-powered platform for creating presentations, documents, and visual communication.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Creative Tools"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://gamma.app/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "goodfire",
+      "name": "Goodfire",
+      "website": "https://www.goodfire.ai/",
+      "description": "AI research company focused on understanding and interpreting neural networks.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Research"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.goodfire.ai/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "cognition",
+      "name": "Cognition",
+      "website": "https://www.cognition.ai/",
+      "description": "AI software engineering company behind autonomous coding agent Devin.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Developer Tools"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.cognition.ai/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "muon-space",
+      "name": "Muon Space",
+      "website": "https://www.muonspace.com/",
+      "description": "Designs and operates satellite systems and Earth-observation data infrastructure.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Aerospace",
+        "Climate Tech"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.muonspace.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "socket",
+      "name": "Socket",
+      "website": "https://socket.dev/",
+      "description": "Developer security platform that detects and prevents risks in open-source dependencies.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Security",
+        "Developer Tools"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://socket.dev/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "pilot",
+      "name": "Pilot",
+      "website": "https://pilot.com/",
+      "description": "Bookkeeping, tax, and finance operations services for startups and growing businesses.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Business Services"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://pilot.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "material-security",
+      "name": "Material Security",
+      "website": "https://material.security/",
+      "description": "Security platform protecting cloud email and collaboration environments.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Security",
+        "Enterprise"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://material.security/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "doppel",
+      "name": "Doppel",
+      "website": "https://www.doppel.com/",
+      "description": "Digital risk protection platform focused on social engineering and impersonation threats.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Security",
+        "AI"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.doppel.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "planetscale",
+      "name": "PlanetScale",
+      "website": "https://planetscale.com/",
+      "description": "Database platform built around scalable MySQL-compatible infrastructure.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Developer Tools",
+        "Infrastructure"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://planetscale.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "imbue",
+      "name": "Imbue",
+      "website": "https://imbue.com/",
+      "description": "AI research and product company developing systems that can reason and operate computers.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Research"
+      ],
+      "accelerator": "South Park Commons",
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://imbue.com/"
+        },
+        {
+          "type": "accelerator_directory",
+          "url": "https://www.southparkcommons.com/companies/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "directory_listed",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "decagon",
+      "name": "Decagon",
+      "website": "https://decagon.ai/",
+      "description": "AI agents for customer support and customer experience workflows.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Customer Experience"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://decagon.ai/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "scale-ai",
+      "name": "Scale AI",
+      "website": "https://scale.com/",
+      "description": "Data infrastructure and evaluation services for artificial intelligence systems.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Data"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://scale.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "website": "https://openai.com/",
+      "description": "AI research and deployment company developing general-purpose AI systems and products.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Research"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://openai.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "website": "https://www.anthropic.com/",
+      "description": "AI safety and research company developing large language models and AI products.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "AI",
+        "Research"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.anthropic.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "website": "https://stripe.com/",
+      "description": "Payments and financial infrastructure for internet businesses.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Payments"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://stripe.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "website": "https://www.coinbase.com/",
+      "description": "Cryptocurrency exchange and financial infrastructure platform.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Crypto"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.coinbase.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "chime",
+      "name": "Chime",
+      "website": "https://www.chime.com/",
+      "description": "Consumer financial technology company offering mobile banking services.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Consumer"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.chime.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "plaid",
+      "name": "Plaid",
+      "website": "https://plaid.com/",
+      "description": "Data connectivity infrastructure linking financial accounts to applications.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Infrastructure"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://plaid.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "affirm",
+      "name": "Affirm",
+      "website": "https://www.affirm.com/",
+      "description": "Buy-now-pay-later and consumer installment payment platform.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Payments"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.affirm.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "sofi",
+      "name": "SoFi",
+      "website": "https://www.sofi.com/",
+      "description": "Consumer finance platform offering lending, banking, and investing products.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Fintech",
+        "Consumer"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.sofi.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "doordash",
+      "name": "DoorDash",
+      "website": "https://www.doordash.com/",
+      "description": "Local commerce and on-demand delivery marketplace.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Commerce",
+        "Logistics"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.doordash.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "lyft",
+      "name": "Lyft",
+      "website": "https://www.lyft.com/",
+      "description": "Mobility platform connecting riders with transportation services.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Mobility",
+        "Marketplace"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.lyft.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "turo",
+      "name": "Turo",
+      "website": "https://turo.com/",
+      "description": "Peer-to-peer car-sharing marketplace.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Mobility",
+        "Marketplace"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://turo.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "website": "https://www.roblox.com/",
+      "description": "Online platform for user-generated games and immersive social experiences.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Gaming",
+        "Consumer"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.roblox.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "website": "https://unity.com/",
+      "description": "Real-time 3D development platform for games, simulations, and interactive experiences.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Gaming",
+        "Creative Tools"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://unity.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "website": "https://discord.com/",
+      "description": "Communication platform for communities, gaming, and group collaboration.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Social",
+        "Communication"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://discord.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "website": "https://www.pinterest.com/",
+      "description": "Visual discovery and inspiration platform for finding and saving ideas.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Social",
+        "Media"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.pinterest.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "website": "https://www.notion.com/",
+      "description": "Connected workspace for documents, projects, knowledge, and team collaboration.",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "sector": [
+        "Productivity",
+        "SaaS"
+      ],
+      "accelerator": null,
+      "batch": null,
+      "source_links": [
+        {
+          "type": "company_website",
+          "url": "https://www.notion.com/"
+        }
+      ],
+      "verification": {
+        "company_website_provided": true,
+        "accelerator_affiliation_status": "not_recorded",
+        "batch_status": "not_verified_or_not_applicable",
+        "last_reviewed": "2026-11-07"
+      }
+    }
+  ],
+  "directory_sources": [
+    {
+      "name": "Y Combinator — New York companies",
+      "url": "https://www.ycombinator.com/companies/location/new-york"
+    },
+    {
+      "name": "Y Combinator — San Francisco companies",
+      "url": "https://www.ycombinator.com/companies/location/san-francisco"
+    },
+    {
+      "name": "Y Combinator — Startup Directory",
+      "url": "https://www.ycombinator.com/companies"
+    },
+    {
+      "name": "South Park Commons — Companies",
+      "url": "https://www.southparkcommons.com/companies/"
+    },
+    {
+      "name": "Techstars — Portfolio",
+      "url": "https://www.techstars.com/portfolio"
+    },
+    {
+      "name": "500 Global — Companies",
+      "url": "https://500.co/companies"
+    }
+  ]
+}

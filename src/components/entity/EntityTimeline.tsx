@@ -7,9 +7,11 @@ export function EntityTimeline({ events }: { events: EntityEvent[] }) {
     <ol className="timeline">
       {sorted.map((e) => (
         <li key={e.id}>
-          <div className="when">{e.date ?? "date not recorded"} · {e.id}</div>
+          <div className="when">{e.date ?? "start date not recorded"}{e.endDate ? ` → ${e.endDate}` : ""} · {e.id}</div>
           <div><b>{e.title}</b></div>
           {e.description && <div className="small muted">{e.description}</div>}
+          {e.venue && <div className="small">Venue: {e.venue}</div>}
+          {e.participants && <div className="small">Listed participants: {e.participants.join(", ")}</div>}
           <div className="small">
             Source category: <span className="badge">{e.originalEventType}</span> → Office category: <span className="badge blue">{e.eventType}</span>{" "}
             <a href="#!" onClick={(ev) => { ev.preventDefault(); document.getElementById(`src-${e.sourceRecordId}`)?.scrollIntoView(); }}>{e.sourceRecordId}</a>

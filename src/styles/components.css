@@ -50,7 +50,7 @@
 .dir-toggle button { border: 0; border-right: 1px solid var(--ink); box-shadow: none; }
 .dir-toggle button:last-child { border-right: 0; }
 .dir-toggle button[aria-pressed="true"] { background: var(--yellow); font-weight: 700; }
-.cmp { display: grid; grid-template-columns: minmax(0, 1fr) 200px minmax(0, 1fr); border: 1px solid var(--blue); background: #fff; margin-bottom: 6px; }
+.cmp { display: grid; grid-template-columns: minmax(0, 1fr) 250px minmax(0, 1fr); border: 1px solid var(--blue); background: #fff; margin-bottom: 6px; }
 .cmp > div { padding: 6px 8px; min-width: 0; }
 .cmp__src { background: #fff; }
 .cmp__rule { background: var(--blue-pale); border-left: 1px solid var(--blue); border-right: 1px solid var(--blue); font-family: var(--font-mono); font-size: var(--fs-xs); overflow-wrap: anywhere; }
@@ -94,3 +94,26 @@ pre.payload { margin: 0; padding: 8px; background: #0d0f12; color: var(--term-gr
 
 .sparkbar { display: flex; height: 8px; border: 1px solid var(--ink); background: #fff; }
 .sparkbar span { display: block; height: 100%; }
+
+.facts { display: grid; grid-template-columns: 170px 1fr; gap: 2px 10px; margin: 8px 0; font-size: 13px; }
+.facts dt { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: #444; }
+.facts dd { margin: 0; }
+a.chip { color: var(--ink); text-decoration: none; }
+a.chip:hover { background: var(--blue); color: #fff; }
+@media (max-width: 760px) { .facts { grid-template-columns: 1fr; } }
+
+/* Occasional artifacts: pixel system labels, typewritten stamps and notices, a blackletter seal. */
+.origin, .badge { font-family: var(--font-pixel); font-size: 9.5px; letter-spacing: .02em; }
+.notice-strip, .disclaimer { font-family: var(--font-stamp); font-size: 12.5px; }
+.cert .stamp { font-family: var(--font-stamp); font-weight: 400; }
+.cert .class { font-family: var(--font-pixel); font-weight: 400; font-size: 14px; }
+.counter b { font-family: var(--font-pixel); font-size: 20px; }
+.hdr__name { font-family: var(--font-display); font-weight: 700; }
+.seal { font-family: var(--font-seal); font-size: 17px; letter-spacing: .01em; }
+.foot { font-family: var(--font-stamp); }
+
+/* Cutive Mono is thin: give it a hairline stroke so small data text stays legible, and let long values wrap. */
+.mono, code, .id, .ticker, .panel__title, .legend, .timeline .when, .facts dt, .counter span, .cmp h3, .cmp__rule,
+dt.mono, table.term, .integrity, details.rule summary, details.rule dt, .origin, .cert dt { -webkit-text-stroke: .3px currentColor; }
+dd, dt { overflow-wrap: anywhere; min-width: 0; }
+.cmp > div { overflow-wrap: anywhere; }

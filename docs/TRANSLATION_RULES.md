@@ -1,4 +1,4 @@
-# Translation rules (rule set 1.0.0)
+# Translation rules (rule set 1.1.0)
 
 Rules live in `src/data/rules.json`. The engine (`src/services/translationService.ts`) is pure and deterministic: same snapshot + rule set, same output. No AI, clocks or randomness.
 

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { CONFIG } from "../config";
 import { useRecords } from "../store/localRecords";
@@ -11,6 +12,7 @@ export default function LedgerPage() {
   const entity = sp.get("entity") ?? "";
   const type = sp.get("type") ?? "";
   const rows = ledger.filter((e) => (!entity || e.entityId === entity) && (!type || e.eventType === type));
+  const [limit, setLimit] = useState(100);
   const types = [...new Set(ledger.map((e) => e.eventType))];
 
   return (
@@ -44,7 +46,8 @@ export default function LedgerPage() {
         </form>
 
         <Panel title={`Events (${rows.length} of ${ledger.length}) · newest first`} kind="terminal" controls>
-          <LedgerTimeline events={rows} verification={verification} />
+          <LedgerTimeline events={rows} verification={verification} limit={limit} />
+          {rows.length > limit && <p><button type="button" onClick={() => setLimit(limit + 200)}>Show 200 more</button></p>}
         </Panel>
       </main>
       <aside className="aside" aria-label="Ledger controls">

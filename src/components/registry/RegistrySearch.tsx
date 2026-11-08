@@ -1,7 +1,11 @@
-import { TYPE_LABEL } from "../../services/registryService";
+import { entities, TYPE_LABEL } from "../../services/registryService";
 import type { EntityType } from "../../types/entity";
 
-export interface RegistryQuery { q: string; type: string; ver: string; sort: string }
+export interface RegistryQuery { q: string; type: string; ver: string; sort: string; city: string; acc: string; sector: string }
+
+const CITIES = [...new Set(entities.map((e) => e.location?.city).filter(Boolean) as string[])].sort();
+const SECTORS = [...new Set(entities.flatMap((e) => e.sector ?? []))].sort((a, b) => a.localeCompare(b));
+const ACCELERATORS = [...new Set(entities.map((e) => e.accelerator).filter(Boolean) as string[])].sort();
 
 export function RegistrySearch({ value, onChange }: { value: RegistryQuery; onChange: (v: RegistryQuery) => void }) {
   const set = (k: keyof RegistryQuery) => (e: { target: { value: string } }) => onChange({ ...value, [k]: e.target.value });
@@ -18,6 +22,28 @@ export function RegistrySearch({ value, onChange }: { value: RegistryQuery; onCh
           {(Object.keys(TYPE_LABEL) as EntityType[]).map((t) => (
             <option key={t} value={t}>{TYPE_LABEL[t]}</option>
           ))}
+        </select>
+      </div>
+      <div>
+        <label htmlFor="f-city">City</label>
+        <select id="f-city" value={value.city} onChange={set("city")}>
+          <option value="">All cities</option>
+          {CITIES.map((c) => <option key={c} value={c}>{c}</option>)}
+        </select>
+      </div>
+      <div>
+        <label htmlFor="f-sector">Sector (startups)</label>
+        <select id="f-sector" value={value.sector} onChange={set("sector")}>
+          <option value="">Any sector</option>
+          {SECTORS.map((c) => <option key={c} value={c}>{c}</option>)}
+        </select>
+      </div>
+      <div>
+        <label htmlFor="f-acc">Accelerator (startups)</label>
+        <select id="f-acc" value={value.acc} onChange={set("acc")}>
+          <option value="">Any</option>
+          {ACCELERATORS.map((c) => <option key={c} value={c}>{c}</option>)}
+          <option value="__none">None recorded</option>
         </select>
       </div>
       <div>

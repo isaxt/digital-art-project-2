@@ -1,0 +1,176 @@
+[
+  {
+    "id": "SRC-0001",
+    "entityId": "OCF-0001",
+    "provider": "The Metropolitan Museum of Art — exhibition listing",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2006/kara-walker",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Kara Walker at the Met: After the Deluge",
+    "sourceExcerpt": "In the wake of Hurricane Katrina, contemporary American artist Kara Walker",
+    "normalizedFields": {
+      "exhibitionTitle": "Kara Walker at the Met: After the Deluge",
+      "startDate": "2006-03-21",
+      "endDate": "2006-08-06"
+    },
+    "reuseNotes": "Short factual fields and one brief excerpt for attribution. No images stored. Check Met terms before any wider reuse.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "Retrieved through an automated page summary on the retrieval date. Dates and title should be confirmed by a person against the live page. The page does not state which gallery hosted the show, so none is recorded."
+  },
+  {
+    "id": "SRC-0002",
+    "entityId": "OCF-0001",
+    "provider": "The Metropolitan Museum of Art — collection (library catalogue)",
+    "providerRecordId": "857096",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/857096",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Kara Walker : a black hole is everything a star longs to be",
+    "normalizedFields": {
+      "objectTitle": "Kara Walker : a black hole is everything a star longs to be",
+      "artist": "Kara Walker (American, born Stockton, California, 1969)",
+      "date": "2020",
+      "format": "598 pages : many illustrations (chiefly color) ; Height: 11 in. (28 cm)",
+      "department": "Thomas J. Watson Library",
+      "objectNumber": "C 005555",
+      "idSource": "Object ID taken from the page URL; the page does not label it."
+    },
+    "reuseNotes": "Catalogue metadata only.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "This is a library catalogue record for a book, not an artwork in the art collection. Kept deliberately: it is a record about the artist that no startup rule can honestly translate."
+  },
+  {
+    "id": "SRC-0003",
+    "entityId": "OCF-0001",
+    "provider": "The Metropolitan Museum of Art — collection page",
+    "providerRecordId": "898074",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/898074",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Untitled (Study for A Subtlety, or the Marvelous Sugar Baby)",
+    "normalizedFields": {
+      "objectTitle": "Untitled (Study for A Subtlety, or the Marvelous Sugar Baby)",
+      "date": "2013–14",
+      "medium": "Charcoal on paper",
+      "department": "Modern and Contemporary Art",
+      "creditLine": "Collection of Richard and Michelle Jeschelnig"
+    },
+    "reuseNotes": "Catalogue metadata only.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "The credit line names a private collection, so this page is NOT evidence that the Met holds the work. It is recorded as a source about the work, not as an acquisition."
+  },
+  {
+    "id": "SRC-0004",
+    "entityId": "OCF-0001",
+    "provider": "The Metropolitan Museum of Art — collection page",
+    "providerRecordId": "846944",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/846944",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Negress",
+    "normalizedFields": {
+      "objectTitle": "Negress",
+      "medium": "Plaster"
+    },
+    "reuseNotes": "Catalogue metadata only. Title reproduced as printed on the source page.",
+    "verificationStatus": "needs_review",
+    "reviewNote": "The automated summary did not return date, accession number or credit line, so only title and medium are recorded. A person should open the page and complete the record. Whether this is an acquisition is not established, so no acquisition event is recorded."
+  },
+  {
+    "id": "SRC-0005",
+    "entityId": "OCF-0002",
+    "provider": "Y Combinator company directory",
+    "sourceUrl": "https://www.ycombinator.com/companies/airbnb",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Airbnb: Book accommodations around the world. | Y Combinator",
+    "sourceExcerpt": "Book accommodations around the world.",
+    "normalizedFields": {
+      "pitch": "Book accommodations around the world.",
+      "foundedYear": "2008",
+      "location": "San Francisco",
+      "teamSizeAsListed": 6132
+    },
+    "reuseNotes": "Short factual fields only. Review ycombinator.com terms before wider reuse. Team size is volatile and shown as listed at retrieval.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "Retrieved through an automated page summary. Batch/cohort is not shown on the page and is not recorded."
+  },
+  {
+    "id": "SRC-0006",
+    "entityId": "OCF-0003",
+    "provider": "Y Combinator company directory",
+    "sourceUrl": "https://www.ycombinator.com/companies/dropbox",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Dropbox | Y Combinator",
+    "sourceExcerpt": "Backup and share files in the cloud.",
+    "normalizedFields": {
+      "pitch": "Backup and share files in the cloud.",
+      "foundedYear": "2008",
+      "location": "San Francisco",
+      "teamSizeAsListed": 4000
+    },
+    "reuseNotes": "Short factual fields only. Review ycombinator.com terms before wider reuse.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "Retrieved through an automated page summary. Batch/cohort is not shown on the page and is not recorded."
+  },
+  {
+    "id": "SRC-0007",
+    "entityId": "OCF-0004",
+    "provider": "Y Combinator company directory",
+    "sourceUrl": "https://www.ycombinator.com/companies/aesthetic",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Aesthetic | Y Combinator",
+    "sourceExcerpt": "Your AI-powered creative apprentice 🪄",
+    "normalizedFields": {
+      "pitch": "Your AI-powered creative apprentice 🪄",
+      "foundedYear": "2018",
+      "location": "New York City",
+      "teamSizeAsListed": 4
+    },
+    "reuseNotes": "Short factual fields only. Review ycombinator.com terms before wider reuse.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "Retrieved through an automated page summary. Batch/cohort is not shown on the page and is not recorded."
+  },
+  {
+    "id": "SRC-0008",
+    "entityId": "OCF-0005",
+    "provider": "TechCrunch (press article)",
+    "sourceUrl": "https://techcrunch.com/2012/03/21/with-everyart-you-dont-have-to-be-afraid-of-commissioning-art/",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "publishedAt": "2012-03-21",
+    "sourceTitle": "With Y Combinator-Backed EveryArt, You Don't Have To Be Afraid Of Commissioning Art",
+    "sourceExcerpt": "With Y Combinator-Backed EveryArt, You Don't Have To Be Afraid Of Commissioning Art",
+    "normalizedFields": {
+      "headline": "With Y Combinator-Backed EveryArt, You Don't Have To Be Afraid Of Commissioning Art",
+      "author": "Anthony Ha",
+      "publishedDate": "2012-03-21",
+      "statesFundingAmount": false
+    },
+    "reuseNotes": "Headline quoted for attribution. Article text not reproduced.",
+    "verificationStatus": "needs_review",
+    "reviewNote": "A single press article, not a company-supplied or registry source. The article calls EveryArt a 'Y Combinator-backed startup' and states no funding amount or investors. Whether the company still operates is not established here."
+  },
+  {
+    "id": "SRC-0009",
+    "entityId": "OCF-0006",
+    "provider": "The Metropolitan Museum of Art — exhibition listing",
+    "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2006/kara-walker",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Kara Walker at the Met: After the Deluge",
+    "normalizedFields": {
+      "institutionName": "The Metropolitan Museum of Art"
+    },
+    "reuseNotes": "Name only.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "Registered as the publisher of the art-side records. Would be strengthened by a Wikidata QID once the Wikidata adapter is run."
+  },
+  {
+    "id": "SRC-0010",
+    "entityId": "OCF-0007",
+    "provider": "Y Combinator company directory",
+    "sourceUrl": "https://www.ycombinator.com/companies/airbnb",
+    "retrievedAt": "2026-11-05T00:00:00Z",
+    "sourceTitle": "Airbnb: Book accommodations around the world. | Y Combinator",
+    "normalizedFields": {
+      "directoryName": "Y Combinator company directory"
+    },
+    "reuseNotes": "Name only.",
+    "verificationStatus": "partially_verified",
+    "reviewNote": "Registered as the publisher of the startup-side records."
+  }
+]

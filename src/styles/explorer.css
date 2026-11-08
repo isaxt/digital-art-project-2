@@ -1,0 +1,49 @@
+/* Block explorer, contract, mining ritual and witness panels */
+table.kv { width: 100%; border-collapse: collapse; font-size: var(--fs-md); background: #fff; }
+table.kv th { width: 190px; text-align: left; vertical-align: top; padding: 5px 8px; font-family: var(--font-mono); font-size: var(--fs-xs); text-transform: uppercase; color: #3a414d; background: #eef0f4; border-bottom: 1px solid var(--gray); }
+table.kv td { padding: 5px 8px; border-bottom: 1px solid var(--gray); overflow-wrap: anywhere; }
+@media (max-width: 760px) { table.kv th { width: 110px; } }
+
+.conf { font-family: var(--font-mono); font-size: var(--fs-xs); padding: 0 6px; border: 1px solid; display: inline-block; }
+.conf.buried { background: #e5f5ee; border-color: var(--green); color: #14573e; }
+.conf.shallow { background: #fbefd9; border-color: var(--orange); color: #6a4510; }
+.final { font-family: var(--font-pixel); font-size: 10px; padding: 1px 6px; border: 2px solid var(--ink); background: var(--yellow); display: inline-block; }
+.final.no { background: #fff; border-style: dashed; }
+
+.statrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+.stat { background: var(--ink); color: var(--yellow); padding: 8px 10px; }
+.stat b { display: block; font-family: var(--font-pixel); font-size: 18px; font-weight: 400; }
+.stat span { font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--term-green); text-transform: uppercase; }
+
+.blockstrip { display: flex; gap: 0; overflow-x: auto; padding: 6px 2px 10px; align-items: stretch; }
+.blk { flex: none; width: 128px; border: 2px solid var(--blue); background: #fff; padding: 4px 6px; font-size: var(--fs-xs); position: relative; margin-right: 18px; }
+.blk::after { content: "◂──"; position: absolute; right: -19px; top: 50%; transform: translateY(-50%); color: var(--blue); font-family: var(--font-mono); }
+.blk:last-child::after { content: none; }
+.blk.open { border-style: dashed; background: #fffde0; }
+.blk a { font-weight: 700; }
+
+.merkle { overflow-x: auto; }
+.merkle .lvl { display: flex; gap: 6px; margin: 6px 0; align-items: stretch; }
+.merkle .lvl > div { flex: 1 1 0; min-width: 84px; background: #0d0f12; color: var(--orange); padding: 3px 5px; font-family: var(--font-mono); font-size: var(--fs-xs); border: 1px solid #333; overflow-wrap: anywhere; }
+.merkle .lvl > div a { color: var(--term-green); }
+.merkle .tag { font-family: var(--font-mono); font-size: var(--fs-xs); color: #555; }
+
+.verified { display: inline-block; background: #e5f5ee; border: 1px solid var(--green); color: #14573e; padding: 0 8px; font-family: var(--font-mono); font-size: var(--fs-xs); }
+pre.src { margin: 0; padding: 8px; background: #0d0f12; color: var(--term-green); overflow: auto; max-height: 340px; font-size: var(--fs-xs); border: 1px solid #333; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.miner { background: #0d0f12; color: var(--term-green); padding: 10px; font-family: var(--font-mono); border: 2px solid #000; }
+.miner .row { display: grid; grid-template-columns: 140px 1fr; gap: 2px 10px; font-size: var(--fs-sm); }
+.miner .row dt { color: #8a93a0; text-transform: uppercase; font-size: var(--fs-xs); }
+.miner .row dd { margin: 0; overflow-wrap: anywhere; }
+.miner .feed { margin: 8px 0 0; font-size: var(--fs-xs); color: #6d7684; height: 8.6em; overflow: hidden; }
+.miner .feed div.hit { color: var(--yellow); }
+.miner .meter { height: 10px; background: #1d2128; border: 1px solid #333; margin: 6px 0; }
+.miner .meter i { display: block; height: 100%; background: var(--yellow); }
+.miner label { color: var(--term-green); }
+.miner input[type=range] { width: 100%; }
+.miner button { margin-right: 6px; }
+
+.quorum { display: flex; gap: 4px; margin: 6px 0; }
+.quorum i { width: 26px; height: 14px; border: 2px solid var(--ink); background: #fff; display: block; }
+.quorum i.on { background: var(--yellow); }
+.sybil { border-left: 6px solid var(--red); background: #fbe6e5; padding: 6px 8px; font-size: var(--fs-sm); }

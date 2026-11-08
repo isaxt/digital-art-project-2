@@ -25,7 +25,7 @@ export function TranslationComparison({ outputs }: { outputs: TranslationOutput[
             <div className="cmp__src">
               <h3>{missing ? <span className="origin" style={{ borderColor: "#858d99", color: "#4d5562" }}>No source input</span> : <OriginTag kind="source" />} Original</h3>
               {missing ? (
-                <p className="muted">Input not present in selected sources: <span className="mono">{o.inputFields.join(", ")}</span></p>
+                <p className="muted">Input not present in the supplied dataset: <span className="mono">{o.inputFields.join(", ")}</span></p>
               ) : (
                 <>
                   <blockquote>{srcText(o.sourceValue)}</blockquote>

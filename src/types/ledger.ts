@@ -6,6 +6,7 @@ export type LedgerEventType =
   | "record_corrected"
   | "record_disputed"
   | "record_withdrawn"
+  | "certificate_witnessed"
   | "testnet_anchor_created";
 
 export interface LedgerEvent {

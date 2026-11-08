@@ -9,6 +9,7 @@ import { Disclaimer, OriginTag, Panel } from "../components/shared";
 import { TranslationComparison } from "../components/translation/TranslationComparison";
 import { TranslationDirectionToggle } from "../components/translation/TranslationDirectionToggle";
 import { useEffect } from "react";
+import { MiningPanel } from "../components/explorer/MiningPanel";
 
 export default function TranslationPage() {
   const { entityId } = useParams();
@@ -45,7 +46,7 @@ export default function TranslationPage() {
         <div className="grid2">
           {groups.map((g) => (
             <Panel key={g.title} title={g.title}>
-              <ul style={{ margin: 0, paddingLeft: 18 }}>
+              <ul style={{ margin: 0, paddingLeft: 18, maxHeight: 360, overflowY: "auto" }}>
                 {g.list.map((e) => (<li key={e.id}><Link to={`/translate/${e.id}`}>{e.displayName}</Link> <span className="mono small">{e.id}</span></li>))}
               </ul>
             </Panel>
@@ -67,16 +68,6 @@ export default function TranslationPage() {
   }
 
   const mapped = mappedOutputs(result);
-  const issue = async () => {
-    setBusy(true);
-    try {
-      const { certificateId } = await issueCertificate(entity.id, dir);
-      nav(`/certificates/${certificateId}`);
-    } finally {
-      setBusy(false);
-    }
-  };
-
   return (
     <>
       <main className="main stack">
@@ -87,7 +78,7 @@ export default function TranslationPage() {
           <div>
             <label htmlFor="sel-entity">Record</label>
             <select id="sel-entity" value={entity.id} onChange={(e) => nav(`/translate/${e.target.value}`)}>
-              {entities.map((x) => <option key={x.id} value={x.id}>{x.displayName} ({TYPE_LABEL[x.entityType]})</option>)}
+              {entities.filter((x) => defaultDirection(x.entityType) || x.id === entity.id).map((x) => <option key={x.id} value={x.id}>{x.displayName} ({TYPE_LABEL[x.entityType]})</option>)}
             </select>
           </div>
           <div>
@@ -121,16 +112,13 @@ export default function TranslationPage() {
               </Panel>
             )}
 
-            <Panel title="Issue Office certificate" kind="office">
-              <p className="small">
-                Issuing freezes the current source snapshot and rule-set version into a certificate and appends two events to the ledger. The same assessment always has the same certificate ID, so refreshing or re-issuing never creates a lookalike.
-              </p>
-              {existing ? (
+            {existing ? (
+              <Panel title="Office certificate" kind="office">
                 <p>A certificate for this exact assessment already exists: <Link to={`/certificates/${existing}`} className="mono">{existing}</Link></p>
-              ) : (
-                <button className="primary" type="button" onClick={issue} disabled={busy}>{busy ? "Issuing…" : "Issue certificate and record to ledger"}</button>
-              )}
-            </Panel>
+              </Panel>
+            ) : (
+              <MiningPanel entityId={entity.id} entityName={entity.displayName} direction={dir} />
+            )}
           </>
         )}
         <Disclaimer compact />
