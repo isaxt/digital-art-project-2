@@ -82,7 +82,7 @@ export default function MethodsPage() {
           <li><b>Mining:</b> certificates wait in a mempool until your browser finds a nonce. The work proves hashing took place. It does not test the sources or the rules.</li>
           <li><b>Witnessing:</b> three distinct witness addresses mark a certificate “finalized”. Anyone can create addresses without limit, so this is a Sybil-vulnerable quorum, shown as such.</li>
         </ul>
-        <p>Artist certificates start unissued; the seed ledger holds certificates for galleries and startups only.</p>
+        <p>The seed ledger holds 54 certificates, all for startups and all from one rule (accelerator to network). Galleries have no translation direction, so none is issued for them, and artist certificates start unissued so visitors can mine them.</p>
       </Panel>
 
       <Panel title="8. Corrections and revisions" id="corrections">
