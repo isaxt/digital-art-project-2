@@ -35,7 +35,7 @@ export function MiningPanel({ entityId, entityName, direction }: { entityId: str
       if (p.found) {
         setRunning(false);
         const r = await issueCertificate(entityId, direction, p.found);
-        if (r.stale) setMsg("The chain moved while you were mining, so this work is stale. Mine again on the new head.");
+        if (r.stale) setMsg("The ledger advanced during computation and this proof is no longer valid. Restart on the current ledger head.");
         else nav(`/certificates/${r.certificateId}`);
         return;
       }
@@ -52,14 +52,14 @@ export function MiningPanel({ entityId, entityName, direction }: { entityId: str
   const pct = Math.min(100, (view.nonce / expected) * 100);
 
   return (
-    <Panel title="Issue Office certificate: submit, wait, mine" kind="office">
+    <Panel title="Certificate issuance · proof-of-work queue" kind="office">
       <p className="small">
-        A certificate is not issued on request. It enters the <b>mempool</b> as a pending transaction and stays unrecognized until someone does <b>work</b>: hashing
-        the certificate&apos;s ID with the ledger&apos;s latest hash and a counter, over and over, until a hash starts with enough zeros.
-        The same assessment always has the same certificate ID, so refreshing or re-issuing never creates a lookalike.
+        Certificates are not issued on request. Each assessment is submitted to the pending queue (<b>mempool</b>) and is issued once this device completes a
+        <b> proof-of-work</b> computation: the certificate ID, the latest ledger hash and a counter are hashed until the result begins with the required number of zeros.
+        An assessment always resolves to the same certificate ID, so resubmission cannot produce a duplicate.
       </p>
       {!tx ? (
-        <p><button className="primary" type="button" onClick={submit}>Submit {entityName} to the mempool</button></p>
+        <p><button className="primary" type="button" onClick={submit}>Submit {entityName} for issuance</button></p>
       ) : (
         <>
           <p className="small"><span className="badge orange">PENDING</span> <span className="mono">{tx.certificateId}</span> · {entityName} · {direction.replace(/_/g, " ")}</p>
@@ -83,13 +83,12 @@ export function MiningPanel({ entityId, entityName, direction }: { entityId: str
             </div>
           </div>
           <p className="small">
-            This work proves that hashing happened. It does not check the sources, the rules or the fairness of the interpretation; it only makes issuing the certificate cost your device some time. On a real chain that cost is how
-            a claim becomes expensive to rewrite. Here it is a ritual.
+            Proof of work confirms that the computation was performed. It does not verify the sources, the rules or the assessment itself.
           </p>
         </>
       )}
       {msg && <p role="status" className="small"><b>{msg}</b></p>}
-      <p className="small">Pending transactions are listed in the <Link to="/explorer">explorer&apos;s mempool</Link>. They live in this tab only; closing it drops them.</p>
+      <p className="small">Pending transactions are listed in the <Link to="/explorer">explorer&apos;s mempool</Link>. Pending submissions are held in this browser session only.</p>
     </Panel>
   );
 }

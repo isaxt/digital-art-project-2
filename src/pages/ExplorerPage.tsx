@@ -47,8 +47,8 @@ export default function ExplorerPage() {
     <main className="main stack">
       <div className="pagehead"><h1>Ledger Explorer</h1><span className="id">LOCAL / SIMULATED — NOT A PUBLIC CHAIN</span></div>
       <p className="intro">
-        The Office&apos;s ledger, read the way a public chain is read: blocks, transactions, addresses, confirmations. The blocks are a way of <i>presenting</i> the events,
-        not a network: one machine wrote them, and every number here is derived by hashing.
+        Blocks, transactions, addresses and confirmations for the Office ledger. Blocks are a presentation of the ledger&apos;s events, not a network:
+        all entries are written by a single registrar and every value shown is derived by hashing.
       </p>
       <form onSubmit={go} role="search" className="filters" style={{ alignItems: "flex-end" }}>
         <div style={{ flex: 1, minWidth: 220 }}>
@@ -56,7 +56,7 @@ export default function ExplorerPage() {
           <input id="xq" style={{ width: "100%" }} value={q} onChange={(e) => { setQ(e.target.value); setMiss(false); }} placeholder="0x… / 12 / EVT-000042 / CERT-… / ramp" />
         </div>
         <button type="submit">Search</button>
-        {miss && <span role="status" className="small"><b>Nothing found.</b> Unknown to this ledger is not the same as not existing.</span>}
+        {miss && <span role="status" className="small"><b>No match.</b> An identifier unknown to this ledger is not evidence that the entity does not exist.</span>}
       </form>
 
       <div className="statrow">

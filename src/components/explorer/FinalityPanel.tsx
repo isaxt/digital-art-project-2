@@ -20,18 +20,18 @@ export function FinalityPanel({ cert }: { cert: Certificate }) {
 
   const act = async () => {
     const r = await witness(cert.id);
-    setMsg(r === "ok" ? "Witnessed. This appended a new event to the ledger, which also added a confirmation to everything beneath it." : r === "duplicate" ? "This identity has already witnessed this certificate." : "Create a witness identity first.");
+    setMsg(r === "ok" ? "Attestation recorded as a new ledger event. All earlier entries gain one confirmation." : r === "duplicate" ? "This identity has already witnessed this certificate." : "Create a witness identity before attesting.");
   };
 
   return (
-    <Panel title="Finality: two ways something becomes “final”" kind="office">
+    <Panel title="Finality status" kind="office">
       <table className="data">
-        <thead><tr><th>Kind</th><th>Status</th><th>What it actually measures</th></tr></thead>
+        <thead><tr><th>Kind</th><th>Status</th><th>Basis</th></tr></thead>
         <tbody>
           <tr>
             <td><b>Burial</b></td>
             <td><Conf n={conf} /> {isBuried(conf) && <span className="final">FINAL BY BURIAL</span>}</td>
-            <td className="small">How many later events were written after this one. It grows whether or not anyone read, checked or believed the certificate.</td>
+            <td className="small">Number of ledger events recorded after this certificate. Increases with ledger activity, independent of review.</td>
           </tr>
           <tr>
             <td><b>Quorum</b></td>
@@ -40,19 +40,19 @@ export function FinalityPanel({ cert }: { cert: Certificate }) {
               <span className="mono">{ws.length} / {CONFIG.quorum} witnesses</span>{" "}
               {finalized ? <span className="final">FINALIZED BY QUORUM</span> : <span className="final no">NOT FINALIZED</span>}
             </td>
-            <td className="small">How many distinct addresses pressed a button. It says nothing about whether the certificate is true.</td>
+            <td className="small">Number of distinct witness addresses that have attested. Attestation does not confirm accuracy.</td>
           </tr>
           <tr>
             <td><b>Work</b></td>
             <td>{pow ? (verifyPow(cert.id, pow) ? <span className="verified">✓ nonce {pow.nonce.toLocaleString()} · {pow.difficulty} zeros · {with0x(pow.hash).slice(0, 14)}…</span> : <span className="badge red">✗ invalid proof</span>) : <span className="muted">none</span>}</td>
-            <td className="small">{pow ? "A device hashed until this nonce turned up before the certificate could be issued." : "Issued on the registrar's authority, not by work."}</td>
+            <td className="small">{pow ? "Issued after a proof-of-work computation at the stated difficulty." : "Issued by the Registrar (seed record); no proof of work."}</td>
           </tr>
         </tbody>
       </table>
 
-      <h3 style={{ marginTop: 10 }}>Witness this certificate</h3>
+      <h3 style={{ marginTop: 10 }}>Attestation</h3>
       <p className="small">
-        A witness is an address. Create one, then press the button. Nothing else is asked: no key, no proof of identity, no reading.
+        Witness identities are generated locally. No signing key or identity verification is required to attest.
       </p>
       <div className="filters" style={{ alignItems: "flex-end" }}>
         <div>
@@ -70,11 +70,11 @@ export function FinalityPanel({ cert }: { cert: Certificate }) {
         <ul className="small" style={{ margin: "6px 0", paddingLeft: 18 }}>{ws.map((w) => <li key={w}><Addr address={w} full /></li>)}</ul>
       )}
       <p className="sybil">
-        <b>Sybil note.</b> Every witness on this site is created in a browser, and one browser can create as many as it likes. A quorum of {CONFIG.quorum} can be one person with {CONFIG.quorum} identities, and the ledger cannot tell the difference
-        {allLocal && ws.length >= 2 ? <>. <b>All {ws.length} witnesses here came from this browser.</b></> : "."}
+        <b>Identity notice.</b> Witness identities can be created without limit from a single browser. A quorum of {CONFIG.quorum} may therefore represent a single party, and the ledger cannot distinguish the two
+        {allLocal && ws.length >= 2 ? <>. <b>All {ws.length} witnesses on this certificate originate from this browser.</b></> : "."}
       </p>
       <p className="small">
-        “Finalized” is a state the Office assigns when enough addresses agree. Agreement is not accuracy: it is how a claim becomes expensive to question. See the <Link to="/contract">rules contract</Link> for what is being agreed to.
+        Finalized status indicates that the quorum threshold was met. It is not a determination of accuracy. The rules being attested to are published in the <Link to="/contract">rules contract</Link>.
       </p>
     </Panel>
   );

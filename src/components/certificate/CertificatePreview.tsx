@@ -14,7 +14,7 @@ export function CertificatePreview({ cert, status }: { cert: Certificate; status
       </svg>
       <div className="mono muted">{CONFIG.institutionName.toUpperCase()}</div>
       <h1>Certificate of Anticipated Potential</h1>
-      <div className="small muted">An artwork-generated interpretation. Not an endorsement, valuation or investment assessment.</div>
+      <div className="small muted">Interpretive assessment issued under Rule Set {cert.ruleSetVersion}. Not an endorsement, valuation or investment assessment.</div>
       <div className="class">{cert.classificationCode} · {cert.classification}</div>
       {status && status !== "current" && (<p><span className="stamp">Record {status}</span></p>)}
       <dl>
@@ -26,7 +26,7 @@ export function CertificatePreview({ cert, status }: { cert: Certificate; status
         <dt>Source snapshot</dt><dd className="mono">{cert.sourceSnapshotId}</dd>
         <dt>Rule-set version</dt><dd className="mono">{cert.ruleSetVersion}</dd>
         <dt>Ledger event</dt><dd>{cert.ledgerEventId ? <Link to={`/ledger/${cert.ledgerEventId}`} className="mono">{cert.ledgerEventId}</Link> : "—"}</dd>
-        <dt>Status</dt><dd className="mono">{cert.status === "local_simulation" ? "SIMULATED / LOCAL RECORD (not on any blockchain)" : "TESTNET-ANCHORED"}</dd>
+        <dt>Status</dt><dd className="mono">{cert.status === "local_simulation" ? "LOCAL RECORD · SIMULATED (not on any blockchain)" : "TESTNET-ANCHORED"}</dd>
         <dt>Short rationale</dt>
         <dd>
           <ul style={{ margin: 0, paddingLeft: 16 }}>{cert.rationale.map((r, i) => <li key={i}>{r}</li>)}</ul>

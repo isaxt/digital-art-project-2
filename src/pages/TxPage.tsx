@@ -35,9 +35,9 @@ export default function TxPage() {
       <Panel title="Overview" kind="terminal" controls>
         <KV rows={[
           ["Transaction hash", <Hash0x value={e.eventHash} full />],
-          ["Status", ok === null ? "verifying…" : ok ? <span className="verified">✓ SUCCESS: written, and hash and link check out</span> : <span className="badge red">✗ CHAIN CHECK FAILED</span>],
+          ["Status", ok === null ? "verifying…" : ok ? <span className="verified">✓ SUCCESS · hash and link verified</span> : <span className="badge red">✗ CHAIN CHECK FAILED</span>],
           ["Block", <><Link to={`/block/${block.height}`}>#{block.height}</Link> <span className="small muted">{block.sealed ? "sealed" : "open"}</span></>],
-          ["Confirmations", <><Conf n={conf} /><div className="small muted" style={{ marginTop: 3 }}>Counted as the number of later events stacked on top of this one. Nothing about the event changed as they arrived.</div></>],
+          ["Confirmations", <><Conf n={conf} /><div className="small muted" style={{ marginTop: 3 }}>Number of ledger events recorded after this one. The event itself is unchanged.</div></>],
           ["Timestamp", fmtTimestamp(e.timestamp)],
           ["From", from],
           ["Interacted with (to)", to],
@@ -49,7 +49,7 @@ export default function TxPage() {
           ["Transaction fee", "none. This ledger charges no gas; the cost is attention."],
           ["Parent transaction", i > 0 ? <Link to={`/tx/${ledger[i - 1].id}`}><Hash0x value={ledger[i - 1].eventHash} /></Link> : "GENESIS"],
         ]} />
-        <p className="small"><b>Success means written, not true.</b> The transaction is intact relative to the copy of the chain you are reading. It does not show the underlying source is correct.</p>
+        <p className="small"><b>Scope.</b> Success confirms that the transaction is intact relative to this copy of the ledger. It does not confirm that the underlying source is correct.</p>
       </Panel>
       <Panel title="Input data" kind="terminal"><pre className="payload">{JSON.stringify(e.payload, null, 2)}</pre></Panel>
       <LedgerEventDetail event={e} previous={ledger[i - 1]} />

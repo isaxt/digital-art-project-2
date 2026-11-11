@@ -12,12 +12,12 @@ export default function ArchivePage() {
 
   return (
     <main className="main stack">
-      <div className="pagehead"><h1>Archive</h1><span className="id">HISTORICAL / CULTURAL — LAYER 5</span></div>
+      <div className="pagehead"><h1>Archive</h1><span className="id">FOUNDING DOCUMENTS</span></div>
       <p className="intro">
-        Before the Registry there was a post. The Office began as a thought written out on Substack, kept here as a point of reference. Open the file on the desktop to read it again.
+        The Archive holds the Office&apos;s founding text, first published on Substack in August 2025. Open the file to read it.
       </p>
       <ArchiveDesktop onOpen={(a) => setSp({ open: a.slug })} />
-      <p className="small muted">{articles.length} item. A replica of the artist&apos;s own post; a link to the original appears when set. <button type="button" onClick={openIntro}>Replay the orientation</button></p>
+      <p className="small muted">{articles.length} item. Reproduced from the original publication, with a link to the source. <button type="button" onClick={openIntro}>View orientation</button></p>
       {open && <SubstackWindow article={open} onClose={close} />}
     </main>
   );

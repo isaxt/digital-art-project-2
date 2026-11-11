@@ -13,13 +13,13 @@ a:visited { color: #5a2ea6; }
 a:hover { background: var(--yellow); color: var(--ink); }
 :focus-visible { outline: 3px solid var(--yellow); outline-offset: 1px; box-shadow: 0 0 0 5px var(--ink); }
 h1, h2, h3, h4 { margin: 0; line-height: 1.15; }
-h1 { font-family: var(--font-display); font-weight: 400; font-size: var(--fs-xl); color: var(--blue); }
+h1 { font-family: var(--font-display); font-weight: 600; letter-spacing: -.005em; font-size: var(--fs-xl); color: var(--blue); }
 h2 { font-size: var(--fs-lg); font-weight: 700; color: var(--blue); }
 h3 { font-size: var(--fs-md); font-weight: 700; }
 p { margin: 0 0 8px; }
-code, .mono { font-family: var(--font-mono); font-size: 13.5px; }
-h2, h3 { font-family: var(--font-display); }
-.serif { font-family: var(--font-serif); }
+code, .mono { font-family: var(--font-mono); font-size: 12.5px; }
+h2, h3 { font-family: var(--font-ui); font-weight: 600; }
+.serif { font-family: var(--font-display); }
 .small { font-size: var(--fs-sm); }
 .muted { color: #4d5562; }
 .nowrap { white-space: nowrap; }
@@ -59,3 +59,6 @@ table.data th button:focus-visible { outline: 2px solid var(--yellow); }
 .badge.orange { border-color: var(--orange); background: #fbefd9; }
 .badge.red { border-color: var(--red); background: #fbe6e5; color: #7c1d19; }
 .badge.gray { background: var(--gray); }
+
+/* Figures line up in tables and counters. */
+table.data, .ticker, .stat, .counter { font-variant-numeric: tabular-nums; }

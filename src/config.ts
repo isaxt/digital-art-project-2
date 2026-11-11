@@ -5,14 +5,14 @@
 export const CONFIG = {
   institutionName: "The Office of Cultural Futures",
   shortName: "OCF",
-  tagline: "Registry · Translation · Provenance of Anticipated Potential",
+  tagline: "Public Registry · Assessment · Provenance",
   ruleSetVersion: "1.1.0",
-  ledgerLabel: "LOCAL APPEND-ONLY LEDGER — SIMULATION (not a blockchain)",
+  ledgerLabel: "Ledger: local append-only record (simulated; not a blockchain)",
   disclaimer:
-    "Classifications, translations and certificates issued by this Office are speculative interpretations produced by an artwork. They are not endorsements, valuations, investment assessments or measures of artistic merit.",
+    "Classifications, translations and certificates issued by the Office are interpretive assessments produced under the published rule set. They do not constitute endorsements, valuations, investment advice or judgments of artistic merit.",
   notice: {
     ref: "NOTICE 2026/01",
-    text: "The Registry is built from two supplied datasets of real, source-linked records. Records marked NEEDS REVIEW or PARTIAL, and sections marked not yet parsed, have not completed verification. Absence of a field is recorded as unavailable, never as low value.",
+    text: "The Registry is compiled from two source-linked datasets. Records marked Needs review or Partial, and sections marked Not yet parsed, have not completed verification. Missing fields are recorded as Not available and carry no negative weight in any assessment.",
   },
   /** Where visitors should send factual corrections. Fill in before exhibiting. */
   correctionsContact: "[corrections contact to be supplied by the project owner]",

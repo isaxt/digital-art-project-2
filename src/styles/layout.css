@@ -3,7 +3,7 @@
 /* Global institutional header */
 .hdr { background: var(--blue); color: #fff; display: flex; align-items: center; gap: 12px; padding: 8px 14px; border-bottom: 3px solid var(--yellow); flex-wrap: wrap; }
 .hdr__emblem { width: 38px; height: 38px; flex: none; }
-.hdr__name { font-family: var(--font-serif); font-size: 22px; line-height: 1; }
+.hdr__name { font-family: var(--font-display); font-size: 22px; line-height: 1.1; }
 .hdr__name a { color: #fff; text-decoration: none; }
 .hdr__name a:hover { background: none; text-decoration: underline; }
 .hdr__tag { font-family: var(--font-mono); font-size: var(--fs-xs); opacity: .85; margin-top: 3px; }

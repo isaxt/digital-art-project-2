@@ -19,8 +19,8 @@ export default function ContractPage() {
       <div className="crumbs"><Link to="/explorer">Explorer</Link> › Contract</div>
       <div className="pagehead"><h1>Contract: {CONTRACT.name}</h1><span className="badge blue">v{CONTRACT.version}</span>{verified && <span className="verified">✓ SOURCE VERIFIED</span>}</div>
       <p className="intro">
-        The Office&apos;s translation rules, presented as a smart contract. Each rule is a function that takes a recorded fact and returns an interpretation. Once written as code,
-        an analogy such as <i>an exhibition is a traction event</i> stops looking like a choice and starts looking like a law of nature.
+        The Office&apos;s translation rules, published as a contract. Each rule is a function that takes a recorded fact and returns an interpretation with its stated limitation.
+        The contract address is the hash of the rule set, so any change to the rules produces a new contract.
       </p>
       <Panel title="Overview" kind="terminal">
         <KV rows={[
@@ -36,7 +36,7 @@ export default function ContractPage() {
         ]} />
         <p className="small">
           <b>What “no upgrades” means here.</b> Change one character of the rules and the hash, and therefore the address, changes: the old rules cannot be quietly edited, only replaced by a different contract.
-          <b> What it does not mean:</b> the rules were drafted and revised freely before this chain existed, nothing on-chain records who chose these analogies or why, and a rule set that cannot be edited is not a rule set that is right.
+          <b> What it does not mean:</b> the rules were drafted and revised before deployment, the ledger does not record who authored them or why, and immutability is not a measure of correctness.
           Immutability protects the wording; it says nothing about the judgment.
         </p>
       </Panel>
@@ -63,7 +63,7 @@ export default function ContractPage() {
 
       <Panel title="Contract source (canonical JSON)" kind="terminal">
         <pre className="src" tabIndex={0}>{CONTRACT.source}</pre>
-        <p className="small">This is exactly what is hashed. Keys are sorted and strings normalized, so the same rules always give the same address. Human-readable version: <Link to="/methods#rules">Methods / Terms</Link>.</p>
+        <p className="small">This is exactly what is hashed. Keys are sorted and strings normalized, so the same rules always give the same address. Human-readable version: <Link to="/methods#rules">Methodology &amp; Terms</Link>.</p>
       </Panel>
     </main>
   );

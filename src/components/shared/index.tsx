@@ -21,7 +21,6 @@ export function Panel({
     <section className={`panel ${kind ?? ""}`} aria-labelledby={id ? `${id}-t` : undefined} id={id}>
       <div className="panel__title">
         <span id={id ? `${id}-t` : undefined}>{title}</span>
-        {controls && <span className="ctl" aria-hidden="true">▫▫▪</span>}
       </div>
       <div className="panel__body">{children}</div>
     </section>
@@ -56,8 +55,8 @@ export function Coverage({ entity }: { entity: Entity }) {
 export function Disclaimer({ compact }: { compact?: boolean }) {
   return (
     <p className="disclaimer" role="note">
-      <b>ARTWORK NOTICE · </b>
-      {compact ? "Office classifications are speculative interpretations, not endorsements, valuations or measures of merit." : CONFIG.disclaimer}
+      <b>Notice · </b>
+      {compact ? "Office classifications are interpretive assessments. They are not endorsements, valuations or judgments of merit." : CONFIG.disclaimer}
     </p>
   );
 }

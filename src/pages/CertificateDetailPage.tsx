@@ -73,7 +73,7 @@ export default function CertificateDetailPage() {
         <Panel title="Correction or dispute" kind="office">
           <p className="small">
             Corrections and disputes never overwrite a certificate: they append a new event to the ledger, and the certificate&apos;s displayed status changes while its history stays visible.
-            In this prototype the event is stored in <b>this browser only</b>. Do not enter personal information. For a factual error in a source record, see <Link to="/methods#corrections">Methods / Terms</Link>: {CONFIG.correctionsContact}
+            Entries are stored in <b>this browser only</b>. Do not enter personal information. For a factual error in a source record, see <Link to="/methods#corrections">Methodology &amp; Terms</Link>: {CONFIG.correctionsContact}
           </p>
           <label htmlFor="note">Describe the issue (max 500 characters)</label>
           <textarea id="note" value={note} maxLength={500} onChange={(e) => setNote(e.target.value)} />

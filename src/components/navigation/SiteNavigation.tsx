@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
 
 const PRIMARY = [
-  { to: "/", label: "Office", end: true },
+  { to: "/", label: "Overview", end: true },
   { to: "/registry", label: "Registry" },
   { to: "/translate", label: "Translation Engine" },
   { to: "/certificates", label: "Certificates" },
   { to: "/ledger", label: "Public Ledger" },
   { to: "/explorer", label: "Explorer" },
-  { to: "/contract", label: "Contract" },
+  { to: "/contract", label: "Rules Contract" },
 ];
 
 export function SiteNavigation() {
@@ -22,7 +22,7 @@ export function SiteNavigation() {
         Archive
       </NavLink>
       <NavLink to="/methods" className={({ isActive }) => `secondary ${isActive ? "active" : ""}`}>
-        Methods / Terms
+        Methodology &amp; Terms
       </NavLink>
     </nav>
   );

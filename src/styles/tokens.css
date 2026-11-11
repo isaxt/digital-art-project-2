@@ -14,18 +14,14 @@
   --blue-pale: #dce7f8;
   --term-green: #a5d58b;
 
-  /* Typeface system: "the cultural institution with a weird personal website hiding underneath".
-     Primary three: Fraunces (display/editorial), Tahoma (body/interface), Cutive Mono (archival labels, IDs, catalogue numbers).
-     Occasional artifacts, used sparingly like stamped or scanned things: Silkscreen (system labels),
-     Special Elite (stamps, notices, documents), UnifrakturCook (the dubious institutional seal).
-     To try another identity, change only these variables. */
-  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
-  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
-  --font-ui: Tahoma, Verdana, "DejaVu Sans", Geneva, sans-serif;
-  --font-mono: "Cutive Mono", "Courier Prime", "Courier New", ui-monospace, monospace;
-  --font-pixel: "Silkscreen", "Courier New", monospace;
-  --font-stamp: "Special Elite", "Courier New", monospace;
-  --font-seal: "UnifrakturCook", "Old English Text MT", serif;
+  /* Typeface system: an official public registry.
+     Public Sans (interface, body, headings): the U.S. Web Design System typeface, neutral and highly legible.
+     Source Serif 4 (institution name and page titles only): gives the masthead the weight of a record office.
+     IBM Plex Mono (identifiers, hashes, codes, tabular figures).
+     To change the identity, change only these three variables. */
+  --font-ui: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 
   --fs-xs: 11.5px;
   --fs-sm: 13px;

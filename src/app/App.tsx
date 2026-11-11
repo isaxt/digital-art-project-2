@@ -20,7 +20,7 @@ function StatusTicker() {
       <span>LEDGER EVENTS <b>{String(ledger.length).padStart(6, "0")}</b></span>
       <span>BLOCK <b>#{blocks.length - 1}</b></span>
       <span>MEMPOOL <b>{String(mempool.length).padStart(2, "0")}</b></span>
-      <span>LOCAL (THIS BROWSER) <b>{String(localCount).padStart(3, "0")}</b></span>
+      <span>LOCAL ENTRIES <b>{String(localCount).padStart(3, "0")}</b></span>
       <span className={cls}>INTEGRITY: {chain}</span>
       <span className="warn">LEDGER TYPE: LOCAL / SIMULATED</span>
     </div>
@@ -44,7 +44,7 @@ function Rail() {
           </li>
         ))}
       </ul>
-      <h2>Systems</h2>
+      <h2>Services</h2>
       <ul>
         <li><NavLink to="/translate">Translation Engine</NavLink></li>
         <li><NavLink to="/certificates">Certificates</NavLink></li>
@@ -52,12 +52,12 @@ function Rail() {
         <li><NavLink to="/explorer">Explorer</NavLink></li>
         <li><NavLink to="/contract">Rules Contract</NavLink></li>
         <li><NavLink to="/archive">Archive</NavLink></li>
-        <li><NavLink to="/methods">Methods / Terms</NavLink></li>
+        <li><NavLink to="/methods">Methodology &amp; Terms</NavLink></li>
       </ul>
       <div className="notice">
         <b className="mono">{CONFIG.notice.ref}</b>
         <br />
-        Classifications are speculative interpretations. See Methods / Terms.
+        Classifications are interpretive assessments, not ratings. See Methodology &amp; Terms.
       </div>
     </aside>
   );
@@ -78,8 +78,8 @@ export default function App() {
         <Outlet />
       </div>
       <footer className="foot">
-        <span className="seal">{CONFIG.institutionName}</span> · A critical digital artwork · {CONFIG.ledgerLabel} · Rule set v{CONFIG.ruleSetVersion} ·{" "}
-        <Link to="/methods">Methods / Terms</Link> ·{" "}
+        <span className="seal">{CONFIG.institutionName}</span> · Research registry · Rule set v{CONFIG.ruleSetVersion} · {CONFIG.ledgerLabel} ·{" "}
+        <Link to="/methods">Methodology &amp; Terms</Link> ·{" "}
         <a href="#!" onClick={(e) => { e.preventDefault(); openIntro(); }}>Orientation</a>
       </footer>
       {intro && <OnboardingWindow onClose={closeIntro} />}

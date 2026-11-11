@@ -18,12 +18,13 @@ export default function HomePage() {
   return (
     <>
       <main className="main stack">
-        <div className="pagehead"><h1>{CONFIG.institutionName}</h1><span className="id">EST. REGISTRY 0001</span></div>
+        <div className="pagehead"><h1>{CONFIG.institutionName}</h1><span className="id">PUBLIC REGISTRY</span></div>
 
         <p className="intro">
-          The Office registers galleries, artists and startups from two supplied datasets of real, source-linked records, translates what is known
-          about each into the vocabulary of the other ecosystem, and issues certificates of their anticipated cultural and
-          economic potential. The data is real; the interpretation is the artwork. Every certificate can be traced to its sources, its rule and a ledger entry.
+          The Office of Cultural Futures maintains a registry of galleries, artists and startups in New York and San Francisco. Each record is
+          assessed against a published rule set that translates its recorded activity into the vocabulary of the other sector, and qualifying
+          assessments are issued as certificates of anticipated cultural and economic potential. Every certificate is traceable to its source
+          records, the rule applied and a ledger entry.
         </p>
 
         <div className="notice-strip" role="note"><b>{CONFIG.notice.ref} · </b>{CONFIG.notice.text}</div>
@@ -36,29 +37,29 @@ export default function HomePage() {
         </div>
 
         <p>
-          <Link to="/registry"><button className="primary" type="button" tabIndex={-1}>Enter the Registry →</button></Link>{" "}
-          <span className="small muted">or follow the featured example below from record to certificate to ledger.</span>
+          <Link to="/registry"><button className="primary" type="button" tabIndex={-1}>Search the Registry</button></Link>{" "}
+          <span className="small muted">or review the reference record below, from source to certificate.</span>
         </p>
 
-        <Panel title="From the archive: where this began">
+        <Panel title="Archive · Founding document">
           <p className="small">
-            The Office started as a post. Read the original text of the Substack piece that prompted it.{" "}
-            <Link to="/archive?open=parallels"><b>Open “parallels between the start up world and the fine art world” →</b></Link>
+            The founding text of the Office, first published on 23 August 2025, is held in the Archive.{" "}
+            <Link to="/archive?open=parallels"><b>View “parallels between the start up world and the fine art world”</b></Link>
           </p>
         </Panel>
 
-        <Panel title="Featured record" controls>
+        <Panel title="Reference record">
           <div className="grid2">
             <div>
               <h2><Link to={`/registry/${featured.id}`}>{featured.displayName}</Link> <span className="badge">{TYPE_LABEL[featured.entityType]}</span></h2>
               <p className="small mono">{featured.id} · {sourcesOf(featured).length} source records · {eventsOf(featured).length} events</p>
-              <p className="small">An artist named on a gallery&apos;s parsed roster and in the same gallery&apos;s current-exhibition listing, so both rules that artists can be read by have something to read.</p>
+              <p className="small">Listed on a parsed gallery roster and in the same gallery&apos;s current exhibition schedule. Both artist assessment rules apply to this record.</p>
             </div>
             <ol className="small" style={{ margin: 0, paddingLeft: 18 }}>
-              <li><Link to={`/registry/${featured.id}`}>Inspect the source records</Link></li>
-              {featuredDir && <li><Link to={`/translate/${featured.id}`}>Translate: {DIRECTIONS[featuredDir].label}</Link>, with rules and limitations</li>}
-              {featuredCert && <li><Link to={`/certificates/${featuredCert.id}`}>Open the certificate</Link></li>}
-              {featuredCert?.ledgerEventId && <li><Link to={`/ledger/${featuredCert.ledgerEventId}`}>Inspect its ledger event</Link></li>}
+              <li><Link to={`/registry/${featured.id}`}>Source records</Link></li>
+              {featuredDir && <li><Link to={`/translate/${featured.id}`}>Translation: {DIRECTIONS[featuredDir].label}</Link>, with rules and limitations</li>}
+              {featuredCert && <li><Link to={`/certificates/${featuredCert.id}`}>Certificate</Link></li>}
+              {featuredCert?.ledgerEventId && <li><Link to={`/ledger/${featuredCert.ledgerEventId}`}>Ledger entry</Link></li>}
             </ol>
           </div>
         </Panel>
@@ -82,13 +83,13 @@ export default function HomePage() {
                 </li>
               ))}
             </ul>
-            <p className="small"><Link to="/registry?ver=needs_review">See all {review.length} →</Link></p>
+            <p className="small"><Link to="/registry?ver=needs_review">View all {review.length}</Link></p>
           </Panel>
         </div>
 
-        <Panel title="Recently recorded · public ledger (local simulation)" kind="terminal" controls>
+        <Panel title="Latest ledger entries · local simulated ledger" kind="terminal">
           <LedgerTimeline events={ledger} verification={verification} limit={5} />
-          <p className="small"><Link to="/ledger">Open the full ledger →</Link></p>
+          <p className="small"><Link to="/ledger">View full ledger</Link></p>
         </Panel>
 
         <Disclaimer />

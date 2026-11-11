@@ -60,13 +60,13 @@ export default function LedgerPage() {
           <dt>This browser</dt><dd className="mono">{localCount}</dd>
         </dl>
         <h2>Test the check</h2>
-        <p className="small">Alter one event in memory to watch verification catch it. Stored records are not changed.</p>
+        <p className="small">Integrity test: alter one event in memory and re-run verification. Stored records are not changed.</p>
         <label style={{ textTransform: "none", fontFamily: "inherit", fontSize: 12 }}>
-          <input type="checkbox" checked={tamperDemo} onChange={(e) => setTamperDemo(e.target.checked)} /> Simulate tampering with event 3
+          <input type="checkbox" checked={tamperDemo} onChange={(e) => setTamperDemo(e.target.checked)} /> Simulate alteration of event 3
         </label>
         <h2>Local records</h2>
         <p className="small">Certificates and events you create are stored only in this browser.</p>
-        <button type="button" disabled={localCount === 0} onClick={() => { if (window.confirm("Remove all records created in this browser? Seed records are kept.")) resetLocal(); }}>Clear my local records</button>
+        <button type="button" disabled={localCount === 0} onClick={() => { if (window.confirm("Remove all records created in this browser? Seed records are kept.")) resetLocal(); }}>Clear local records</button>
       </aside>
     </>
   );

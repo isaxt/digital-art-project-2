@@ -53,7 +53,7 @@ export default function BlockPage() {
             );
           })}
         </div>
-        <p className="small">Toy Merkle tree: each parent is SHA-256 of its two children&apos;s hex strings; an odd last node is paired with itself. It lets one transaction be proven part of a block without the others, in principle. Here nobody asks for the proof.</p>
+        <p className="small">Simplified Merkle tree: each parent is the SHA-256 of its two children&apos;s hex strings; an odd final node is paired with itself. It allows a transaction to be proven part of a block without the others.</p>
       </Panel>
 
       <Panel title="Transactions in this block" kind="terminal">

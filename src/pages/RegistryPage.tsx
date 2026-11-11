@@ -40,7 +40,7 @@ export default function RegistryPage() {
   return (
     <>
       <main className="main stack">
-        <div className="pagehead"><h1>Registry</h1><span className="id">BUREAU OF UNPROVEN POTENTIAL</span></div>
+        <div className="pagehead"><h1>Registry</h1><span className="id">{entities.length} RECORDS</span></div>
         <p className="small">
           Galleries and art spaces, artists named in their listings, and startups, all imported unchanged from two supplied datasets, with each record&apos;s source links and review status shown.
           Sorted by name by default. The Office keeps no universal quality score and does not rank its records.
@@ -71,7 +71,7 @@ export default function RegistryPage() {
           <dt>Galleries</dt><dd className="mono">{entities.filter((e) => e.entityType === "gallery").length}</dd>
           <dt>Startups</dt><dd className="mono">{entities.filter((e) => e.entityType === "startup").length}</dd>
           <dt>Artists</dt><dd className="mono">{entities.filter((e) => e.entityType === "artist").length}</dd>
-          <dt>Origin</dt><dd>Two supplied datasets. Nothing is added by the Office. See Methods / Terms.</dd>
+          <dt>Origin</dt><dd>Two source-linked datasets. No records are added by the Office. See Methodology &amp; Terms.</dd>
         </dl>
         <h2>Reading the table</h2>
         <p className="small">“Source record” describes how complete the entity&apos;s fields are for the Office&apos;s rules, not how important the entity is.</p>

@@ -37,7 +37,7 @@ export default function EntityPage() {
           <VerificationBadge status={e.verificationStatus} />
         </div>
 
-        <Panel title="Source facts" kind="source" controls>
+        <Panel title="Source facts" kind="source">
           <p><OriginTag kind="source" /></p>
           {e.description ? (
             <>
@@ -93,12 +93,12 @@ export default function EntityPage() {
           ) : <p>No gaps against the Office&apos;s field list.</p>}
         </Panel>
 
-        <Panel title="Office interpretation" kind="office" controls>
+        <Panel title="Office interpretation" kind="office">
           <p><OriginTag kind="office" /></p>
           {dir ? (
             <>
               <p>
-                <Link to={`/translate/${e.id}`}><button className="primary" type="button" tabIndex={-1}>Open Translation Engine: {DIRECTIONS[dir].label} →</button></Link>
+                <Link to={`/translate/${e.id}`}><button className="primary" type="button" tabIndex={-1}>Open in Translation Engine: {DIRECTIONS[dir].label}</button></Link>
               </p>
               {certs.length ? (
                 <ul style={{ margin: 0, paddingLeft: 18 }}>

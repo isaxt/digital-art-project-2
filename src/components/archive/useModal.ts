@@ -11,7 +11,7 @@ export function useModal(onClose: () => void, deps: unknown[] = []) {
     const prevFocus = document.activeElement as HTMLElement | null;
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    initial.current?.focus();
+    initial.current?.focus({ preventScroll: true });
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") { e.preventDefault(); onClose(); return; }
       if (e.key !== "Tab" || !box.current) return;

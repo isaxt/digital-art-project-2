@@ -5,12 +5,12 @@ import { Panel } from "../components/shared";
 export default function MethodsPage() {
     return (
     <main className="main stack" style={{ maxWidth: 980 }}>
-      <div className="pagehead"><h1>Methods / Terms</h1><span className="id">RULE SET v{ruleSet.version}</span></div>
-      <p className="intro">This page is part of the work. It states what the Office knows, how it knows it, and what its certificates cannot establish.</p>
+      <div className="pagehead"><h1>Methodology &amp; Terms</h1><span className="id">RULE SET v{ruleSet.version}</span></div>
+      <p className="intro">This page sets out the Office&apos;s data sources, assessment rules and record-keeping, and the limits of what its certificates establish.</p>
 
-      <Panel title="1. Sources: real records only" kind="source" id="sources">
+      <Panel title="1. Data sources" kind="source" id="sources">
         <p>
-          <b>The central rule: real entities, real source records, transparent interpretation.</b> Every gallery, artist and startup in the Registry comes from one of two supplied datasets, kept unchanged in <span className="mono">src/data/raw/</span>:
+          <b>Policy: real entities, cited source records, disclosed interpretation.</b> Every gallery, artist and startup in the Registry comes from one of two supplied datasets, kept unchanged in <span className="mono">src/data/raw/</span>:
         </p>
         <ul>
           <li><b>Contemporary Fine Art Galleries — New York City and San Francisco</b> (schema 1.0.0, generated 2026-11-07): {entities.filter((e) => e.entityType === "gallery").length} galleries and art spaces, with artist rosters and current exhibitions where parsed.</li>
@@ -50,7 +50,7 @@ export default function MethodsPage() {
         </div>
       </Panel>
 
-      <Panel title="5. What is fictional" kind="office">
+      <Panel title="5. Status of Office assessments" kind="office">
         <p>All Office classifications, translations, certificate wording and institutional framing are authored interpretations. Classification codes (OCF-C3, OCF-C2, OCF-C0) describe how many source facts the rules could read. They are not quality, merit, potential or investment ratings, and no ranking is produced.</p>
       </Panel>
 
@@ -58,7 +58,7 @@ export default function MethodsPage() {
         <p>Missing data is shown as <i>not recorded</i> or <i>not yet parsed</i> and as hatched squares in the Registry. It is never converted into zero, failure or a low classification. A record with nothing the rules can read receives “Not classified: insufficient mapped data (no inference drawn)”.</p>
       </Panel>
 
-      <Panel title="7. The ledger: what it can and cannot verify" kind="terminal" id="ledger">
+      <Panel title="7. Ledger: scope of verification" kind="terminal" id="ledger">
         <p>{CONFIG.ledgerLabel}</p>
         <ul>
           <li>Each event stores a SHA-256 hash of its canonical payload plus the previous event&apos;s hash. Events are never overwritten; corrections and disputes append new events.</li>
@@ -70,12 +70,12 @@ export default function MethodsPage() {
         </ul>
       </Panel>
 
-      <Panel title="8a. Blocks, confirmations, mining and witnesses: borrowed forms" kind="terminal" id="chain">
+      <Panel title="8. Explorer conventions: blocks, confirmations, mining, witnesses" kind="terminal" id="chain">
         <p>
           The <a href="#/explorer">Explorer</a> reads the ledger the way a public chain is read. These are <b>presentation devices over one local ledger</b>, not a network. Nothing is stored for them; all of it is recomputed from the events.
         </p>
         <ul>
-          <li><b>Blocks:</b> every 8 events are grouped, with a toy Merkle root and a hash linking to the previous block. The last group is open and its hash is provisional.</li>
+          <li><b>Blocks:</b> every 8 events are grouped, with a simplified Merkle root and a hash linking to the previous block. The last group is open and its hash is provisional.</li>
           <li><b>Addresses:</b> <code>0x…</code> values are hashes of record IDs. No keys exist, so no one can sign as an address.</li>
           <li><b>Confirmations:</b> the number of later events. They accumulate whether or not anyone checked the certificate. Six counts as buried.</li>
           <li><b>Rules contract:</b> the rule set is shown with an address that is the hash of its canonical text. “No upgrades” means a changed rule has a different address. It does not mean the rules are right, and the Office can publish a new contract.</li>
@@ -85,11 +85,11 @@ export default function MethodsPage() {
         <p>The seed ledger holds 54 certificates, all for startups and all from one rule (accelerator to network). Galleries have no translation direction, so none is issued for them, and artist certificates start unissued so visitors can mine them.</p>
       </Panel>
 
-      <Panel title="8. Corrections and revisions" id="corrections">
-        <p>A factual error in a source record can be reported to: {CONFIG.correctionsContact}. In the prototype, a correction or dispute can also be recorded against any certificate; it appends a ledger event, changes the displayed status, and keeps the original visible.</p>
+      <Panel title="9. Corrections and revisions" id="corrections">
+        <p>A factual error in a source record can be reported to: {CONFIG.correctionsContact}. A correction or dispute can also be recorded against any certificate; it appends a ledger event, changes the displayed status, and keeps the original visible.</p>
       </Panel>
 
-      <Panel title="9. Reuse and accessibility">
+      <Panel title="10. Reuse and accessibility">
         <p>Only short factual fields and brief attributed excerpts are stored; no images are reproduced. Public availability is not treated as permission for unrestricted reuse. Check each source&apos;s terms before reusing. The site uses semantic HTML, keyboard-operable controls and visible focus, and does not rely on colour alone for status.</p>
       </Panel>
     </main>

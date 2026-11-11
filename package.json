@@ -15,11 +15,9 @@
     "ingest": "tsx scripts/ingest.ts"
   },
   "dependencies": {
-    "@fontsource/cutive-mono": "^5.3.0",
-    "@fontsource/fraunces": "^5.3.0",
-    "@fontsource/silkscreen": "^5.3.0",
-    "@fontsource/special-elite": "^5.3.0",
-    "@fontsource/unifrakturcook": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/public-sans": "^5.3.0",
+    "@fontsource/source-serif-4": "^5.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0"

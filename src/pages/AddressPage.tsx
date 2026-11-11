@@ -23,16 +23,16 @@ export default function AddressPage() {
     const id = ledger.find((e) => e.entityId && entityAddress(e.entityId) === a)?.entityId ?? getEntity(info.label)?.id;
     kind = "Record address"; label = info.label;
     txs = ledger.filter((e) => e.entityId && entityAddress(e.entityId) === a);
-    note = "Derived from the record's ID. It does not receive, hold or send anything: it exists so a record can be pointed at the way a wallet is.";
+    note = "Derived from the record ID. The address holds no balance and initiates no transactions; it identifies the record on the ledger.";
     void id;
   } else if (info?.kind === "registrar") {
     kind = "Office registrar"; label = info.label;
     txs = ledger.filter((e) => e.eventType !== "certificate_witnessed" && !e.eventType.startsWith("record_"));
-    note = "The single writer of the seed ledger. Every registration, translation and certificate was authorized by this one address, which is the opposite of decentralization.";
+    note = "Sole writer of the seed ledger. All registrations, translations and certificates were authorized by this address; the ledger is not decentralized.";
   } else {
     kind = "Witness identity"; label = "Created in a browser";
     txs = witnessed;
-    note = "A random 20-byte value generated in a visitor's browser. No private key backs it, nothing signs with it, and nothing prevents one person from creating many.";
+    note = "A random 20-byte value generated in a visitor's browser. No private key is associated with it, and one person may create any number of them.";
   }
   return (
     <main className="main stack">
@@ -43,7 +43,7 @@ export default function AddressPage() {
           ["Address", <span className="hash">{a}</span>],
           ["Kind", kind],
           ["Record", info?.kind === "entity" ? <Link to={info.to}>{info.label}</Link> : "—"],
-          ["Balance", "n/a. The Office assigns no monetary value to any record."],
+          ["Balance", "Not applicable. The Office assigns no monetary value to records."],
           ["Private key", "none exists"],
           ["Transactions", String(txs.length)],
         ]} />
